@@ -1,0 +1,413 @@
+BAND LEGACY
+TECHNICAL GAME DESIGN DOCUMENT
+VERSION: v0.1.0_20260519_1030
+1. VISÃO GERAL DO JOGO
+Nome do Projeto
+
+Band Legacy
+
+Gênero
+Music Band Management Simulator
+Career RPG
+Strategy / Tycoon
+Narrative Progression
+Plataforma-Alvo
+PC
+Mobile (Android/iOS)
+Futuro suporte: Console
+Estilo Visual
+Rock cinematográfico
+UI dark premium
+Preto + dourado + branco envelhecido
+Luzes de palco volumétricas
+Interface inspirada em road cases, backstage e arenas
+Conceito Principal
+
+O jogador começa como um músico desconhecido e constrói uma banda lendária através de:
+
+composição
+shows
+gravações
+contratos
+marketing
+gerenciamento de equipe
+reputação mundial
+
+O objetivo final é transformar sua banda em um legado mundial.
+
+2. CORE GAMEPLAY LOOP
+Gameplay Principal
+LOOP CENTRAL
+Criar banda
+Escolher estilo musical
+Recrutar integrantes
+Compor músicas
+Gravar em estúdio
+Lançar singles/álbuns
+Agendar shows
+Crescer reputação
+Ganhar fãs e dinheiro
+Expandir turnês
+Fechar contratos
+Alcançar status lendário
+3. MECÂNICAS PRINCIPAIS
+3.1 Sistema de Banda
+Atributos da Banda
+Popularidade
+Reputação
+Técnica
+Energia
+Sinergia
+Criatividade
+Presença de palco
+Tipos de Formação
+Solo
+Duo
+Trio
+Quarteto
+Banda completa
+3.2 Sistema de Integrantes
+
+Cada membro possui:
+
+personalidade
+ego
+habilidade técnica
+criatividade
+stamina
+fidelidade
+influência musical
+Classes
+Vocalista
+Guitarrista
+Baixista
+Baterista
+DJ
+Tecladista
+3.3 Sistema de Composição
+Elementos da Música
+letra
+riff
+melodia
+refrão
+ponte
+solo
+mixagem
+Gêneros
+Rock
+Metal
+Punk
+Indie
+Hard Rock
+Progressive
+Alternative
+Experimental
+Resultado Final
+
+Cada música recebe:
+
+qualidade
+potencial de hit
+apelo comercial
+originalidade
+impacto emocional
+3.4 Sistema de Shows
+Eventos
+bares
+casas underground
+festivais
+arenas
+turnês mundiais
+Durante o Show
+energia do público
+performance ao vivo
+escolha da setlist
+improvisos
+interação com fãs
+Resultados
+aumento de fãs
+venda de merch
+hype social
+contratos
+reputação
+4. SISTEMA DE PROGRESSÃO
+Progressão do Jogador
+Early Game
+banda desconhecida
+equipamentos básicos
+pequenos shows
+Mid Game
+turnês regionais
+contratos independentes
+estúdio profissional
+Late Game
+festivais internacionais
+gravadora global
+arenas lotadas
+ranking mundial
+Endgame
+status lendário
+hall da fama
+documentários
+legado permanente
+5. ESTRUTURA DE TELAS
+MAIN MENU
+Arquivo:
+
+/ui/screens/main_menu/
+
+Elementos
+New Game
+Continue
+Load
+Settings
+Credits
+LOBBY PRINCIPAL
+Arquivo:
+
+/ui/screens/lobby/
+
+Seções
+Banda
+Música
+Shows
+Eventos
+Marketing
+Staff
+Finanças
+Inventário
+ESTÚDIO
+Arquivo:
+
+/ui/screens/studio/
+
+Features
+timeline musical
+mixagem
+gravação
+pós-produção
+SHOW AO VIVO
+Arquivo:
+
+/ui/screens/live_show/
+
+Features
+reação da plateia
+comentários sociais
+métricas em tempo real
+narrativa dinâmica
+6. UI / UX
+Direção
+Minimalista
+Cinemática
+Interface premium
+Ícones metálicos
+Glow dourado
+Animações
+fade cinematográfico
+partículas
+luz dinâmica
+câmera lenta em conquistas
+Fontes
+títulos agressivos estilo rock
+interface condensada moderna
+7. DIREÇÃO DE ARTE
+Mood
+backstage
+fumaça
+amplificadores
+arenas gigantes
+neon quente
+suor e caos artístico
+Paleta
+Preto carvão
+Dourado queimado
+Branco envelhecido
+Vermelho escuro
+Bronze metálico
+Referência Visual
+
+As imagens fornecidas serão referência primária absoluta.
+
+8. SISTEMA DE IA DINÂMICA
+IA de Mercado Musical
+
+A indústria reage ao jogador:
+
+tendências mudam
+gêneros entram em moda
+festivais variam
+concorrentes evoluem
+IA de NPCs
+
+Integrantes possuem:
+
+humor
+conflitos
+rivalidades
+vícios
+ambição
+9. SISTEMA ONLINE FUTURO
+Multiplayer Assíncrono
+ranking global
+batalhas de bandas
+festivais online
+colaboração musical
+10. MONETIZAÇÃO
+Premium Base Game
+Expansões
+novos países
+novos gêneros
+festivais históricos
+bandas clássicas fictícias
+Cosméticos
+instrumentos
+roupas
+logos
+efeitos de palco
+11. SOUND DESIGN
+Áudio Dinâmico
+crowd simulation
+guitarras proceduralmente mixadas
+sistema de eco de arena
+transições musicais adaptativas
+Camadas
+ambiente
+público
+instrumentos
+rádio
+backstage
+12. SISTEMA DE SAVE
+Estrutura
+/save/
+    profiles/
+    bands/
+    tours/
+    music/
+    economy/
+Dados Salvos
+membros
+músicas
+contratos
+reputação
+finanças
+inventário
+13. PIPELINE TÉCNICO DE ASSETS
+Estrutura Oficial
+/BandLegacy/
+
+    /builds/
+    /docs/
+    /references/
+
+    /assets/
+
+        /backgrounds/
+        /characters/
+        /logos/
+        /ui/
+        /icons/
+        /fx/
+
+    /audio/
+    /save/
+14. LISTA COMPLETA DE ASSETS
+BACKGROUNDS
+main_menu_bg
+lobby_bg
+studio_bg
+live_show_bg
+festival_bg
+backstage_bg
+garage_bg
+world_tour_bg
+CHARACTERS
+male_vocal_01
+female_vocal_01
+guitarist_01
+bassist_01
+drummer_01
+UI ELEMENTS
+buttons
+frames
+tabs
+icons
+progress bars
+charts
+notifications
+LOGOS
+band logos
+genre logos
+sponsor logos
+fake record labels
+15. NOMENCLATURA PADRÃO
+Backgrounds
+bg_[scene]_[version].png
+Characters
+char_[type]_[id].png
+UI
+ui_[category]_[name].png
+16. VERSIONAMENTO OBRIGATÓRIO
+Formato
+v0.1.0_YYYYMMDD_HHMM
+Exemplo
+v0.1.0_20260519_1030
+17. BUILD PACKAGE (OBRIGATÓRIO)
+
+Cada atualização do projeto DEVE gerar:
+
+/BandLegacy_Build_vX.X.X.zip
+Conteúdo do ZIP
+documentação
+assets
+saves de teste
+referências
+changelog
+versões anteriores relevantes
+18. RECONSTRUÇÃO POR OUTRA IA
+
+Qualquer IA deve conseguir reconstruir o projeto utilizando:
+
+este documento
+pacote ZIP
+imagens de referência
+O documento SEMPRE deve conter:
+estrutura técnica
+convenções
+pipelines
+organização
+dependências visuais
+19. FLUXO DE PRODUÇÃO DE IMAGENS
+Ordem Obrigatória
+1. Backgrounds
+2. Characters
+3. UI
+4. Logos
+5. FX
+20. PRIMEIRO ASSET DA PIPELINE
+ASSET 001
+Nome do arquivo
+bg_main_menu_v001.png
+Pasta
+/assets/backgrounds/main_menu/
+INSTRUÇÃO
+
+Salve esta imagem como:
+
+/assets/backgrounds/main_menu/bg_main_menu_v001.png
+DESCRIÇÃO VISUAL
+arena gigantesca
+personagem de costas no palco
+iluminação cinematográfica
+crowd massivo
+guitarras laterais
+estética dark rock premium
+sem texto
+sem UI
+apenas cenário
+OBSERVAÇÃO
+
+Caso queira remover elementos futuramente:
+
+utilizar remove.bg apenas em personagens isolados
+NÃO usar em backgrounds

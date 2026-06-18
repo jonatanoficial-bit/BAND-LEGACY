@@ -1,0 +1,36 @@
+{
+  "version": "v0.2.0_20260519_1614",
+  "purpose": "Phase 2 profile/career foundation",
+  "player": {
+    "name": "string",
+    "country": "string",
+    "city": "string",
+    "avatar": "asset_id",
+    "level": "number",
+    "xp": "number",
+    "traits": [
+      "string"
+    ]
+  },
+  "progression": {
+    "levelCurve": [
+      0,
+      1000,
+      2500,
+      5000,
+      9000
+    ],
+    "reputationTiers": [
+      "Local",
+      "Regional",
+      "Nacional",
+      "Internacional",
+      "Lendária"
+    ]
+  },
+  "antiBreak": {
+    "saveMigration": true,
+    "fallbackAvatar": "male_rocker_01",
+    "safeRouting": true
+  }
+}

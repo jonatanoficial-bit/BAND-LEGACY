@@ -1,0 +1,7 @@
+{
+  "phase": "8",
+  "name": "Live Show System",
+  "venues": ["Underground Club", "Theater Hall", "Festival Stage", "Arena Gold"],
+  "features": ["setlist", "venue", "ticket price", "production", "crowd reaction", "performance actions", "show result", "fans", "money", "xp"],
+  "asset_slots": ["bg_live_show_v001.png", "stage_fx", "crowd_fx", "artist_avatar", "instrument_icons"]
+}

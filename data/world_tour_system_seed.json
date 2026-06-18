@@ -1,0 +1,18 @@
+{
+  "phase": "11",
+  "system": "international_tours",
+  "routes": [
+    "south_america",
+    "europe_clubs",
+    "us_coast",
+    "asia_festival"
+  ],
+  "mechanics": [
+    "logistics",
+    "fatigue",
+    "transport",
+    "crew",
+    "global_fans",
+    "tour_profit"
+  ]
+}

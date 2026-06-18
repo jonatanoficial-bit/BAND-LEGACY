@@ -1,0 +1,6 @@
+{
+  "phase": "12",
+  "system": "Dynamic Events",
+  "features": ["band conflicts", "press interviews", "awards", "sponsor pressure", "fan campaigns", "crisis resolution"],
+  "design_goal": "Create narrative consequences connected to morale, ego, fans, cash, reputation, staff and social media."
+}

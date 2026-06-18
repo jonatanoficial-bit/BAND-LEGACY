@@ -1,0 +1,19 @@
+{
+  "groups": [
+    "Backgrounds",
+    "Characters",
+    "UI",
+    "Icons",
+    "Logos",
+    "FX",
+    "Audio"
+  ],
+  "pipelineOrder": [
+    "BACKGROUNDS",
+    "PERSONAGENS",
+    "UI SEM TEXTO",
+    "ÍCONES",
+    "LOGOS",
+    "ELEMENTOS FX"
+  ]
+}

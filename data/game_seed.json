@@ -1,0 +1,6 @@
+{
+  "version": "v0.1.0_20260519_1533",
+  "player": {"name": "River Crow", "role": "Fundador / Vocalista", "country": "Brasil"},
+  "band": {"name": "River Crow", "style": "Rock Alternativo", "city": "Sao Paulo/SP", "cash": 2350500, "xp": 7850, "fans": 12450, "reputation": "Lendaria"},
+  "modules": ["profile", "band", "studio", "live_show", "staff", "finance", "marketing", "ranking"]
+}

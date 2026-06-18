@@ -1,0 +1,6 @@
+{
+  "phase": 13,
+  "system": "Music Market AI",
+  "features": ["dynamic genre trends", "regional demand", "rival bands", "chart chance", "market risk", "weekly simulation"],
+  "assetSlots": ["assets/backgrounds/market/bg_market_v001.png", "assets/icons/market/", "assets/logos/rivals/"]
+}

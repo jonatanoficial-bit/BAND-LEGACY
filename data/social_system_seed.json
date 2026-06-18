@@ -1,0 +1,7 @@
+{
+  "phase": "9",
+  "system": "Social AI and Audience Reaction",
+  "actions": ["Post de bastidor", "Teaser de música", "Entrevista polêmica", "Clipe curto vertical", "Live com fãs", "Anúncio de show"],
+  "metrics": ["hype", "viralization", "fan loyalty", "backlash risk", "reach"],
+  "integration": ["band.fans", "band.reputation", "release.published", "liveShow.heat", "staff.marketing"]
+}

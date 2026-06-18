@@ -1,0 +1,8 @@
+{
+  "phase": "5",
+  "system": "composition",
+  "goal": "Criar músicas com partes combináveis e cálculo de qualidade, hit, originalidade e emoção.",
+  "songParts": ["letra", "riff", "melodia", "refrão", "ponte", "solo", "mixagem"],
+  "outputs": ["quality", "hitPotential", "commercialAppeal", "originality", "emotionalImpact"],
+  "futureDependencies": ["studio", "release", "live_show", "charts", "social_media"]
+}

@@ -1,0 +1,5079 @@
+{
+  "version": "v1.3.1_20260522_1948",
+  "totalStrings": 724,
+  "languages": [
+    "pt-BR",
+    "en-US",
+    "es-ES"
+  ],
+  "catalog": [
+    {
+      "key": " Refrão mais memorável, ponte emocional e assinatura da banda reforçada.",
+      "pt-BR": " Refrão mais memorável, ponte emocional e assinatura da banda reforçada.",
+      "en-US": " Refrão mais memorável, ponte emocional e assinatura da banda reforçada.",
+      "es-ES": " Refrão mais memorável, ponte emocional e assinatura da banda reforçada.",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": " • Próximo passo: ",
+      "pt-BR": " • Próximo passo: ",
+      "en-US": " • Próximo passo: ",
+      "es-ES": " • Próximo passo: ",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "$ 0",
+      "pt-BR": "$ 0",
+      "en-US": "$ 0",
+      "es-ES": "$ 0",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "$ 0 / $ 0",
+      "pt-BR": "$ 0 / $ 0",
+      "en-US": "$ 0 / $ 0",
+      "es-ES": "$ 0 / $ 0",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "$ 2.350.500",
+      "pt-BR": "$ 2.350.500",
+      "en-US": "$ 2.350.500",
+      "es-ES": "$ 2.350.500",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "0",
+      "pt-BR": "0",
+      "en-US": "0",
+      "es-ES": "0",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "0%",
+      "pt-BR": "0%",
+      "en-US": "0%",
+      "es-ES": "0%",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "0% / local",
+      "pt-BR": "0% / local",
+      "en-US": "0% / local",
+      "es-ES": "0% / local",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "01",
+      "pt-BR": "01",
+      "en-US": "01",
+      "es-ES": "01",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "02",
+      "pt-BR": "02",
+      "en-US": "02",
+      "es-ES": "02",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "02 JUN — Rock Nation Festival",
+      "pt-BR": "02 JUN — Rock Nation Festival",
+      "en-US": "02 JUN — Rock Nation Festival",
+      "es-ES": "02 JUN — Rock Nation Festival",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "03",
+      "pt-BR": "03",
+      "en-US": "03",
+      "es-ES": "03",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "04",
+      "pt-BR": "04",
+      "en-US": "04",
+      "es-ES": "04",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "05",
+      "pt-BR": "05",
+      "en-US": "05",
+      "es-ES": "05",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "12 / 100",
+      "pt-BR": "12 / 100",
+      "en-US": "12 / 100",
+      "es-ES": "12 / 100",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "180 / 1.000 XP",
+      "pt-BR": "180 / 1.000 XP",
+      "en-US": "180 / 1.000 XP",
+      "es-ES": "180 / 1.000 XP",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "2026 Global Rock Cycle",
+      "pt-BR": "2026 Global Rock Cycle",
+      "en-US": "2026 Global Rock Cycle",
+      "es-ES": "2026 Global Rock Cycle",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "25 MAI — Show RJ",
+      "pt-BR": "25 MAI — Show RJ",
+      "en-US": "25 MAI — Show RJ",
+      "es-ES": "25 MAI — Show RJ",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "68",
+      "pt-BR": "68",
+      "en-US": "68",
+      "es-ES": "68",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "<p class=\"muted\">Histórico vazio. As campanhas sociais vão registrar crescimento e risco.</p>",
+      "pt-BR": "<p class=\"muted\">Histórico vazio. As campanhas sociais vão registrar crescimento e risco.</p>",
+      "en-US": "<p class=\"muted\">Histórico vazio. As campanhas sociais vão registrar crescimento e risco.</p>",
+      "es-ES": "<p class=\"muted\">Histórico vazio. As campanhas sociais vão registrar crescimento e risco.</p>",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "<p class=\"muted\">Histórico vazio. O primeiro show vai registrar resultado, lucro e crescimento de fãs.</p>",
+      "pt-BR": "<p class=\"muted\">Histórico vazio. O primeiro show vai registrar resultado, lucro e crescimento de fãs.</p>",
+      "en-US": "<p class=\"muted\">Histórico vazio. O primeiro show vai registrar resultado, lucro e crescimento de fãs.</p>",
+      "es-ES": "<p class=\"muted\">Histórico vazio. O primeiro show vai registrar resultado, lucro e crescimento de fãs.</p>",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "<p class=\"muted\">Nenhum lançamento publicado ainda. Publique uma master para abrir charts e reviews.</p>",
+      "pt-BR": "<p class=\"muted\">Nenhum lançamento publicado ainda. Publique uma master para abrir charts e reviews.</p>",
+      "en-US": "<p class=\"muted\">Nenhum lançamento publicado ainda. Publique uma master para abrir charts e reviews.</p>",
+      "es-ES": "<p class=\"muted\">Nenhum lançamento publicado ainda. Publique uma master para abrir charts e reviews.</p>",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "<p class=\"muted\">Nenhuma master finalizada ainda. Grave uma demo no estúdio.</p>",
+      "pt-BR": "<p class=\"muted\">Nenhuma master finalizada ainda. Grave uma demo no estúdio.</p>",
+      "en-US": "<p class=\"muted\">Nenhuma master finalizada ainda. Grave uma demo no estúdio.</p>",
+      "es-ES": "<p class=\"muted\">Nenhuma master finalizada ainda. Grave uma demo no estúdio.</p>",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "<p class=\"muted\">Nenhuma música finalizada ainda.</p>",
+      "pt-BR": "<p class=\"muted\">Nenhuma música finalizada ainda.</p>",
+      "en-US": "<p class=\"muted\">Nenhuma música finalizada ainda.</p>",
+      "es-ES": "<p class=\"muted\">Nenhuma música finalizada ainda.</p>",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "<p class=\"muted\">Sem comentários recentes. Publique uma ação social para gerar reação do público.</p>",
+      "pt-BR": "<p class=\"muted\">Sem comentários recentes. Publique uma ação social para gerar reação do público.</p>",
+      "en-US": "<p class=\"muted\">Sem comentários recentes. Publique uma ação social para gerar reação do público.</p>",
+      "es-ES": "<p class=\"muted\">Sem comentários recentes. Publique uma ação social para gerar reação do público.</p>",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "<span class=\"release-badge\">PROVISÓRIA</span>",
+      "pt-BR": "<span class=\"release-badge\">PROVISÓRIA</span>",
+      "en-US": "<span class=\"release-badge\">PROVISÓRIA</span>",
+      "es-ES": "<span class=\"release-badge\">PROVISÓRIA</span>",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "A",
+      "pt-BR": "A",
+      "en-US": "A",
+      "es-ES": "A",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "A IA prevê alta chance de viralização. Boa janela para lançar clipe, show ou single.",
+      "pt-BR": "A IA prevê alta chance de viralização. Boa janela para lançar clipe, show ou single.",
+      "en-US": "A IA prevê alta chance de viralização. Boa janela para lançar clipe, show ou single.",
+      "es-ES": "A IA prevê alta chance de viralização. Boa janela para lançar clipe, show ou single.",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "A ação pareceu natural e fortaleceu a comunidade.",
+      "pt-BR": "A ação pareceu natural e fortaleceu a comunidade.",
+      "en-US": "A ação pareceu natural e fortaleceu a comunidade.",
+      "es-ES": "A ação pareceu natural e fortaleceu a comunidade.",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "A banda está no início da estrada. O público percebe potencial, mas a identidade ainda precisa ser consolidada.",
+      "pt-BR": "A banda está no início da estrada. O público percebe potencial, mas a identidade ainda precisa ser consolidada.",
+      "en-US": "A banda está no início da estrada. O público percebe potencial, mas a identidade ainda precisa ser consolidada.",
+      "es-ES": "A banda está no início da estrada. O público percebe potencial, mas a identidade ainda precisa ser consolidada.",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "A campanha foi intensa e parte do público reagiu mal.",
+      "pt-BR": "A campanha foi intensa e parte do público reagiu mal.",
+      "en-US": "A campanha foi intensa e parte do público reagiu mal.",
+      "es-ES": "A campanha foi intensa e parte do público reagiu mal.",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "A campanha pode viralizar, mas há risco real de backlash. Ajuste tom, staff ou investimento.",
+      "pt-BR": "A campanha pode viralizar, mas há risco real de backlash. Ajuste tom, staff ou investimento.",
+      "en-US": "A campanha pode viralizar, mas há risco real de backlash. Ajuste tom, staff ou investimento.",
+      "es-ES": "A campanha pode viralizar, mas há risco real de backlash. Ajuste tom, staff ou investimento.",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "A estética dark premium está chamando atenção no circuito.",
+      "pt-BR": "A estética dark premium está chamando atenção no circuito.",
+      "en-US": "A estética dark premium está chamando atenção no circuito.",
+      "es-ES": "A estética dark premium está chamando atenção no circuito.",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "A faixa é promissora. Mais uma parte forte pode transformar a composição em single.",
+      "pt-BR": "A faixa é promissora. Mais uma parte forte pode transformar a composição em single.",
+      "en-US": "A faixa é promissora. Mais uma parte forte pode transformar a composição em single.",
+      "es-ES": "A faixa é promissora. Mais uma parte forte pode transformar a composição em single.",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "A ideia ainda parece crua. Combine riff, refrão, letra e emoção antes de gravar.",
+      "pt-BR": "A ideia ainda parece crua. Combine riff, refrão, letra e emoção antes de gravar.",
+      "en-US": "A ideia ainda parece crua. Combine riff, refrão, letra e emoção antes de gravar.",
+      "es-ES": "A ideia ainda parece crua. Combine riff, refrão, letra e emoção antes de gravar.",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "A música tem cheiro de single internacional. Invista em estúdio, marketing e lançamento forte.",
+      "pt-BR": "A música tem cheiro de single internacional. Invista em estúdio, marketing e lançamento forte.",
+      "en-US": "A música tem cheiro de single internacional. Invista em estúdio, marketing e lançamento forte.",
+      "es-ES": "A música tem cheiro de single internacional. Invista em estúdio, marketing e lançamento forte.",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "A plateia cantou o refrão sozinha. Vídeos começam a viralizar nas redes.",
+      "pt-BR": "A plateia cantou o refrão sozinha. Vídeos começam a viralizar nas redes.",
+      "en-US": "A plateia cantou o refrão sozinha. Vídeos começam a viralizar nas redes.",
+      "es-ES": "A plateia cantou o refrão sozinha. Vídeos começam a viralizar nas redes.",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Abrir tutorial",
+      "pt-BR": "Abrir tutorial",
+      "en-US": "Open tutorial",
+      "es-ES": "Abrir tutorial",
+      "status": "translated"
+    },
+    {
+      "key": "Acidente técnico no palco",
+      "pt-BR": "Acidente técnico no palco",
+      "en-US": "Acidente técnico no palco",
+      "es-ES": "Acidente técnico no palco",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Agenda",
+      "pt-BR": "Agenda",
+      "en-US": "Schedule",
+      "es-ES": "Agenda",
+      "status": "translated"
+    },
+    {
+      "key": "Agende shows e turnês",
+      "pt-BR": "Agende shows e turnês",
+      "en-US": "Agende shows e turnês",
+      "es-ES": "Agende shows e turnês",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Aguardando execução --",
+      "pt-BR": "Aguardando execução --",
+      "en-US": "Aguardando execução --",
+      "es-ES": "Aguardando execução --",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Aguardando permissão do navegador...",
+      "pt-BR": "Aguardando permissão do navegador...",
+      "en-US": "Waiting for browser permission...",
+      "es-ES": "Esperando permiso del navegador...",
+      "status": "translated"
+    },
+    {
+      "key": "Aguardando scan --",
+      "pt-BR": "Aguardando scan --",
+      "en-US": "Aguardando scan --",
+      "es-ES": "Aguardando scan --",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Ajuste a produção antes de finalizar a master.",
+      "pt-BR": "Ajuste a produção antes de finalizar a master.",
+      "en-US": "Adjust the production before finishing the master.",
+      "es-ES": "Ajusta la producción antes de finalizar el master.",
+      "status": "translated"
+    },
+    {
+      "key": "Ajuste formação, staff, lançamentos e shows até alcançar novo marco.",
+      "pt-BR": "Ajuste formação, staff, lançamentos e shows até alcançar novo marco.",
+      "en-US": "Ajuste formação, staff, lançamentos e shows até alcançar novo marco.",
+      "es-ES": "Ajuste formação, staff, lançamentos e shows até alcançar novo marco.",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Alcance",
+      "pt-BR": "Alcance",
+      "en-US": "Reach",
+      "es-ES": "Alcance",
+      "status": "translated"
+    },
+    {
+      "key": "Alerta técnico",
+      "pt-BR": "Alerta técnico",
+      "en-US": "Alerta técnico",
+      "es-ES": "Alerta técnico",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Algoritmo Ativo",
+      "pt-BR": "Algoritmo Ativo",
+      "en-US": "Algoritmo Ativo",
+      "es-ES": "Algoritmo Ativo",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Alternative",
+      "pt-BR": "Alternative",
+      "en-US": "Alternative",
+      "es-ES": "Alternative",
+      "status": "translated"
+    },
+    {
+      "key": "Am",
+      "pt-BR": "Am",
+      "en-US": "Am",
+      "es-ES": "Am",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "América Latina",
+      "pt-BR": "América Latina",
+      "en-US": "Latin America",
+      "es-ES": "América Latina",
+      "status": "translated"
+    },
+    {
+      "key": "América do Norte",
+      "pt-BR": "América do Norte",
+      "en-US": "América do Norte",
+      "es-ES": "América do Norte",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "América do Sul",
+      "pt-BR": "América do Sul",
+      "en-US": "América do Sul",
+      "es-ES": "América do Sul",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Anti-quebra ON",
+      "pt-BR": "Anti-quebra ON",
+      "en-US": "Anti-quebra ON",
+      "es-ES": "Anti-quebra ON",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Anúncio de show",
+      "pt-BR": "Anúncio de show",
+      "en-US": "Show announcement",
+      "es-ES": "Anuncio de concierto",
+      "status": "translated"
+    },
+    {
+      "key": "Arena Gold",
+      "pt-BR": "Arena Gold",
+      "en-US": "Arena Gold",
+      "es-ES": "Arena Gold",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Arena Special",
+      "pt-BR": "Arena Special",
+      "en-US": "Arena Special",
+      "es-ES": "Arena Special",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Asset Pipeline Comercial",
+      "pt-BR": "Asset Pipeline Comercial",
+      "en-US": "Asset Pipeline Comercial",
+      "es-ES": "Asset Pipeline Comercial",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Asset Score",
+      "pt-BR": "Asset Score",
+      "en-US": "Asset Score",
+      "es-ES": "Asset Score",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Assets",
+      "pt-BR": "Assets",
+      "en-US": "Assets",
+      "es-ES": "Assets",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Assets Provisórios",
+      "pt-BR": "Assets Provisórios",
+      "en-US": "Assets Provisórios",
+      "es-ES": "Assets Provisórios",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Assets Trocáveis",
+      "pt-BR": "Assets Trocáveis",
+      "en-US": "Assets Trocáveis",
+      "es-ES": "Assets Trocáveis",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Assets obrigatórios verificados",
+      "pt-BR": "Assets obrigatórios verificados",
+      "en-US": "Assets obrigatórios verificados",
+      "es-ES": "Assets obrigatórios verificados",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Atenção: despesas superam receitas. Negocie patrocínio, reduza custos ou lance conteúdo.",
+      "pt-BR": "Atenção: despesas superam receitas. Negocie patrocínio, reduza custos ou lance conteúdo.",
+      "en-US": "Atenção: despesas superam receitas. Negocie patrocínio, reduza custos ou lance conteúdo.",
+      "es-ES": "Atenção: despesas superam receitas. Negocie patrocínio, reduza custos ou lance conteúdo.",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Ativar tela cheia horizontal",
+      "pt-BR": "Ativar tela cheia horizontal",
+      "en-US": "Activate horizontal fullscreen",
+      "es-ES": "Activar pantalla completa horizontal",
+      "status": "translated"
+    },
+    {
+      "key": "Atmosfera • Crescendo • Explosão • Encore",
+      "pt-BR": "Atmosfera • Crescendo • Explosão • Encore",
+      "en-US": "Atmosfera • Crescendo • Explosão • Encore",
+      "es-ES": "Atmosfera • Crescendo • Explosão • Encore",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Atualização automática",
+      "pt-BR": "Atualização automática",
+      "en-US": "Atualização automática",
+      "es-ES": "Atualização automática",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Aumenta hype, redes sociais e alcance de lançamentos.",
+      "pt-BR": "Aumenta hype, redes sociais e alcance de lançamentos.",
+      "en-US": "Aumenta hype, redes sociais e alcance de lançamentos.",
+      "es-ES": "Aumenta hype, redes sociais e alcance de lançamentos.",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Aumenta presença de palco, moral e controle de conflitos.",
+      "pt-BR": "Aumenta presença de palco, moral e controle de conflitos.",
+      "en-US": "Aumenta presença de palco, moral e controle de conflitos.",
+      "es-ES": "Aumenta presença de palco, moral e controle de conflitos.",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Aumente hype e alcance antes do próximo show.",
+      "pt-BR": "Aumente hype e alcance antes do próximo show.",
+      "en-US": "Aumente hype e alcance antes do próximo show.",
+      "es-ES": "Aumente hype e alcance antes do próximo show.",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Autenticidade",
+      "pt-BR": "Autenticidade",
+      "en-US": "Authenticity",
+      "es-ES": "Autenticidad",
+      "status": "translated"
+    },
+    {
+      "key": "Auto campanha",
+      "pt-BR": "Auto campanha",
+      "en-US": "Auto campaign",
+      "es-ES": "Auto campaña",
+      "status": "translated"
+    },
+    {
+      "key": "Auto setup",
+      "pt-BR": "Auto setup",
+      "en-US": "Auto setup",
+      "es-ES": "Auto setup",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Auto show",
+      "pt-BR": "Auto show",
+      "en-US": "Auto show",
+      "es-ES": "Auto show",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Autosave pronto",
+      "pt-BR": "Autosave pronto",
+      "en-US": "Autosave ready",
+      "es-ES": "Autoguardado listo",
+      "status": "translated"
+    },
+    {
+      "key": "Autêntico",
+      "pt-BR": "Autêntico",
+      "en-US": "Authentic",
+      "es-ES": "Auténtico",
+      "status": "translated"
+    },
+    {
+      "key": "Avançar a carreira",
+      "pt-BR": "Avançar a carreira",
+      "en-US": "Avançar a carreira",
+      "es-ES": "Avançar a carreira",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Avançar semana",
+      "pt-BR": "Avançar semana",
+      "en-US": "Advance week",
+      "es-ES": "Avanzar semana",
+      "status": "translated"
+    },
+    {
+      "key": "Avatar do Artista",
+      "pt-BR": "Avatar do Artista",
+      "en-US": "Artist Avatar",
+      "es-ES": "Avatar del artista",
+      "status": "translated"
+    },
+    {
+      "key": "BAND",
+      "pt-BR": "BAND",
+      "en-US": "BAND",
+      "es-ES": "BAND",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "BL",
+      "pt-BR": "BL",
+      "en-US": "BL",
+      "es-ES": "BL",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "BPM",
+      "pt-BR": "BPM",
+      "en-US": "BPM",
+      "es-ES": "BPM",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Backgrounds --",
+      "pt-BR": "Backgrounds --",
+      "en-US": "Backgrounds --",
+      "es-ES": "Backgrounds --",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Backup de save JSON",
+      "pt-BR": "Backup de save JSON",
+      "en-US": "Save backup JSON",
+      "es-ES": "Backup de guardado JSON",
+      "status": "translated"
+    },
+    {
+      "key": "Baixista",
+      "pt-BR": "Baixista",
+      "en-US": "Bassist",
+      "es-ES": "Bajista",
+      "status": "translated"
+    },
+    {
+      "key": "Baixo custo viral",
+      "pt-BR": "Baixo custo viral",
+      "en-US": "Low-cost viral",
+      "es-ES": "Viral de bajo costo",
+      "status": "translated"
+    },
+    {
+      "key": "Balanceamento semanal RC",
+      "pt-BR": "Balanceamento semanal RC",
+      "en-US": "Weekly RC balance",
+      "es-ES": "Balance semanal RC",
+      "status": "translated"
+    },
+    {
+      "key": "Band Legacy",
+      "pt-BR": "Band Legacy",
+      "en-US": "Band Legacy",
+      "es-ES": "Band Legacy",
+      "status": "translated"
+    },
+    {
+      "key": "Band Legacy foi criado para jogar em tela cheia horizontal. Vire o aparelho, toque em ativar e mantenha o celular deitado.",
+      "pt-BR": "Band Legacy foi criado para jogar em tela cheia horizontal. Vire o aparelho, toque em ativar e mantenha o celular deitado.",
+      "en-US": "Band Legacy was designed for horizontal fullscreen play. Rotate the device, tap activate, and keep the phone sideways.",
+      "es-ES": "Band Legacy fue diseñado para jugar en pantalla completa horizontal. Gira el dispositivo, toca activar y mantén el móvil de lado.",
+      "status": "translated"
+    },
+    {
+      "key": "Band Legacy fue diseñado para jugar en pantalla completa horizontal. Gira el dispositivo, toca activar y mantén el móvil en horizontal.",
+      "pt-BR": "Band Legacy fue diseñado para jugar en pantalla completa horizontal. Gira el dispositivo, toca activar y mantén el móvil en horizontal.",
+      "en-US": "Band Legacy fue diseñado para jugar en pantalla completa horizontal. Gira el dispositivo, toca activar y mantén el móvil en horizontal.",
+      "es-ES": "Band Legacy fue diseñado para jugar en pantalla completa horizontal. Gira el dispositivo, toca activar y mantén el móvil en horizontal.",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Banda",
+      "pt-BR": "Banda",
+      "en-US": "Band",
+      "es-ES": "Banda",
+      "status": "translated"
+    },
+    {
+      "key": "Banda completa",
+      "pt-BR": "Banda completa",
+      "en-US": "Complete band",
+      "es-ES": "Banda completa",
+      "status": "translated"
+    },
+    {
+      "key": "Bandas rivais",
+      "pt-BR": "Bandas rivais",
+      "en-US": "Rival bands",
+      "es-ES": "Bandas rivales",
+      "status": "translated"
+    },
+    {
+      "key": "Baterista",
+      "pt-BR": "Baterista",
+      "en-US": "Drummer",
+      "es-ES": "Baterista",
+      "status": "translated"
+    },
+    {
+      "key": "Bebida energética",
+      "pt-BR": "Bebida energética",
+      "en-US": "Bebida energética",
+      "es-ES": "Bebida energética",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Biblioteca",
+      "pt-BR": "Biblioteca",
+      "en-US": "Library",
+      "es-ES": "Biblioteca",
+      "status": "translated"
+    },
+    {
+      "key": "Bis explosivo fechou a noite com sensação de show histórico.",
+      "pt-BR": "Bis explosivo fechou a noite com sensação de show histórico.",
+      "en-US": "Bis explosivo fechou a noite com sensação de show histórico.",
+      "es-ES": "Bis explosivo fechou a noite com sensação de show histórico.",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Bm",
+      "pt-BR": "Bm",
+      "en-US": "Bm",
+      "es-ES": "Bm",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Boa para início de carreira, melhora propostas pequenas e agenda local.",
+      "pt-BR": "Boa para início de carreira, melhora propostas pequenas e agenda local.",
+      "en-US": "Boa para início de carreira, melhora propostas pequenas e agenda local.",
+      "es-ES": "Boa para início de carreira, melhora propostas pequenas e agenda local.",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Boa presença digital. Pode virar convite para palco maior.",
+      "pt-BR": "Boa presença digital. Pode virar convite para palco maior.",
+      "en-US": "Boa presença digital. Pode virar convite para palco maior.",
+      "es-ES": "Boa presença digital. Pode virar convite para palco maior.",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Botões navegáveis detectados",
+      "pt-BR": "Botões navegáveis detectados",
+      "en-US": "Botões navegáveis detectados",
+      "es-ES": "Botões navegáveis detectados",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Brasil",
+      "pt-BR": "Brasil",
+      "en-US": "Brazil",
+      "es-ES": "Brasil",
+      "status": "translated"
+    },
+    {
+      "key": "Buenos Aires",
+      "pt-BR": "Buenos Aires",
+      "en-US": "Buenos Aires",
+      "es-ES": "Buenos Aires",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Build web jogável em PC OK",
+      "pt-BR": "Build web jogável em PC OK",
+      "en-US": "Playable web build on PC OK",
+      "es-ES": "Build web jugable en PC OK",
+      "status": "translated"
+    },
+    {
+      "key": "C",
+      "pt-BR": "C",
+      "en-US": "C",
+      "es-ES": "C",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Cada ação influencia reputação, público dos shows, resultados de lançamentos e convites futuros.",
+      "pt-BR": "Cada ação influencia reputação, público dos shows, resultados de lançamentos e convites futuros.",
+      "en-US": "Cada ação influencia reputação, público dos shows, resultados de lançamentos e convites futuros.",
+      "es-ES": "Cada ação influencia reputação, público dos shows, resultados de lançamentos e convites futuros.",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Caixa",
+      "pt-BR": "Caixa",
+      "en-US": "Cash",
+      "es-ES": "Caja",
+      "status": "translated"
+    },
+    {
+      "key": "Caixa insuficiente para bancar esta produção. Reduza venue/produção ou lance músicas antes.",
+      "pt-BR": "Caixa insuficiente para bancar esta produção. Reduza venue/produção ou lance músicas antes.",
+      "en-US": "Caixa insuficiente para bancar esta produção. Reduza venue/produção ou lance músicas antes.",
+      "es-ES": "Caixa insuficiente para bancar esta produção. Reduza venue/produção ou lance músicas antes.",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Caixa insuficiente para contratação",
+      "pt-BR": "Caixa insuficiente para contratação",
+      "en-US": "Caixa insuficiente para contratação",
+      "es-ES": "Caixa insuficiente para contratação",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Caixa insuficiente para finalizar a master. Reduza orçamento/sala ou faça shows primeiro.",
+      "pt-BR": "Caixa insuficiente para finalizar a master. Reduza orçamento/sala ou faça shows primeiro.",
+      "en-US": "Caixa insuficiente para finalizar a master. Reduza orçamento/sala ou faça shows primeiro.",
+      "es-ES": "Caixa insuficiente para finalizar a master. Reduza orçamento/sala ou faça shows primeiro.",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Caixa insuficiente para publicar com esta campanha. Reduza marketing ou faça shows primeiro.",
+      "pt-BR": "Caixa insuficiente para publicar com esta campanha. Reduza marketing ou faça shows primeiro.",
+      "en-US": "Caixa insuficiente para publicar com esta campanha. Reduza marketing ou faça shows primeiro.",
+      "es-ES": "Caixa insuficiente para publicar com esta campanha. Reduza marketing ou faça shows primeiro.",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Caixa insuficiente. Faça shows ou grave singles antes de contratar esse profissional.",
+      "pt-BR": "Caixa insuficiente. Faça shows ou grave singles antes de contratar esse profissional.",
+      "en-US": "Caixa insuficiente. Faça shows ou grave singles antes de contratar esse profissional.",
+      "es-ES": "Caixa insuficiente. Faça shows ou grave singles antes de contratar esse profissional.",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Caminhos e nomes finais",
+      "pt-BR": "Caminhos e nomes finais",
+      "en-US": "Caminhos e nomes finais",
+      "es-ES": "Caminhos e nomes finais",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Camisetas de turne",
+      "pt-BR": "Camisetas de turne",
+      "en-US": "Tour T-shirts",
+      "es-ES": "Camisetas de gira",
+      "status": "translated"
+    },
+    {
+      "key": "Campanha",
+      "pt-BR": "Campanha",
+      "en-US": "Campanha",
+      "es-ES": "Campanha",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Campanha Social",
+      "pt-BR": "Campanha Social",
+      "en-US": "Campanha Social",
+      "es-ES": "Campanha Social",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Campanha espontânea de fãs",
+      "pt-BR": "Campanha espontânea de fãs",
+      "en-US": "Campanha espontânea de fãs",
+      "es-ES": "Campanha espontânea de fãs",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Campanha segura para fortalecer fãs e preparar o próximo passo da carreira.",
+      "pt-BR": "Campanha segura para fortalecer fãs e preparar o próximo passo da carreira.",
+      "en-US": "Campanha segura para fortalecer fãs e preparar o próximo passo da carreira.",
+      "es-ES": "Campanha segura para fortalecer fãs e preparar o próximo passo da carreira.",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Carismático",
+      "pt-BR": "Carismático",
+      "en-US": "Charismatic",
+      "es-ES": "Carismático",
+      "status": "translated"
+    },
+    {
+      "key": "Carregando Release Candidate AAA...",
+      "pt-BR": "Carregando Release Candidate AAA...",
+      "en-US": "Loading AAA Release Candidate...",
+      "es-ES": "Cargando Release Candidate AAA...",
+      "status": "translated"
+    },
+    {
+      "key": "Carregando análise financeira...",
+      "pt-BR": "Carregando análise financeira...",
+      "en-US": "Carregando análise financeira...",
+      "es-ES": "Carregando análise financeira...",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Carregando evento narrativo...",
+      "pt-BR": "Carregando evento narrativo...",
+      "en-US": "Carregando evento narrativo...",
+      "es-ES": "Carregando evento narrativo...",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Carregando plano internacional...",
+      "pt-BR": "Carregando plano internacional...",
+      "en-US": "Carregando plano internacional...",
+      "es-ES": "Carregando plano internacional...",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Casas médias buscam artistas com presença forte em vídeo curto e bastidores.",
+      "pt-BR": "Casas médias buscam artistas com presença forte em vídeo curto e bastidores.",
+      "en-US": "Casas médias buscam artistas com presença forte em vídeo curto e bastidores.",
+      "es-ES": "Casas médias buscam artistas com presença forte em vídeo curto e bastidores.",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Catálogo Público",
+      "pt-BR": "Catálogo Público",
+      "en-US": "Catálogo Público",
+      "es-ES": "Catálogo Público",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Caça-talentos",
+      "pt-BR": "Caça-talentos",
+      "en-US": "Caça-talentos",
+      "es-ES": "Caça-talentos",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Chance de chart 0",
+      "pt-BR": "Chance de chart 0",
+      "en-US": "Chart chance 0",
+      "es-ES": "Chance de lista 0",
+      "status": "translated"
+    },
+    {
+      "key": "Chart",
+      "pt-BR": "Chart",
+      "en-US": "Chart",
+      "es-ES": "Lista",
+      "status": "translated"
+    },
+    {
+      "key": "Charts",
+      "pt-BR": "Charts",
+      "en-US": "Charts",
+      "es-ES": "Charts",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Checklist da build",
+      "pt-BR": "Checklist da build",
+      "en-US": "Build checklist",
+      "es-ES": "Checklist de build",
+      "status": "translated"
+    },
+    {
+      "key": "Checklist para venda",
+      "pt-BR": "Checklist para venda",
+      "en-US": "Sales checklist",
+      "es-ES": "Checklist para venta",
+      "status": "translated"
+    },
+    {
+      "key": "Ciclo da Carreira",
+      "pt-BR": "Ciclo da Carreira",
+      "en-US": "Career Loop",
+      "es-ES": "Ciclo de carrera",
+      "status": "translated"
+    },
+    {
+      "key": "Cidade",
+      "pt-BR": "Cidade",
+      "en-US": "Cidade",
+      "es-ES": "Cidade",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Cidade de origem",
+      "pt-BR": "Cidade de origem",
+      "en-US": "Hometown",
+      "es-ES": "Ciudad de origen",
+      "status": "translated"
+    },
+    {
+      "key": "Cinemático ao vivo",
+      "pt-BR": "Cinemático ao vivo",
+      "en-US": "Live cinematic",
+      "es-ES": "Cinemático en vivo",
+      "status": "translated"
+    },
+    {
+      "key": "Clareza",
+      "pt-BR": "Clareza",
+      "en-US": "Clarity",
+      "es-ES": "Claridad",
+      "status": "translated"
+    },
+    {
+      "key": "ClipTube",
+      "pt-BR": "ClipTube",
+      "en-US": "ClipTube",
+      "es-ES": "ClipTube",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Clipe / Conteúdo Visual",
+      "pt-BR": "Clipe / Conteúdo Visual",
+      "en-US": "Music video / Visual content",
+      "es-ES": "Videoclip / Contenido visual",
+      "status": "translated"
+    },
+    {
+      "key": "Clipe curto vertical",
+      "pt-BR": "Clipe curto vertical",
+      "en-US": "Clipe curto vertical",
+      "es-ES": "Clipe curto vertical",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Comentário dividido",
+      "pt-BR": "Comentário dividido",
+      "en-US": "Comentário dividido",
+      "es-ES": "Comentário dividido",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Comentários dos fãs",
+      "pt-BR": "Comentários dos fãs",
+      "en-US": "Fan comments",
+      "es-ES": "Comentarios de fans",
+      "status": "translated"
+    },
+    {
+      "key": "Comercial agressiva",
+      "pt-BR": "Comercial agressiva",
+      "en-US": "Aggressive commercial",
+      "es-ES": "Comercial agresiva",
+      "status": "translated"
+    },
+    {
+      "key": "Começar carreira",
+      "pt-BR": "Começar carreira",
+      "en-US": "Start career",
+      "es-ES": "Comenzar carrera",
+      "status": "translated"
+    },
+    {
+      "key": "Completa misiones cortas para aprender el ciclo comercial: identidad, música, estudio, lanzamiento, show y progresión semanal.",
+      "pt-BR": "Completa misiones cortas para aprender el ciclo comercial: identidad, música, estudio, lanzamiento, show y progresión semanal.",
+      "en-US": "Completa misiones cortas para aprender el ciclo comercial: identidad, música, estudio, lanzamiento, show y progresión semanal.",
+      "es-ES": "Completa misiones cortas para aprender el ciclo comercial: identidad, música, estudio, lanzamiento, show y progresión semanal.",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Complete missões curtas para entender o ciclo comercial: identidade, música, estúdio, lançamento, show e evolução semanal.",
+      "pt-BR": "Complete missões curtas para entender o ciclo comercial: identidade, música, estúdio, lançamento, show e evolução semanal.",
+      "en-US": "Complete missões curtas para entender o ciclo comercial: identidade, música, estúdio, lançamento, show e evolução semanal.",
+      "es-ES": "Complete missões curtas para entender o ciclo comercial: identidade, música, estúdio, lançamento, show e evolução semanal.",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Componha, grave e lance sua primeira música.",
+      "pt-BR": "Componha, grave e lance sua primeira música.",
+      "en-US": "Compose, record and release your first song.",
+      "es-ES": "Compón, graba y lanza tu primera canción.",
+      "status": "translated"
+    },
+    {
+      "key": "Compor",
+      "pt-BR": "Compor",
+      "en-US": "Compose",
+      "es-ES": "Componer",
+      "status": "translated"
+    },
+    {
+      "key": "Compor primeira música",
+      "pt-BR": "Compor primeira música",
+      "en-US": "Compor primeira música",
+      "es-ES": "Compor primeira música",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Composição Musical",
+      "pt-BR": "Composição Musical",
+      "en-US": "Music Composition",
+      "es-ES": "Composición musical",
+      "status": "translated"
+    },
+    {
+      "key": "Composição do primeiro single com escolhas musicais claras.",
+      "pt-BR": "Composição do primeiro single com escolhas musicais claras.",
+      "en-US": "Composição do primeiro single com escolhas musicais claras.",
+      "es-ES": "Composição do primeiro single com escolhas musicais claras.",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Conflitos Dinâmicos",
+      "pt-BR": "Conflitos Dinâmicos",
+      "en-US": "Conflitos Dinâmicos",
+      "es-ES": "Conflitos Dinâmicos",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Conflitos, imprensa, prêmios e decisões",
+      "pt-BR": "Conflitos, imprensa, prêmios e decisões",
+      "en-US": "Conflitos, imprensa, prêmios e decisões",
+      "es-ES": "Conflitos, imprensa, prêmios e decisões",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Construa uma banda lendária",
+      "pt-BR": "Construa uma banda lendária",
+      "en-US": "Build a legendary band",
+      "es-ES": "Construye una banda legendaria",
+      "status": "translated"
+    },
+    {
+      "key": "Continuar",
+      "pt-BR": "Continuar",
+      "en-US": "Continue",
+      "es-ES": "Continuar",
+      "status": "translated"
+    },
+    {
+      "key": "Continuar Último Save",
+      "pt-BR": "Continuar Último Save",
+      "en-US": "Continue Latest Save",
+      "es-ES": "Continuar último guardado",
+      "status": "translated"
+    },
+    {
+      "key": "Continuar último guardado",
+      "pt-BR": "Continuar último guardado",
+      "en-US": "Continuar último guardado",
+      "es-ES": "Continuar último guardado",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Continue",
+      "pt-BR": "Continue",
+      "en-US": "Continue",
+      "es-ES": "Continuar",
+      "status": "translated"
+    },
+    {
+      "key": "Contratados",
+      "pt-BR": "Contratados",
+      "en-US": "Hired",
+      "es-ES": "Contratados",
+      "status": "translated"
+    },
+    {
+      "key": "Contratar staff essencial",
+      "pt-BR": "Contratar staff essencial",
+      "en-US": "Hire essential staff",
+      "es-ES": "Contratar staff esencial",
+      "status": "translated"
+    },
+    {
+      "key": "Contrate ao menos um produtor, empresário ou social media para acelerar a carreira.",
+      "pt-BR": "Contrate ao menos um produtor, empresário ou social media para acelerar a carreira.",
+      "en-US": "Contrate ao menos um produtor, empresário ou social media para acelerar a carreira.",
+      "es-ES": "Contrate ao menos um produtor, empresário ou social media para acelerar a carreira.",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Contrate equipe",
+      "pt-BR": "Contrate equipe",
+      "en-US": "Contrate equipe",
+      "es-ES": "Contrate equipe",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Contrato interno Ativo",
+      "pt-BR": "Contrato interno Ativo",
+      "en-US": "Contrato interno Ativo",
+      "es-ES": "Contrato interno Ativo",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Contratos Ativos",
+      "pt-BR": "Contratos Ativos",
+      "en-US": "Active contracts",
+      "es-ES": "Contratos activos",
+      "status": "translated"
+    },
+    {
+      "key": "Controle Financeiro",
+      "pt-BR": "Controle Financeiro",
+      "en-US": "Financial Control",
+      "es-ES": "Control financiero",
+      "status": "translated"
+    },
+    {
+      "key": "Controle de crise",
+      "pt-BR": "Controle de crise",
+      "en-US": "Crisis control",
+      "es-ES": "Control de crisis",
+      "status": "translated"
+    },
+    {
+      "key": "Corrigir falha",
+      "pt-BR": "Corrigir falha",
+      "en-US": "Fix issue",
+      "es-ES": "Corregir fallo",
+      "status": "translated"
+    },
+    {
+      "key": "Credits",
+      "pt-BR": "Credits",
+      "en-US": "Credits",
+      "es-ES": "Créditos",
+      "status": "translated"
+    },
+    {
+      "key": "Criar nova banda",
+      "pt-BR": "Criar nova banda",
+      "en-US": "Create new band",
+      "es-ES": "Crear nueva banda",
+      "status": "translated"
+    },
+    {
+      "key": "Criar/Editar Banda",
+      "pt-BR": "Criar/Editar Banda",
+      "en-US": "Create/Edit Band",
+      "es-ES": "Crear/editar banda",
+      "status": "translated"
+    },
+    {
+      "key": "Criatividade",
+      "pt-BR": "Criatividade",
+      "en-US": "Criatividade",
+      "es-ES": "Criatividade",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Criativo",
+      "pt-BR": "Criativo",
+      "en-US": "Creative",
+      "es-ES": "Creativo",
+      "status": "translated"
+    },
+    {
+      "key": "Crie novas músicas",
+      "pt-BR": "Crie novas músicas",
+      "en-US": "Create new songs",
+      "es-ES": "Crea nuevas canciones",
+      "status": "translated"
+    },
+    {
+      "key": "Crie sua identidade e salve a carreira.",
+      "pt-BR": "Crie sua identidade e salve a carreira.",
+      "en-US": "Create your identity and save the career.",
+      "es-ES": "Crea tu identidad y guarda la carrera.",
+      "status": "translated"
+    },
+    {
+      "key": "Crowd chant",
+      "pt-BR": "Crowd chant",
+      "en-US": "Crowd chant",
+      "es-ES": "Canto del público",
+      "status": "translated"
+    },
+    {
+      "key": "Cru e orgânico",
+      "pt-BR": "Cru e orgânico",
+      "en-US": "Raw and organic",
+      "es-ES": "Crudo y orgánico",
+      "status": "translated"
+    },
+    {
+      "key": "Créditos",
+      "pt-BR": "Créditos",
+      "en-US": "Créditos",
+      "es-ES": "Créditos",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Crítica",
+      "pt-BR": "Crítica",
+      "en-US": "Critic",
+      "es-ES": "Crítica",
+      "status": "translated"
+    },
+    {
+      "key": "Crítica viral negativa",
+      "pt-BR": "Crítica viral negativa",
+      "en-US": "Crítica viral negativa",
+      "es-ES": "Crítica viral negativa",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Crítico indie",
+      "pt-BR": "Crítico indie",
+      "en-US": "Crítico indie",
+      "es-ES": "Crítico indie",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Custo / Lucro",
+      "pt-BR": "Custo / Lucro",
+      "en-US": "Cost / Profit",
+      "es-ES": "Costo / Beneficio",
+      "status": "translated"
+    },
+    {
+      "key": "Custo da campanha",
+      "pt-BR": "Custo da campanha",
+      "en-US": "Campaign cost",
+      "es-ES": "Costo de campaña",
+      "status": "translated"
+    },
+    {
+      "key": "Custo logístico",
+      "pt-BR": "Custo logístico",
+      "en-US": "Logistics cost",
+      "es-ES": "Costo logístico",
+      "status": "translated"
+    },
+    {
+      "key": "Custo previsto",
+      "pt-BR": "Custo previsto",
+      "en-US": "Projected cost",
+      "es-ES": "Costo previsto",
+      "status": "translated"
+    },
+    {
+      "key": "D",
+      "pt-BR": "D",
+      "en-US": "D",
+      "es-ES": "D",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "DJ",
+      "pt-BR": "DJ",
+      "en-US": "DJ",
+      "es-ES": "DJ",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Defina artista, país, cidade e nome da banda.",
+      "pt-BR": "Defina artista, país, cidade e nome da banda.",
+      "en-US": "Defina artista, país, cidade e nome da banda.",
+      "es-ES": "Defina artista, país, cidade e nome da banda.",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Define artista, país, ciudad y nombre de la banda.",
+      "pt-BR": "Define artista, país, ciudad y nombre de la banda.",
+      "en-US": "Define artista, país, ciudad y nombre de la banda.",
+      "es-ES": "Define artista, país, ciudad y nombre de la banda.",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Demos finalizadas entram aqui e depois serão usadas no estúdio, lançamentos e shows.",
+      "pt-BR": "Demos finalizadas entram aqui e depois serão usadas no estúdio, lançamentos e shows.",
+      "en-US": "Finished demos appear here and are then used in the studio, releases and shows.",
+      "es-ES": "Las demos finalizadas aparecen aquí y luego se usan en el estudio, lanzamientos y conciertos.",
+      "status": "translated"
+    },
+    {
+      "key": "Descansar equipe",
+      "pt-BR": "Descansar equipe",
+      "en-US": "Rest crew",
+      "es-ES": "Descansar equipo",
+      "status": "translated"
+    },
+    {
+      "key": "Desligado",
+      "pt-BR": "Desligado",
+      "en-US": "Off",
+      "es-ES": "Apagado",
+      "status": "translated"
+    },
+    {
+      "key": "Despesas mensais",
+      "pt-BR": "Despesas mensais",
+      "en-US": "Monthly expenses",
+      "es-ES": "Gastos mensuales",
+      "status": "translated"
+    },
+    {
+      "key": "Diagnóstico anti-quebra ativo",
+      "pt-BR": "Diagnóstico anti-quebra ativo",
+      "en-US": "Diagnóstico anti-quebra ativo",
+      "es-ES": "Diagnóstico anti-quebra ativo",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Dificuldade",
+      "pt-BR": "Dificuldade",
+      "en-US": "Difficulty",
+      "es-ES": "Dificultad",
+      "status": "translated"
+    },
+    {
+      "key": "Direção sonora",
+      "pt-BR": "Direção sonora",
+      "en-US": "Sound direction",
+      "es-ES": "Dirección sonora",
+      "status": "translated"
+    },
+    {
+      "key": "Disciplinado",
+      "pt-BR": "Disciplinado",
+      "en-US": "Disciplined",
+      "es-ES": "Disciplinado",
+      "status": "translated"
+    },
+    {
+      "key": "Discussão entre integrantes",
+      "pt-BR": "Discussão entre integrantes",
+      "en-US": "Discussão entre integrantes",
+      "es-ES": "Discussão entre integrantes",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Dispositivo Anti-Quebra",
+      "pt-BR": "Dispositivo Anti-Quebra",
+      "en-US": "Dispositivo Anti-Quebra",
+      "es-ES": "Dispositivo Anti-Quebra",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Diário da Turnê",
+      "pt-BR": "Diário da Turnê",
+      "en-US": "Tour diary",
+      "es-ES": "Diario de gira",
+      "status": "translated"
+    },
+    {
+      "key": "Dm",
+      "pt-BR": "Dm",
+      "en-US": "Dm",
+      "es-ES": "Dm",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Duo",
+      "pt-BR": "Duo",
+      "en-US": "Duo",
+      "es-ES": "Dúo",
+      "status": "translated"
+    },
+    {
+      "key": "E-mails",
+      "pt-BR": "E-mails",
+      "en-US": "Emails",
+      "es-ES": "Emails",
+      "status": "translated"
+    },
+    {
+      "key": "EN",
+      "pt-BR": "EN",
+      "en-US": "EN",
+      "es-ES": "EN",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "EP",
+      "pt-BR": "EP",
+      "en-US": "EP",
+      "es-ES": "EP",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "ES",
+      "pt-BR": "ES",
+      "en-US": "ES",
+      "es-ES": "ES",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Economia / Contratos",
+      "pt-BR": "Economia / Contratos",
+      "en-US": "Economy / Contracts",
+      "es-ES": "Economía / Contratos",
+      "status": "translated"
+    },
+    {
+      "key": "Editar Integrante",
+      "pt-BR": "Editar Integrante",
+      "en-US": "Editar Integrante",
+      "es-ES": "Editar Integrante",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Ego médio",
+      "pt-BR": "Ego médio",
+      "en-US": "Average ego",
+      "es-ES": "Ego medio",
+      "status": "translated"
+    },
+    {
+      "key": "Eleva qualidade de gravação, mix e potencial de hit no estúdio.",
+      "pt-BR": "Eleva qualidade de gravação, mix e potencial de hit no estúdio.",
+      "en-US": "Eleva qualidade de gravação, mix e potencial de hit no estúdio.",
+      "es-ES": "Eleva qualidade de gravação, mix e potencial de hit no estúdio.",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Elige género, BPM, tonalidad, intensidad y estructura.",
+      "pt-BR": "Elige género, BPM, tonalidad, intensidad y estructura.",
+      "en-US": "Elige género, BPM, tonalidad, intensidad y estructura.",
+      "es-ES": "Elige género, BPM, tonalidad, intensidad y estructura.",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Elige portugués de Brasil, inglés o español. Tu elección queda guardada en el navegador.",
+      "pt-BR": "Elige portugués de Brasil, inglés o español. Tu elección queda guardada en el navegador.",
+      "en-US": "Elige portugués de Brasil, inglés o español. Tu elección queda guardada en el navegador.",
+      "es-ES": "Elige portugués de Brasil, inglés o español. Tu elección queda guardada en el navegador.",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Em",
+      "pt-BR": "Em",
+      "en-US": "Em",
+      "es-ES": "Em",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Emocional",
+      "pt-BR": "Emocional",
+      "en-US": "Emocional",
+      "es-ES": "Emocional",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Emoção",
+      "pt-BR": "Emoção",
+      "en-US": "Emotion",
+      "es-ES": "Emoción",
+      "status": "translated"
+    },
+    {
+      "key": "Empresária",
+      "pt-BR": "Empresária",
+      "en-US": "Empresária",
+      "es-ES": "Empresária",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Encerrar",
+      "pt-BR": "Encerrar",
+      "en-US": "Finish",
+      "es-ES": "Finalizar",
+      "status": "translated"
+    },
+    {
+      "key": "Encontra músicos raros, produtores e oportunidades internacionais.",
+      "pt-BR": "Encontra músicos raros, produtores e oportunidades internacionais.",
+      "en-US": "Encontra músicos raros, produtores e oportunidades internacionais.",
+      "es-ES": "Encontra músicos raros, produtores e oportunidades internacionais.",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Encore",
+      "pt-BR": "Encore",
+      "en-US": "Encore",
+      "es-ES": "Bis",
+      "status": "translated"
+    },
+    {
+      "key": "Energia",
+      "pt-BR": "Energia",
+      "en-US": "Energy",
+      "es-ES": "Energía",
+      "status": "translated"
+    },
+    {
+      "key": "English",
+      "pt-BR": "English",
+      "en-US": "English",
+      "es-ES": "English",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Entrar em uma banda",
+      "pt-BR": "Entrar em uma banda",
+      "en-US": "Join a band",
+      "es-ES": "Entrar en una banda",
+      "status": "translated"
+    },
+    {
+      "key": "Entrevista polêmica",
+      "pt-BR": "Entrevista polêmica",
+      "en-US": "Controversial interview",
+      "es-ES": "Entrevista polémica",
+      "status": "translated"
+    },
+    {
+      "key": "Equilibrada",
+      "pt-BR": "Equilibrada",
+      "en-US": "Balanced",
+      "es-ES": "Equilibrada",
+      "status": "translated"
+    },
+    {
+      "key": "Equilibrado",
+      "pt-BR": "Equilibrado",
+      "en-US": "Balanced",
+      "es-ES": "Equilibrado",
+      "status": "translated"
+    },
+    {
+      "key": "Equilíbrio entre custo, qualidade e agilidade para singles fortes.",
+      "pt-BR": "Equilíbrio entre custo, qualidade e agilidade para singles fortes.",
+      "en-US": "Equilíbrio entre custo, qualidade e agilidade para singles fortes.",
+      "es-ES": "Equilíbrio entre custo, qualidade e agilidade para singles fortes.",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Equipe ajustou retorno, luz e troca de instrumentos antes do público perceber.",
+      "pt-BR": "Equipe ajustou retorno, luz e troca de instrumentos antes do público perceber.",
+      "en-US": "Equipe ajustou retorno, luz e troca de instrumentos antes do público perceber.",
+      "es-ES": "Equipe ajustou retorno, luz e troca de instrumentos antes do público perceber.",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Equipe de estrada",
+      "pt-BR": "Equipe de estrada",
+      "en-US": "Road crew",
+      "es-ES": "Equipo de gira",
+      "status": "translated"
+    },
+    {
+      "key": "Equipe enxuta",
+      "pt-BR": "Equipe enxuta",
+      "en-US": "Lean crew",
+      "es-ES": "Equipo reducido",
+      "status": "translated"
+    },
+    {
+      "key": "Equipe equilibrada",
+      "pt-BR": "Equipe equilibrada",
+      "en-US": "Balanced crew",
+      "es-ES": "Equipo equilibrado",
+      "status": "translated"
+    },
+    {
+      "key": "Equipe premium",
+      "pt-BR": "Equipe premium",
+      "en-US": "Premium crew",
+      "es-ES": "Equipo premium",
+      "status": "translated"
+    },
+    {
+      "key": "Equipe profissional forte. A carreira já pode buscar festivais, contratos e turnês maiores.",
+      "pt-BR": "Equipe profissional forte. A carreira já pode buscar festivais, contratos e turnês maiores.",
+      "en-US": "Equipe profissional forte. A carreira já pode buscar festivais, contratos e turnês maiores.",
+      "es-ES": "Equipe profissional forte. A carreira já pode buscar festivais, contratos e turnês maiores.",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Equipe recuperou energia e reduziu risco logístico. Custo $ 18.000.",
+      "pt-BR": "Equipe recuperou energia e reduziu risco logístico. Custo $ 18.000.",
+      "en-US": "Equipe recuperou energia e reduziu risco logístico. Custo $ 18.000.",
+      "es-ES": "Equipe recuperou energia e reduziu risco logístico. Custo $ 18.000.",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Escolha até 8 músicas. Lançamentos e masters têm mais força de público.",
+      "pt-BR": "Escolha até 8 músicas. Lançamentos e masters têm mais força de público.",
+      "en-US": "Escolha até 8 músicas. Lançamentos e masters têm mais força de público.",
+      "es-ES": "Escolha até 8 músicas. Lançamentos e masters têm mais força de público.",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Escolha partes para formar uma música com identidade forte.",
+      "pt-BR": "Escolha partes para formar uma música com identidade forte.",
+      "en-US": "Escolha partes para formar uma música com identidade forte.",
+      "es-ES": "Escolha partes para formar uma música com identidade forte.",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Escolha português do Brasil, inglês ou espanhol. A escolha fica salva no navegador.",
+      "pt-BR": "Escolha português do Brasil, inglês ou espanhol. A escolha fica salva no navegador.",
+      "en-US": "Escolha português do Brasil, inglês ou espanhol. A escolha fica salva no navegador.",
+      "es-ES": "Escolha português do Brasil, inglês ou espanhol. A escolha fica salva no navegador.",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Escolha seu avatar",
+      "pt-BR": "Escolha seu avatar",
+      "en-US": "Choose your avatar",
+      "es-ES": "Elige tu avatar",
+      "status": "translated"
+    },
+    {
+      "key": "Escolha uma ação para movimentar a base de fãs.",
+      "pt-BR": "Escolha uma ação para movimentar a base de fãs.",
+      "en-US": "Choose an action to move the fanbase.",
+      "es-ES": "Elige una acción para mover la base de fans.",
+      "status": "translated"
+    },
+    {
+      "key": "Escolhas Disponíveis",
+      "pt-BR": "Escolhas Disponíveis",
+      "en-US": "Available Choices",
+      "es-ES": "Opciones disponibles",
+      "status": "translated"
+    },
+    {
+      "key": "Español",
+      "pt-BR": "Español",
+      "en-US": "Español",
+      "es-ES": "Español",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Estabilidade",
+      "pt-BR": "Estabilidade",
+      "en-US": "Stability",
+      "es-ES": "Estabilidad",
+      "status": "translated"
+    },
+    {
+      "key": "Estado da Banda",
+      "pt-BR": "Estado da Banda",
+      "en-US": "Band Status",
+      "es-ES": "Estado de la banda",
+      "status": "translated"
+    },
+    {
+      "key": "Estados Unidos",
+      "pt-BR": "Estados Unidos",
+      "en-US": "United States",
+      "es-ES": "Estados Unidos",
+      "status": "translated"
+    },
+    {
+      "key": "Estas faixas irão alimentar lançamentos, charts, shows e turnês nas próximas fases.",
+      "pt-BR": "Estas faixas irão alimentar lançamentos, charts, shows e turnês nas próximas fases.",
+      "en-US": "Estas faixas irão alimentar lançamentos, charts, shows e turnês nas próximas fases.",
+      "es-ES": "Estas faixas irão alimentar lançamentos, charts, shows e turnês nas próximas fases.",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Estilo musical",
+      "pt-BR": "Estilo musical",
+      "en-US": "Music style",
+      "es-ES": "Estilo musical",
+      "status": "translated"
+    },
+    {
+      "key": "Estilo principal",
+      "pt-BR": "Estilo principal",
+      "en-US": "Main style",
+      "es-ES": "Estilo principal",
+      "status": "translated"
+    },
+    {
+      "key": "Estratégia",
+      "pt-BR": "Estratégia",
+      "en-US": "Strategy",
+      "es-ES": "Estrategia",
+      "status": "translated"
+    },
+    {
+      "key": "Estrutura",
+      "pt-BR": "Estrutura",
+      "en-US": "Structure",
+      "es-ES": "Estructura",
+      "status": "translated"
+    },
+    {
+      "key": "Estúdio",
+      "pt-BR": "Estúdio",
+      "en-US": "Studio",
+      "es-ES": "Estudio",
+      "status": "translated"
+    },
+    {
+      "key": "Estúdio Indie Pro",
+      "pt-BR": "Estúdio Indie Pro",
+      "en-US": "Estúdio Indie Pro",
+      "es-ES": "Estúdio Indie Pro",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Estúdio e lançamentos",
+      "pt-BR": "Estúdio e lançamentos",
+      "en-US": "Estúdio e lançamentos",
+      "es-ES": "Estúdio e lançamentos",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Estúdio: sala, produtor, takes, mix e master.",
+      "pt-BR": "Estúdio: sala, produtor, takes, mix e master.",
+      "en-US": "Estúdio: sala, produtor, takes, mix e master.",
+      "es-ES": "Estúdio: sala, produtor, takes, mix e master.",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Eventos",
+      "pt-BR": "Eventos",
+      "en-US": "Events",
+      "es-ES": "Eventos",
+      "status": "translated"
+    },
+    {
+      "key": "Eventos Dinâmicos",
+      "pt-BR": "Eventos Dinâmicos",
+      "en-US": "Dynamic Events",
+      "es-ES": "Eventos dinámicos",
+      "status": "translated"
+    },
+    {
+      "key": "Eventos dinámicos",
+      "pt-BR": "Eventos dinámicos",
+      "en-US": "Eventos dinámicos",
+      "es-ES": "Eventos dinámicos",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Evoluir reputação da banda",
+      "pt-BR": "Evoluir reputação da banda",
+      "en-US": "Evoluir reputação da banda",
+      "es-ES": "Evoluir reputação da banda",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Executar turnê",
+      "pt-BR": "Executar turnê",
+      "en-US": "Run tour",
+      "es-ES": "Ejecutar gira",
+      "status": "translated"
+    },
+    {
+      "key": "Experimental",
+      "pt-BR": "Experimental",
+      "en-US": "Experimental",
+      "es-ES": "Experimental",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Exportar backup do save",
+      "pt-BR": "Exportar backup do save",
+      "en-US": "Export save backup",
+      "es-ES": "Exportar backup del guardado",
+      "status": "translated"
+    },
+    {
+      "key": "Exportar manifesto",
+      "pt-BR": "Exportar manifesto",
+      "en-US": "Exportar manifesto",
+      "es-ES": "Exportar manifesto",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Exportar plano UX",
+      "pt-BR": "Exportar plano UX",
+      "en-US": "Export UX plan",
+      "es-ES": "Exportar plan UX",
+      "status": "translated"
+    },
+    {
+      "key": "Exportar save",
+      "pt-BR": "Exportar save",
+      "en-US": "Export save",
+      "es-ES": "Exportar guardado",
+      "status": "translated"
+    },
+    {
+      "key": "Exportação de backup disponível",
+      "pt-BR": "Exportação de backup disponível",
+      "en-US": "Exportação de backup disponível",
+      "es-ES": "Exportação de backup disponível",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "F#m",
+      "pt-BR": "F#m",
+      "en-US": "F#m",
+      "es-ES": "F#m",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Fadiga Dinâmica",
+      "pt-BR": "Fadiga Dinâmica",
+      "en-US": "Dynamic fatigue",
+      "es-ES": "Fatiga dinámica",
+      "status": "translated"
+    },
+    {
+      "key": "Falha técnica controlada",
+      "pt-BR": "Falha técnica controlada",
+      "en-US": "Falha técnica controlada",
+      "es-ES": "Falha técnica controlada",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Fase 10: gravadoras, patrocinadores, royalties, merch, despesas mensais e saúde financeira da banda.",
+      "pt-BR": "Fase 10: gravadoras, patrocinadores, royalties, merch, despesas mensais e saúde financeira da banda.",
+      "en-US": "Fase 10: gravadoras, patrocinadores, royalties, merch, despesas mensais e saúde financeira da banda.",
+      "es-ES": "Fase 10: gravadoras, patrocinadores, royalties, merch, despesas mensais e saúde financeira da banda.",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Fase 10: mapa de caminhos oficiais, troca segura de placeholders, validação visual e exportação do manifesto para criação dos assets definitivos.",
+      "pt-BR": "Fase 10: mapa de caminhos oficiais, troca segura de placeholders, validação visual e exportação do manifesto para criação dos assets definitivos.",
+      "en-US": "Fase 10: mapa de caminhos oficiais, troca segura de placeholders, validação visual e exportação do manifesto para criação dos assets definitivos.",
+      "es-ES": "Fase 10: mapa de caminhos oficiais, troca segura de placeholders, validação visual e exportação do manifesto para criação dos assets definitivos.",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Fase 11: mapa de rotas, logística global, transporte, equipe de estrada, fadiga, risco e expansão mundial da banda.",
+      "pt-BR": "Fase 11: mapa de rotas, logística global, transporte, equipe de estrada, fadiga, risco e expansão mundial da banda.",
+      "en-US": "Fase 11: mapa de rotas, logística global, transporte, equipe de estrada, fadiga, risco e expansão mundial da banda.",
+      "es-ES": "Fase 11: mapa de rotas, logística global, transporte, equipe de estrada, fadiga, risco e expansão mundial da banda.",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Fase 11: primeira hora guiada, objetivos iniciais, recompensas e experiência clara para jogadores novos em PT-BR, EN e ES.",
+      "pt-BR": "Fase 11: primeira hora guiada, objetivos iniciais, recompensas e experiência clara para jogadores novos em PT-BR, EN e ES.",
+      "en-US": "Fase 11: primeira hora guiada, objetivos iniciais, recompensas e experiência clara para jogadores novos em PT-BR, EN e ES.",
+      "es-ES": "Fase 11: primeira hora guiada, objetivos iniciais, recompensas e experiência clara para jogadores novos em PT-BR, EN e ES.",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Fase 12: conflitos internos, entrevistas, escândalos, premiações, escolhas narrativas e consequências reais na carreira.",
+      "pt-BR": "Fase 12: conflitos internos, entrevistas, escândalos, premiações, escolhas narrativas e consequências reais na carreira.",
+      "en-US": "Fase 12: conflitos internos, entrevistas, escândalos, premiações, escolhas narrativas e consequências reais na carreira.",
+      "es-ES": "Fase 12: conflitos internos, entrevistas, escândalos, premiações, escolhas narrativas e consequências reais na carreira.",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Fase 4: contrate profissionais, controle salários e transforme a banda em uma operação comercial internacional.",
+      "pt-BR": "Fase 4: contrate profissionais, controle salários e transforme a banda em uma operação comercial internacional.",
+      "en-US": "Fase 4: contrate profissionais, controle salários e transforme a banda em uma operação comercial internacional.",
+      "es-ES": "Fase 4: contrate profissionais, controle salários e transforme a banda em uma operação comercial internacional.",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Fase 4: identidad integrada al ciclo principal de carrera, con autoguardado, ranuras, migración y reinicio seguro.",
+      "pt-BR": "Fase 4: identidad integrada al ciclo principal de carrera, con autoguardado, ranuras, migración y reinicio seguro.",
+      "en-US": "Fase 4: identidad integrada al ciclo principal de carrera, con autoguardado, ranuras, migración y reinicio seguro.",
+      "es-ES": "Fase 4: identidad integrada al ciclo principal de carrera, con autoguardado, ranuras, migración y reinicio seguro.",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Fase 4: identidade integrada ao ciclo principal de carreira, com autosave, slots, migração e reset seguro.",
+      "pt-BR": "Fase 4: identidade integrada ao ciclo principal de carreira, com autosave, slots, migração e reset seguro.",
+      "en-US": "Fase 4: identidade integrada ao ciclo principal de carreira, com autosave, slots, migração e reset seguro.",
+      "es-ES": "Fase 4: identidade integrada ao ciclo principal de carreira, com autosave, slots, migração e reset seguro.",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Fase 5: crie músicas combinando letra, riff, refrão, ponte, solo e mixagem. O sistema calcula qualidade, potencial de hit, originalidade e impacto emocional.",
+      "pt-BR": "Fase 5: crie músicas combinando letra, riff, refrão, ponte, solo e mixagem. O sistema calcula qualidade, potencial de hit, originalidade e impacto emocional.",
+      "en-US": "Fase 5: crie músicas combinando letra, riff, refrão, ponte, solo e mixagem. O sistema calcula qualidade, potencial de hit, originalidade e impacto emocional.",
+      "es-ES": "Fase 5: crie músicas combinando letra, riff, refrão, ponte, solo e mixagem. O sistema calcula qualidade, potencial de hit, originalidade e impacto emocional.",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Fase 6: grave demos, escolha sala, ajuste takes, mixagem e masterização para transformar composições em masters comerciais.",
+      "pt-BR": "Fase 6: grave demos, escolha sala, ajuste takes, mixagem e masterização para transformar composições em masters comerciais.",
+      "en-US": "Fase 6: grave demos, escolha sala, ajuste takes, mixagem e masterização para transformar composições em masters comerciais.",
+      "es-ES": "Fase 6: grave demos, escolha sala, ajuste takes, mixagem e masterização para transformar composições em masters comerciais.",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Fase 6: setlist, cidade, tipo de show, produção, falhas técnicas, crowd chant, encore, bilheteria, merch, fãs e reputação.",
+      "pt-BR": "Fase 6: setlist, cidade, tipo de show, produção, falhas técnicas, crowd chant, encore, bilheteria, merch, fãs e reputação.",
+      "en-US": "Fase 6: setlist, cidade, tipo de show, produção, falhas técnicas, crowd chant, encore, bilheteria, merch, fãs e reputação.",
+      "es-ES": "Fase 6: setlist, cidade, tipo de show, produção, falhas técnicas, crowd chant, encore, bilheteria, merch, fãs e reputação.",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Fase 7: transforme masters em singles, EPs e álbuns. Escolha campanha, plataforma, preço e janela para disputar charts globais.",
+      "pt-BR": "Fase 7: transforme masters em singles, EPs e álbuns. Escolha campanha, plataforma, preço e janela para disputar charts globais.",
+      "en-US": "Fase 7: transforme masters em singles, EPs e álbuns. Escolha campanha, plataforma, preço e janela para disputar charts globais.",
+      "es-ES": "Fase 7: transforme masters em singles, EPs e álbuns. Escolha campanha, plataforma, preço e janela para disputar charts globais.",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Fase 8: polimento final, tutorial, áudio de UI, loading, balanceamento, checklist de venda e documentação para build internacional.",
+      "pt-BR": "Fase 8: polimento final, tutorial, áudio de UI, loading, balanceamento, checklist de venda e documentação para build internacional.",
+      "en-US": "Fase 8: polimento final, tutorial, áudio de UI, loading, balanceamento, checklist de venda e documentação para build internacional.",
+      "es-ES": "Fase 8: polimento final, tutorial, áudio de UI, loading, balanceamento, checklist de venda e documentação para build internacional.",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Fase 9: o mercado reage a lançamentos, shows, posts, entrevistas, virais e críticas. Este sistema alimenta fãs, hype, reputação e futuras propostas internacionais.",
+      "pt-BR": "Fase 9: o mercado reage a lançamentos, shows, posts, entrevistas, virais e críticas. Este sistema alimenta fãs, hype, reputação e futuras propostas internacionais.",
+      "en-US": "Fase 9: o mercado reage a lançamentos, shows, posts, entrevistas, virais e críticas. Este sistema alimenta fãs, hype, reputação e futuras propostas internacionais.",
+      "es-ES": "Fase 9: o mercado reage a lançamentos, shows, posts, entrevistas, virais e críticas. Este sistema alimenta fãs, hype, reputação e futuras propostas internacionais.",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Fase 9: validação técnica para venda internacional, teste de navegação, saves, idioma, assets e responsividade antes da troca final dos assets oficiais.",
+      "pt-BR": "Fase 9: validação técnica para venda internacional, teste de navegação, saves, idioma, assets e responsividade antes da troca final dos assets oficiais.",
+      "en-US": "Fase 9: validação técnica para venda internacional, teste de navegação, saves, idioma, assets e responsividade antes da troca final dos assets oficiais.",
+      "es-ES": "Fase 9: validação técnica para venda internacional, teste de navegação, saves, idioma, assets e responsividade antes da troca final dos assets oficiais.",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Fase Local",
+      "pt-BR": "Fase Local",
+      "en-US": "Local phase",
+      "es-ES": "Fase local",
+      "status": "translated"
+    },
+    {
+      "key": "Feed / Social",
+      "pt-BR": "Feed / Social",
+      "en-US": "Feed / Social",
+      "es-ES": "Feed / Social",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Feriado internacional",
+      "pt-BR": "Feriado internacional",
+      "en-US": "International holiday",
+      "es-ES": "Feriado internacional",
+      "status": "translated"
+    },
+    {
+      "key": "Festival Slot",
+      "pt-BR": "Festival Slot",
+      "en-US": "Festival Slot",
+      "es-ES": "Festival Slot",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Festival Stage",
+      "pt-BR": "Festival Stage",
+      "en-US": "Festival Stage",
+      "es-ES": "Escenario de festival",
+      "status": "translated"
+    },
+    {
+      "key": "Finalizar demo",
+      "pt-BR": "Finalizar demo",
+      "en-US": "Finish demo",
+      "es-ES": "Finalizar demo",
+      "status": "translated"
+    },
+    {
+      "key": "Finalizar master",
+      "pt-BR": "Finalizar master",
+      "en-US": "Finish master",
+      "es-ES": "Finalizar master",
+      "status": "translated"
+    },
+    {
+      "key": "Finanças",
+      "pt-BR": "Finanças",
+      "en-US": "Finance",
+      "es-ES": "Finanzas",
+      "status": "translated"
+    },
+    {
+      "key": "Fit patrocinador",
+      "pt-BR": "Fit patrocinador",
+      "en-US": "Sponsor fit",
+      "es-ES": "Fit patrocinador",
+      "status": "translated"
+    },
+    {
+      "key": "Foco de merch",
+      "pt-BR": "Foco de merch",
+      "en-US": "Foco de merch",
+      "es-ES": "Foco de merch",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Folha mensal",
+      "pt-BR": "Folha mensal",
+      "en-US": "Folha mensal",
+      "es-ES": "Folha mensal",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Formato",
+      "pt-BR": "Formato",
+      "en-US": "Format",
+      "es-ES": "Formato",
+      "status": "translated"
+    },
+    {
+      "key": "Formação",
+      "pt-BR": "Formação",
+      "en-US": "Formation",
+      "es-ES": "Formación",
+      "status": "translated"
+    },
+    {
+      "key": "Força geral",
+      "pt-BR": "Força geral",
+      "en-US": "Overall strength",
+      "es-ES": "Fuerza general",
+      "status": "translated"
+    },
+    {
+      "key": "Forçar tela cheia",
+      "pt-BR": "Forçar tela cheia",
+      "en-US": "Force fullscreen",
+      "es-ES": "Forzar pantalla completa",
+      "status": "translated"
+    },
+    {
+      "key": "Fullscreen horizontal, orientação mobile, escala do HUD, áudio, idioma e performance foram organizados para a versão internacional.",
+      "pt-BR": "Fullscreen horizontal, orientação mobile, escala do HUD, áudio, idioma e performance foram organizados para a versão internacional.",
+      "en-US": "Fullscreen horizontal, orientação mobile, escala do HUD, áudio, idioma e performance foram organizados para a versão internacional.",
+      "es-ES": "Fullscreen horizontal, orientação mobile, escala do HUD, áudio, idioma e performance foram organizados para a versão internacional.",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Fundador / Vocalista",
+      "pt-BR": "Fundador / Vocalista",
+      "en-US": "Founder / Vocalist",
+      "es-ES": "Fundador / Vocalista",
+      "status": "translated"
+    },
+    {
+      "key": "Função",
+      "pt-BR": "Função",
+      "en-US": "Role",
+      "es-ES": "Función",
+      "status": "translated"
+    },
+    {
+      "key": "Fã antigo",
+      "pt-BR": "Fã antigo",
+      "en-US": "Fã antigo",
+      "es-ES": "Fã antigo",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Fãs começaram uma campanha para colocar a banda em um festival grande.",
+      "pt-BR": "Fãs começaram uma campanha para colocar a banda em um festival grande.",
+      "en-US": "Fãs começaram uma campanha para colocar a banda em um festival grande.",
+      "es-ES": "Fãs começaram uma campanha para colocar a banda em um festival grande.",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "G",
+      "pt-BR": "G",
+      "en-US": "G",
+      "es-ES": "G",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "GERENCIAR",
+      "pt-BR": "GERENCIAR",
+      "en-US": "MANAGE",
+      "es-ES": "GESTIONAR",
+      "status": "translated"
+    },
+    {
+      "key": "Gerar NPC",
+      "pt-BR": "Gerar NPC",
+      "en-US": "Gerar NPC",
+      "es-ES": "Gerar NPC",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Gerar ideia",
+      "pt-BR": "Gerar ideia",
+      "en-US": "Generate idea",
+      "es-ES": "Generar idea",
+      "status": "translated"
+    },
+    {
+      "key": "Gerar repercussão",
+      "pt-BR": "Gerar repercussão",
+      "en-US": "Generate repercussion",
+      "es-ES": "Generar repercusión",
+      "status": "translated"
+    },
+    {
+      "key": "Gerenciar Social",
+      "pt-BR": "Gerenciar Social",
+      "en-US": "Manage Social",
+      "es-ES": "Gestionar social",
+      "status": "translated"
+    },
+    {
+      "key": "Gira el móvil",
+      "pt-BR": "Gira el móvil",
+      "en-US": "Gira el móvil",
+      "es-ES": "Gira el móvil",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Global",
+      "pt-BR": "Global",
+      "en-US": "Global",
+      "es-ES": "Global",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Global Stream",
+      "pt-BR": "Global Stream",
+      "en-US": "Global Stream",
+      "es-ES": "Global Stream",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Grande alcance internacional, mas reduz liberdade artística.",
+      "pt-BR": "Grande alcance internacional, mas reduz liberdade artística.",
+      "en-US": "Grande alcance internacional, mas reduz liberdade artística.",
+      "es-ES": "Grande alcance internacional, mas reduz liberdade artística.",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Gravadoras / Distribuição",
+      "pt-BR": "Gravadoras / Distribuição",
+      "en-US": "Labels / Distribution",
+      "es-ES": "Discográficas / Distribución",
+      "status": "translated"
+    },
+    {
+      "key": "Gravadoras, sponsors e caixa",
+      "pt-BR": "Gravadoras, sponsors e caixa",
+      "en-US": "Gravadoras, sponsors e caixa",
+      "es-ES": "Gravadoras, sponsors e caixa",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Gravar Estúdio",
+      "pt-BR": "Gravar Estúdio",
+      "en-US": "Gravar Estúdio",
+      "es-ES": "Gravar Estúdio",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Gravar master no estúdio",
+      "pt-BR": "Gravar master no estúdio",
+      "en-US": "Gravar master no estúdio",
+      "es-ES": "Gravar master no estúdio",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Gravar take",
+      "pt-BR": "Gravar take",
+      "en-US": "Record take",
+      "es-ES": "Grabar toma",
+      "status": "translated"
+    },
+    {
+      "key": "Grupos Oficiais",
+      "pt-BR": "Grupos Oficiais",
+      "en-US": "Grupos Oficiais",
+      "es-ES": "Grupos Oficiais",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Guitarrista",
+      "pt-BR": "Guitarrista",
+      "en-US": "Guitarist",
+      "es-ES": "Guitarrista",
+      "status": "translated"
+    },
+    {
+      "key": "Gênero",
+      "pt-BR": "Gênero",
+      "en-US": "Genre",
+      "es-ES": "Género",
+      "status": "translated"
+    },
+    {
+      "key": "Gêneros em alta",
+      "pt-BR": "Gêneros em alta",
+      "en-US": "Trending genres",
+      "es-ES": "Géneros en tendencia",
+      "status": "translated"
+    },
+    {
+      "key": "Hard Rock",
+      "pt-BR": "Hard Rock",
+      "en-US": "Hard Rock",
+      "es-ES": "Hard Rock",
+      "status": "translated"
+    },
+    {
+      "key": "Headliner",
+      "pt-BR": "Headliner",
+      "en-US": "Headliner",
+      "es-ES": "Headliner",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Heat",
+      "pt-BR": "Heat",
+      "en-US": "Heat",
+      "es-ES": "Heat",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Histórico",
+      "pt-BR": "Histórico",
+      "en-US": "Histórico",
+      "es-ES": "Histórico",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Histórico Financeiro",
+      "pt-BR": "Histórico Financeiro",
+      "en-US": "Financial History",
+      "es-ES": "Historial financiero",
+      "status": "translated"
+    },
+    {
+      "key": "Histórico Narrativo",
+      "pt-BR": "Histórico Narrativo",
+      "en-US": "Narrative History",
+      "es-ES": "Historial narrativo",
+      "status": "translated"
+    },
+    {
+      "key": "Histórico Social",
+      "pt-BR": "Histórico Social",
+      "en-US": "Social History",
+      "es-ES": "Historial social",
+      "status": "translated"
+    },
+    {
+      "key": "Hit",
+      "pt-BR": "Hit",
+      "en-US": "Hit",
+      "es-ES": "Hit",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Hype",
+      "pt-BR": "Hype",
+      "en-US": "Hype",
+      "es-ES": "Hype",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Hype ao vivo",
+      "pt-BR": "Hype ao vivo",
+      "en-US": "Live hype",
+      "es-ES": "Hype en vivo",
+      "status": "translated"
+    },
+    {
+      "key": "Hype internacional",
+      "pt-BR": "Hype internacional",
+      "en-US": "International hype",
+      "es-ES": "Hype internacional",
+      "status": "translated"
+    },
+    {
+      "key": "Hype, fans, viralización y reputación",
+      "pt-BR": "Hype, fans, viralización y reputación",
+      "en-US": "Hype, fans, viralización y reputación",
+      "es-ES": "Hype, fans, viralización y reputación",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Hype, fãs, viralização e reputação",
+      "pt-BR": "Hype, fãs, viralização e reputação",
+      "en-US": "Hype, fãs, viralização e reputação",
+      "es-ES": "Hype, fãs, viralização e reputação",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "IA de Mercado Musical",
+      "pt-BR": "IA de Mercado Musical",
+      "en-US": "Music Market AI",
+      "es-ES": "IA de mercado musical",
+      "status": "translated"
+    },
+    {
+      "key": "IA de Público e Social Media",
+      "pt-BR": "IA de Público e Social Media",
+      "en-US": "IA de Público e Social Media",
+      "es-ES": "IA de Público e Social Media",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Identidade",
+      "pt-BR": "Identidade",
+      "en-US": "Identity",
+      "es-ES": "Identidad",
+      "status": "translated"
+    },
+    {
+      "key": "Identidade da Banda",
+      "pt-BR": "Identidade da Banda",
+      "en-US": "Identidade da Banda",
+      "es-ES": "Identidade da Banda",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Identidade da banda",
+      "pt-BR": "Identidade da banda",
+      "en-US": "Band identity",
+      "es-ES": "Identidad de la banda",
+      "status": "translated"
+    },
+    {
+      "key": "Idioma",
+      "pt-BR": "Idioma",
+      "en-US": "Language",
+      "es-ES": "Idioma",
+      "status": "translated"
+    },
+    {
+      "key": "Idioma / Language / Idioma",
+      "pt-BR": "Idioma / Language / Idioma",
+      "en-US": "Language / Idioma / Idioma",
+      "es-ES": "Idioma / Language / Idioma",
+      "status": "translated"
+    },
+    {
+      "key": "Impacto do Staff",
+      "pt-BR": "Impacto do Staff",
+      "en-US": "Impacto do Staff",
+      "es-ES": "Impacto do Staff",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Impacto previsto",
+      "pt-BR": "Impacto previsto",
+      "en-US": "Impacto previsto",
+      "es-ES": "Impacto previsto",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Imprensa Reativa",
+      "pt-BR": "Imprensa Reativa",
+      "en-US": "Reactive press",
+      "es-ES": "Prensa reactiva",
+      "status": "translated"
+    },
+    {
+      "key": "Improviso arriscado perdeu precisão, mas o show continuou seguro.",
+      "pt-BR": "Improviso arriscado perdeu precisão, mas o show continuou seguro.",
+      "en-US": "Improviso arriscado perdeu precisão, mas o show continuou seguro.",
+      "es-ES": "Improviso arriscado perdeu precisão, mas o show continuou seguro.",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Indie",
+      "pt-BR": "Indie",
+      "en-US": "Indie",
+      "es-ES": "Indie",
+      "status": "translated"
+    },
+    {
+      "key": "Indie Radar",
+      "pt-BR": "Indie Radar",
+      "en-US": "Indie Radar",
+      "es-ES": "Indie Radar",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Inicializando diagnóstico...",
+      "pt-BR": "Inicializando diagnóstico...",
+      "en-US": "Inicializando diagnóstico...",
+      "es-ES": "Inicializando diagnóstico...",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Iniciar show",
+      "pt-BR": "Iniciar show",
+      "en-US": "Start show",
+      "es-ES": "Iniciar concierto",
+      "status": "translated"
+    },
+    {
+      "key": "Intensidade",
+      "pt-BR": "Intensidade",
+      "en-US": "Intensity",
+      "es-ES": "Intensidad",
+      "status": "translated"
+    },
+    {
+      "key": "Interagir",
+      "pt-BR": "Interagir",
+      "en-US": "Interact",
+      "es-ES": "Interactuar",
+      "status": "translated"
+    },
+    {
+      "key": "Interação com o público",
+      "pt-BR": "Interação com o público",
+      "en-US": "Interação com o público",
+      "es-ES": "Interação com o público",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Intro • Verso • Pré-Refrão • Refrão • Ponte • Refrão",
+      "pt-BR": "Intro • Verso • Pré-Refrão • Refrão • Ponte • Refrão",
+      "en-US": "Intro • Verso • Pré-Refrão • Refrão • Ponte • Refrão",
+      "es-ES": "Intro • Verso • Pré-Refrão • Refrão • Ponte • Refrão",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Intro • Verso • Refrão • Solo • Final",
+      "pt-BR": "Intro • Verso • Refrão • Solo • Final",
+      "en-US": "Intro • Verso • Refrão • Solo • Final",
+      "es-ES": "Intro • Verso • Refrão • Solo • Final",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Investimento em impulsionamento",
+      "pt-BR": "Investimento em impulsionamento",
+      "en-US": "Boosting investment",
+      "es-ES": "Inversión en impulso",
+      "status": "translated"
+    },
+    {
+      "key": "Ir a la acción",
+      "pt-BR": "Ir a la acción",
+      "en-US": "Ir a la acción",
+      "es-ES": "Ir a la acción",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Ir para Estúdio",
+      "pt-BR": "Ir para Estúdio",
+      "en-US": "Go to Studio",
+      "es-ES": "Ir al Estudio",
+      "status": "translated"
+    },
+    {
+      "key": "Ir para Shows",
+      "pt-BR": "Ir para Shows",
+      "en-US": "Go to Shows",
+      "es-ES": "Ir a Conciertos",
+      "status": "translated"
+    },
+    {
+      "key": "Ir para ação",
+      "pt-BR": "Ir para ação",
+      "en-US": "Go to action",
+      "es-ES": "Ir a la acción",
+      "status": "translated"
+    },
+    {
+      "key": "Ir para o jogo",
+      "pt-BR": "Ir para o jogo",
+      "en-US": "Ir para o jogo",
+      "es-ES": "Ir para o jogo",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Janela",
+      "pt-BR": "Janela",
+      "en-US": "Window",
+      "es-ES": "Ventana",
+      "status": "translated"
+    },
+    {
+      "key": "Japão",
+      "pt-BR": "Japão",
+      "en-US": "Japan",
+      "es-ES": "Japón",
+      "status": "translated"
+    },
+    {
+      "key": "Jaquetas premium",
+      "pt-BR": "Jaquetas premium",
+      "en-US": "Premium jackets",
+      "es-ES": "Chaquetas premium",
+      "status": "translated"
+    },
+    {
+      "key": "Jato / voos premium",
+      "pt-BR": "Jato / voos premium",
+      "en-US": "Jet / premium flights",
+      "es-ES": "Jet / vuelos premium",
+      "status": "translated"
+    },
+    {
+      "key": "Jogar",
+      "pt-BR": "Jogar",
+      "en-US": "Play",
+      "es-ES": "Jugar",
+      "status": "translated"
+    },
+    {
+      "key": "Jogar agora",
+      "pt-BR": "Jogar agora",
+      "en-US": "Play now",
+      "es-ES": "Jugar ahora",
+      "status": "translated"
+    },
+    {
+      "key": "LEGACY",
+      "pt-BR": "LEGACY",
+      "en-US": "LEGACY",
+      "es-ES": "LEGACY",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Lanzar música",
+      "pt-BR": "Lanzar música",
+      "en-US": "Lanzar música",
+      "es-ES": "Lanzar música",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Lançamento",
+      "pt-BR": "Lançamento",
+      "en-US": "Lançamento",
+      "es-ES": "Lançamento",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Lançamento Musical",
+      "pt-BR": "Lançamento Musical",
+      "en-US": "Music Release",
+      "es-ES": "Lanzamiento musical",
+      "status": "translated"
+    },
+    {
+      "key": "Lançamento: marketing, social, reviews e receita inicial.",
+      "pt-BR": "Lançamento: marketing, social, reviews e receita inicial.",
+      "en-US": "Lançamento: marketing, social, reviews e receita inicial.",
+      "es-ES": "Lançamento: marketing, social, reviews e receita inicial.",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Lançamentos",
+      "pt-BR": "Lançamentos",
+      "en-US": "Lançamentos",
+      "es-ES": "Lançamentos",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Lançamentos publicados alimentam reputação, fãs, agenda de shows e rankings internacionais nas próximas fases.",
+      "pt-BR": "Lançamentos publicados alimentam reputação, fãs, agenda de shows e rankings internacionais nas próximas fases.",
+      "en-US": "Lançamentos publicados alimentam reputação, fãs, agenda de shows e rankings internacionais nas próximas fases.",
+      "es-ES": "Lançamentos publicados alimentam reputação, fãs, agenda de shows e rankings internacionais nas próximas fases.",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Lançar",
+      "pt-BR": "Lançar",
+      "en-US": "Release",
+      "es-ES": "Lanzar",
+      "status": "translated"
+    },
+    {
+      "key": "Lançar Música",
+      "pt-BR": "Lançar Música",
+      "en-US": "Lançar Música",
+      "es-ES": "Lançar Música",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Lançar música",
+      "pt-BR": "Lançar música",
+      "en-US": "Lançar música",
+      "es-ES": "Lançar música",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Lançar o primeiro single",
+      "pt-BR": "Lançar o primeiro single",
+      "en-US": "Lançar o primeiro single",
+      "es-ES": "Lançar o primeiro single",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Lealdade dos fãs",
+      "pt-BR": "Lealdade dos fãs",
+      "en-US": "Fan loyalty",
+      "es-ES": "Lealtad de fans",
+      "status": "translated"
+    },
+    {
+      "key": "Lenda",
+      "pt-BR": "Lenda",
+      "en-US": "Legend",
+      "es-ES": "Leyenda",
+      "status": "translated"
+    },
+    {
+      "key": "Lendário",
+      "pt-BR": "Lendário",
+      "en-US": "Lendário",
+      "es-ES": "Lendário",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Letra / Direção",
+      "pt-BR": "Letra / Direção",
+      "en-US": "Lyrics / Direction",
+      "es-ES": "Letra / Dirección",
+      "status": "translated"
+    },
+    {
+      "key": "Leve a melhor música para gravação, mixagem e masterização.",
+      "pt-BR": "Leve a melhor música para gravação, mixagem e masterização.",
+      "en-US": "Leve a melhor música para gravação, mixagem e masterização.",
+      "es-ES": "Leve a melhor música para gravação, mixagem e masterização.",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Ligado",
+      "pt-BR": "Ligado",
+      "en-US": "On",
+      "es-ES": "Encendido",
+      "status": "translated"
+    },
+    {
+      "key": "Limpar log",
+      "pt-BR": "Limpar log",
+      "en-US": "Clear log",
+      "es-ES": "Limpiar log",
+      "status": "translated"
+    },
+    {
+      "key": "Lisboa",
+      "pt-BR": "Lisboa",
+      "en-US": "Lisboa",
+      "es-ES": "Lisboa",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Live Session",
+      "pt-BR": "Live Session",
+      "en-US": "Live Session",
+      "es-ES": "Live Session",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Live com fãs",
+      "pt-BR": "Live com fãs",
+      "en-US": "Fan live stream",
+      "es-ES": "Directo con fans",
+      "status": "translated"
+    },
+    {
+      "key": "Load Game",
+      "pt-BR": "Load Game",
+      "en-US": "Load Game",
+      "es-ES": "Cargar partida",
+      "status": "translated"
+    },
+    {
+      "key": "Loading cinematográfico ON",
+      "pt-BR": "Loading cinematográfico ON",
+      "en-US": "Cinematic loading ON",
+      "es-ES": "Loading cinematográfico ON",
+      "status": "translated"
+    },
+    {
+      "key": "Lobby",
+      "pt-BR": "Lobby",
+      "en-US": "Lobby",
+      "es-ES": "Lobby",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Local",
+      "pt-BR": "Local",
+      "en-US": "Local",
+      "es-ES": "Local",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Localização",
+      "pt-BR": "Localização",
+      "en-US": "Localization",
+      "es-ES": "Localización",
+      "status": "translated"
+    },
+    {
+      "key": "Logística",
+      "pt-BR": "Logística",
+      "en-US": "Logistics",
+      "es-ES": "Logística",
+      "status": "translated"
+    },
+    {
+      "key": "Marketing",
+      "pt-BR": "Marketing",
+      "en-US": "Marketing",
+      "es-ES": "Marketing",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Masterização",
+      "pt-BR": "Masterização",
+      "en-US": "Mastering",
+      "es-ES": "Masterización",
+      "status": "translated"
+    },
+    {
+      "key": "Masters Disponíveis",
+      "pt-BR": "Masters Disponíveis",
+      "en-US": "Available masters",
+      "es-ES": "Masters disponibles",
+      "status": "translated"
+    },
+    {
+      "key": "Masters Finalizadas",
+      "pt-BR": "Masters Finalizadas",
+      "en-US": "Masters Finalizadas",
+      "es-ES": "Masters Finalizadas",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Menu",
+      "pt-BR": "Menu",
+      "en-US": "Menu",
+      "es-ES": "Menú",
+      "status": "translated"
+    },
+    {
+      "key": "Mercado Dinâmico",
+      "pt-BR": "Mercado Dinâmico",
+      "en-US": "Mercado Dinâmico",
+      "es-ES": "Mercado Dinâmico",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Mercado Global",
+      "pt-BR": "Mercado Global",
+      "en-US": "Global Market",
+      "es-ES": "Mercado global",
+      "status": "translated"
+    },
+    {
+      "key": "Mercado IA",
+      "pt-BR": "Mercado IA",
+      "en-US": "AI Market",
+      "es-ES": "Mercado IA",
+      "status": "translated"
+    },
+    {
+      "key": "Merch por fã",
+      "pt-BR": "Merch por fã",
+      "en-US": "Merch per fan",
+      "es-ES": "Merch por fan",
+      "status": "translated"
+    },
+    {
+      "key": "Metal",
+      "pt-BR": "Metal",
+      "en-US": "Metal",
+      "es-ES": "Metal",
+      "status": "translated"
+    },
+    {
+      "key": "Microinterações de botão ON",
+      "pt-BR": "Microinterações de botão ON",
+      "en-US": "Button microinteractions ON",
+      "es-ES": "Microinteracciones de botón ON",
+      "status": "translated"
+    },
+    {
+      "key": "Missões guiadas",
+      "pt-BR": "Missões guiadas",
+      "en-US": "Guided missions",
+      "es-ES": "Misiones guiadas",
+      "status": "translated"
+    },
+    {
+      "key": "Mixagem",
+      "pt-BR": "Mixagem",
+      "en-US": "Mix",
+      "es-ES": "Mezcla",
+      "status": "translated"
+    },
+    {
+      "key": "Mobile Landscape",
+      "pt-BR": "Mobile Landscape",
+      "en-US": "Mobile Landscape",
+      "es-ES": "Mobile Landscape",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Moderação Anti-quebra",
+      "pt-BR": "Moderação Anti-quebra",
+      "en-US": "Anti-break moderation",
+      "es-ES": "Moderación anti-rotura",
+      "status": "translated"
+    },
+    {
+      "key": "Modo inicial",
+      "pt-BR": "Modo inicial",
+      "en-US": "Starting mode",
+      "es-ES": "Modo inicial",
+      "status": "translated"
+    },
+    {
+      "key": "Modo mobile horizontal",
+      "pt-BR": "Modo mobile horizontal",
+      "en-US": "Mobile landscape mode",
+      "es-ES": "Modo móvil horizontal",
+      "status": "translated"
+    },
+    {
+      "key": "Modo móvil horizontal",
+      "pt-BR": "Modo móvil horizontal",
+      "en-US": "Modo móvil horizontal",
+      "es-ES": "Modo móvil horizontal",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Monta setlist, controla energía, resuelve fallas y termina el show.",
+      "pt-BR": "Monta setlist, controla energía, resuelve fallas y termina el show.",
+      "en-US": "Monta setlist, controla energía, resuelve fallas y termina el show.",
+      "es-ES": "Monta setlist, controla energía, resuelve fallas y termina el show.",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Monte a apresentação e prepare o palco.",
+      "pt-BR": "Monte a apresentação e prepare o palco.",
+      "en-US": "Monte a apresentação e prepare o palco.",
+      "es-ES": "Monte a apresentação e prepare o palco.",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Monte a estrutura da música e finalize o primeiro rascunho.",
+      "pt-BR": "Monte a estrutura da música e finalize o primeiro rascunho.",
+      "en-US": "Monte a estrutura da música e finalize o primeiro rascunho.",
+      "es-ES": "Monte a estrutura da música e finalize o primeiro rascunho.",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Monte a identidade da sua banda, ajuste a formação e acompanhe sinergia, ego, moral e evolução dos integrantes.",
+      "pt-BR": "Monte a identidade da sua banda, ajuste a formação e acompanhe sinergia, ego, moral e evolução dos integrantes.",
+      "en-US": "Monte a identidade da sua banda, ajuste a formação e acompanhe sinergia, ego, moral e evolução dos integrantes.",
+      "es-ES": "Monte a identidade da sua banda, ajuste a formação e acompanhe sinergia, ego, moral e evolução dos integrantes.",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Monte setlist, faça shows e reinvista o dinheiro.",
+      "pt-BR": "Monte setlist, faça shows e reinvista o dinheiro.",
+      "en-US": "Build a setlist, play shows and reinvest the money.",
+      "es-ES": "Monta el setlist, haz conciertos y reinvierte el dinero.",
+      "status": "translated"
+    },
+    {
+      "key": "Moral",
+      "pt-BR": "Moral",
+      "en-US": "Morale",
+      "es-ES": "Moral",
+      "status": "translated"
+    },
+    {
+      "key": "Música em criação",
+      "pt-BR": "Música em criação",
+      "en-US": "Song in progress",
+      "es-ES": "Canción en creación",
+      "status": "translated"
+    },
+    {
+      "key": "NA MÚSICA",
+      "pt-BR": "NA MÚSICA",
+      "en-US": "NA MÚSICA",
+      "es-ES": "NA MÚSICA",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Negociação",
+      "pt-BR": "Negociação",
+      "en-US": "Negotiation",
+      "es-ES": "Negociación",
+      "status": "translated"
+    },
+    {
+      "key": "New Game",
+      "pt-BR": "New Game",
+      "en-US": "New Game",
+      "es-ES": "Nueva partida",
+      "status": "translated"
+    },
+    {
+      "key": "New York",
+      "pt-BR": "New York",
+      "en-US": "New York",
+      "es-ES": "New York",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Nombre artístico",
+      "pt-BR": "Nombre artístico",
+      "en-US": "Nombre artístico",
+      "es-ES": "Nombre artístico",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Nome",
+      "pt-BR": "Nome",
+      "en-US": "Name",
+      "es-ES": "Nombre",
+      "status": "translated"
+    },
+    {
+      "key": "Nome artístico",
+      "pt-BR": "Nome artístico",
+      "en-US": "Stage name",
+      "es-ES": "Nombre artístico",
+      "status": "translated"
+    },
+    {
+      "key": "Nome da banda",
+      "pt-BR": "Nome da banda",
+      "en-US": "Band name",
+      "es-ES": "Nombre de la banda",
+      "status": "translated"
+    },
+    {
+      "key": "Normal",
+      "pt-BR": "Normal",
+      "en-US": "Normal",
+      "es-ES": "Normal",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Nova Música",
+      "pt-BR": "Nova Música",
+      "en-US": "Nova Música",
+      "es-ES": "Nova Música",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Novo evento",
+      "pt-BR": "Novo evento",
+      "en-US": "New event",
+      "es-ES": "Nuevo evento",
+      "status": "translated"
+    },
+    {
+      "key": "Não ativo",
+      "pt-BR": "Não ativo",
+      "en-US": "Não ativo",
+      "es-ES": "Não ativo",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Nível 1",
+      "pt-BR": "Nível 1",
+      "en-US": "Nível 1",
+      "es-ES": "Nível 1",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "O ciclo principal está ativo: gerenciar, produzir, promover, performar e evoluir.",
+      "pt-BR": "O ciclo principal está ativo: gerenciar, produzir, promover, performar e evoluir.",
+      "en-US": "O ciclo principal está ativo: gerenciar, produzir, promover, performar e evoluir.",
+      "es-ES": "O ciclo principal está ativo: gerenciar, produzir, promover, performar e evoluir.",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "O ciclo principal é simples: gerencie a equipe, componha músicas, grave no estúdio, lance singles, promova nas redes, faça shows e avance a semana para evoluir.",
+      "pt-BR": "O ciclo principal é simples: gerencie a equipe, componha músicas, grave no estúdio, lance singles, promova nas redes, faça shows e avance a semana para evoluir.",
+      "en-US": "The main loop is simple: manage the team, compose songs, record in the studio, release singles, promote on social media, play shows, and advance the week to evolve.",
+      "es-ES": "El ciclo principal es simple: gestiona el equipo, compón canciones, graba en el estudio, lanza singles, promociona en redes, haz conciertos y avanza la semana para evolucionar.",
+      "status": "translated"
+    },
+    {
+      "key": "O guitarrista quer mais destaque nos solos e ameaça expor a tensão nas redes.",
+      "pt-BR": "O guitarrista quer mais destaque nos solos e ameaça expor a tensão nas redes.",
+      "en-US": "O guitarrista quer mais destaque nos solos e ameaça expor a tensão nas redes.",
+      "es-ES": "O guitarrista quer mais destaque nos solos e ameaça expor a tensão nas redes.",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "O jogador recebe uma sequência de missões simples para entender carreira, composição, estúdio, lançamento, social e show.",
+      "pt-BR": "O jogador recebe uma sequência de missões simples para entender carreira, composição, estúdio, lançamento, social e show.",
+      "en-US": "The player receives a sequence of simple missions to understand career, composition, studio, release, social, and show systems.",
+      "es-ES": "El jugador recibe una secuencia de misiones simples para entender carrera, composición, estudio, lanzamiento, social y concierto.",
+      "status": "translated"
+    },
+    {
+      "key": "O público está respondendo bem a bandas com visual dark premium e shows imersivos.",
+      "pt-BR": "O público está respondendo bem a bandas com visual dark premium e shows imersivos.",
+      "en-US": "O público está respondendo bem a bandas com visual dark premium e shows imersivos.",
+      "es-ES": "O público está respondendo bem a bandas com visual dark premium e shows imersivos.",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "O público precisa de mais energia ou interação antes do bis.",
+      "pt-BR": "O público precisa de mais energia ou interação antes do bis.",
+      "en-US": "O público precisa de mais energia ou interação antes do bis.",
+      "es-ES": "O público precisa de mais energia ou interação antes do bis.",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Onboarding",
+      "pt-BR": "Onboarding",
+      "en-US": "Onboarding",
+      "es-ES": "Onboarding",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Onboarding Internacional",
+      "pt-BR": "Onboarding Internacional",
+      "en-US": "International Onboarding",
+      "es-ES": "Onboarding internacional",
+      "status": "translated"
+    },
+    {
+      "key": "Opening Act",
+      "pt-BR": "Opening Act",
+      "en-US": "Opening Act",
+      "es-ES": "Opening Act",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Operação saudável: a banda pode investir em produção, shows e marketing.",
+      "pt-BR": "Operação saudável: a banda pode investir em produção, shows e marketing.",
+      "en-US": "Operação saudável: a banda pode investir em produção, shows e marketing.",
+      "es-ES": "Operação saudável: a banda pode investir em produção, shows e marketing.",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Oportunidade",
+      "pt-BR": "Oportunidade",
+      "en-US": "Opportunity",
+      "es-ES": "Oportunidad",
+      "status": "translated"
+    },
+    {
+      "key": "Originalidade",
+      "pt-BR": "Originalidade",
+      "en-US": "Originality",
+      "es-ES": "Originalidad",
+      "status": "translated"
+    },
+    {
+      "key": "Orçamento extra",
+      "pt-BR": "Orçamento extra",
+      "en-US": "Extra budget",
+      "es-ES": "Presupuesto extra",
+      "status": "translated"
+    },
+    {
+      "key": "Os assets oficiais devem substituir os provisórios mantendo o mesmo caminho ou usando o nome final indicado no documento.",
+      "pt-BR": "Os assets oficiais devem substituir os provisórios mantendo o mesmo caminho ou usando o nome final indicado no documento.",
+      "en-US": "Os assets oficiais devem substituir os provisórios mantendo o mesmo caminho ou usando o nome final indicado no documento.",
+      "es-ES": "Os assets oficiais devem substituir os provisórios mantendo o mesmo caminho ou usando o nome final indicado no documento.",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Overall",
+      "pt-BR": "Overall",
+      "en-US": "Overall",
+      "es-ES": "Overall",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "PR / Imprensa",
+      "pt-BR": "PR / Imprensa",
+      "en-US": "PR / Press",
+      "es-ES": "PR / Prensa",
+      "status": "translated"
+    },
+    {
+      "key": "PT-BR",
+      "pt-BR": "PT-BR",
+      "en-US": "PT-BR",
+      "es-ES": "PT-BR",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "PT-BR / EN / ES",
+      "pt-BR": "PT-BR / EN / ES",
+      "en-US": "PT-BR / EN / ES",
+      "es-ES": "PT-BR / EN / ES",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Pacote VIP backstage",
+      "pt-BR": "Pacote VIP backstage",
+      "en-US": "Backstage VIP package",
+      "es-ES": "Paquete VIP backstage",
+      "status": "translated"
+    },
+    {
+      "key": "Padrão",
+      "pt-BR": "Padrão",
+      "en-US": "Standard",
+      "es-ES": "Estándar",
+      "status": "translated"
+    },
+    {
+      "key": "Partes",
+      "pt-BR": "Partes",
+      "en-US": "Parts",
+      "es-ES": "Partes",
+      "status": "translated"
+    },
+    {
+      "key": "Patrocinadores",
+      "pt-BR": "Patrocinadores",
+      "en-US": "Sponsors",
+      "es-ES": "Patrocinadores",
+      "status": "translated"
+    },
+    {
+      "key": "Patrocínio",
+      "pt-BR": "Patrocínio",
+      "en-US": "Patrocínio",
+      "es-ES": "Patrocínio",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "País",
+      "pt-BR": "País",
+      "en-US": "Country",
+      "es-ES": "País",
+      "status": "translated"
+    },
+    {
+      "key": "Perfil",
+      "pt-BR": "Perfil",
+      "en-US": "Profile",
+      "es-ES": "Perfil",
+      "status": "translated"
+    },
+    {
+      "key": "Perfil e Carreira",
+      "pt-BR": "Perfil e Carreira",
+      "en-US": "Profile and Career",
+      "es-ES": "Perfil y carrera",
+      "status": "translated"
+    },
+    {
+      "key": "Performance",
+      "pt-BR": "Performance",
+      "en-US": "Performance",
+      "es-ES": "Performance",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Pipeline Composição",
+      "pt-BR": "Pipeline Composição",
+      "en-US": "Pipeline Composição",
+      "es-ES": "Pipeline Composição",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Pipeline Estúdio",
+      "pt-BR": "Pipeline Estúdio",
+      "en-US": "Studio Pipeline",
+      "es-ES": "Pipeline de estudio",
+      "status": "translated"
+    },
+    {
+      "key": "Pipeline Lançamento",
+      "pt-BR": "Pipeline Lançamento",
+      "en-US": "Pipeline Lançamento",
+      "es-ES": "Pipeline Lançamento",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Plano de Turnê",
+      "pt-BR": "Plano de Turnê",
+      "en-US": "Tour Plan",
+      "es-ES": "Plan de gira",
+      "status": "translated"
+    },
+    {
+      "key": "Plataforma foco",
+      "pt-BR": "Plataforma foco",
+      "en-US": "Focus platform",
+      "es-ES": "Plataforma foco",
+      "status": "translated"
+    },
+    {
+      "key": "Polido internacional",
+      "pt-BR": "Polido internacional",
+      "en-US": "International polish",
+      "es-ES": "Pulido internacional",
+      "status": "translated"
+    },
+    {
+      "key": "Polimento aplicado",
+      "pt-BR": "Polimento aplicado",
+      "en-US": "Polish applied",
+      "es-ES": "Pulido aplicado",
+      "status": "translated"
+    },
+    {
+      "key": "Polir composição",
+      "pt-BR": "Polir composição",
+      "en-US": "Polish composition",
+      "es-ES": "Pulir composición",
+      "status": "translated"
+    },
+    {
+      "key": "Português do Brasil",
+      "pt-BR": "Português do Brasil",
+      "en-US": "Português do Brasil",
+      "es-ES": "Português do Brasil",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Post de bastidor",
+      "pt-BR": "Post de bastidor",
+      "en-US": "Backstage post",
+      "es-ES": "Post de backstage",
+      "status": "translated"
+    },
+    {
+      "key": "Premiação",
+      "pt-BR": "Premiação",
+      "en-US": "Premiação",
+      "es-ES": "Premiação",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Premium",
+      "pt-BR": "Premium",
+      "en-US": "Premium",
+      "es-ES": "Premium",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Premium de fã-base",
+      "pt-BR": "Premium de fã-base",
+      "en-US": "Fanbase premium",
+      "es-ES": "Premium de fanbase",
+      "status": "translated"
+    },
+    {
+      "key": "Preparación",
+      "pt-BR": "Preparación",
+      "en-US": "Preparación",
+      "es-ES": "Preparación",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Preparar Show",
+      "pt-BR": "Preparar Show",
+      "en-US": "Prepare Show",
+      "es-ES": "Preparar concierto",
+      "status": "translated"
+    },
+    {
+      "key": "Prepare campanha, janela comercial, plataforma foco e preço.",
+      "pt-BR": "Prepare campanha, janela comercial, plataforma foco e preço.",
+      "en-US": "Prepare campanha, janela comercial, plataforma foco e preço.",
+      "es-ES": "Prepare campanha, janela comercial, plataforma foco e preço.",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Prepare setlist, produção e interação com o público.",
+      "pt-BR": "Prepare setlist, produção e interação com o público.",
+      "en-US": "Prepare setlist, produção e interação com o público.",
+      "es-ES": "Prepare setlist, produção e interação com o público.",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Pressão do patrocinador",
+      "pt-BR": "Pressão do patrocinador",
+      "en-US": "Pressão do patrocinador",
+      "es-ES": "Pressão do patrocinador",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Pressão dos rivais 0",
+      "pt-BR": "Pressão dos rivais 0",
+      "en-US": "Rival pressure 0",
+      "es-ES": "Presión de rivales 0",
+      "status": "translated"
+    },
+    {
+      "key": "Prestígio crítico",
+      "pt-BR": "Prestígio crítico",
+      "en-US": "Critical prestige",
+      "es-ES": "Prestigio crítico",
+      "status": "translated"
+    },
+    {
+      "key": "Previsão Comercial",
+      "pt-BR": "Previsão Comercial",
+      "en-US": "Commercial forecast",
+      "es-ES": "Previsión comercial",
+      "status": "translated"
+    },
+    {
+      "key": "Previsão da IA",
+      "pt-BR": "Previsão da IA",
+      "en-US": "AI forecast",
+      "es-ES": "Previsión de IA",
+      "status": "translated"
+    },
+    {
+      "key": "Preço / Estratégia",
+      "pt-BR": "Preço / Estratégia",
+      "en-US": "Price / Strategy",
+      "es-ES": "Precio / Estrategia",
+      "status": "translated"
+    },
+    {
+      "key": "Preço do ingresso",
+      "pt-BR": "Preço do ingresso",
+      "en-US": "Ticket price",
+      "es-ES": "Precio de entrada",
+      "status": "translated"
+    },
+    {
+      "key": "Primeira hora de jogo",
+      "pt-BR": "Primeira hora de jogo",
+      "en-US": "First hour of play",
+      "es-ES": "Primera hora de juego",
+      "status": "translated"
+    },
+    {
+      "key": "Primeiros passos",
+      "pt-BR": "Primeiros passos",
+      "en-US": "First steps",
+      "es-ES": "Primeros pasos",
+      "status": "translated"
+    },
+    {
+      "key": "Produtor",
+      "pt-BR": "Produtor",
+      "en-US": "Producer",
+      "es-ES": "Productor",
+      "status": "translated"
+    },
+    {
+      "key": "Produtor Metal Arena",
+      "pt-BR": "Produtor Metal Arena",
+      "en-US": "Metal Arena Producer",
+      "es-ES": "Productor Metal Arena",
+      "status": "translated"
+    },
+    {
+      "key": "Produtor Radio Hit",
+      "pt-BR": "Produtor Radio Hit",
+      "en-US": "Radio Hit Producer",
+      "es-ES": "Productor Radio Hit",
+      "status": "translated"
+    },
+    {
+      "key": "Produtor Vintage Rock",
+      "pt-BR": "Produtor Vintage Rock",
+      "en-US": "Vintage Rock Producer",
+      "es-ES": "Productor Vintage Rock",
+      "status": "translated"
+    },
+    {
+      "key": "Produza suas músicas",
+      "pt-BR": "Produza suas músicas",
+      "en-US": "Produza suas músicas",
+      "es-ES": "Produza suas músicas",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Produção",
+      "pt-BR": "Produção",
+      "en-US": "Production",
+      "es-ES": "Producción",
+      "status": "translated"
+    },
+    {
+      "key": "Produção / Luz / Palco",
+      "pt-BR": "Produção / Luz / Palco",
+      "en-US": "Production / Lights / Stage",
+      "es-ES": "Producción / Luces / Escenario",
+      "status": "translated"
+    },
+    {
+      "key": "Produção Ativa",
+      "pt-BR": "Produção Ativa",
+      "en-US": "Produção Ativa",
+      "es-ES": "Produção Ativa",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Produção arriscada: faltam orçamento, staff ou estúdio melhor. O anti-quebra vai impedir travamento, mas a carreira pode sofrer.",
+      "pt-BR": "Produção arriscada: faltam orçamento, staff ou estúdio melhor. O anti-quebra vai impedir travamento, mas a carreira pode sofrer.",
+      "en-US": "Produção arriscada: faltam orçamento, staff ou estúdio melhor. O anti-quebra vai impedir travamento, mas a carreira pode sofrer.",
+      "es-ES": "Produção arriscada: faltam orçamento, staff ou estúdio melhor. O anti-quebra vai impedir travamento, mas a carreira pode sofrer.",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Produção cara, som internacional e grande potencial para álbum ou single mundial.",
+      "pt-BR": "Produção cara, som internacional e grande potencial para álbum ou single mundial.",
+      "en-US": "Produção cara, som internacional e grande potencial para álbum ou single mundial.",
+      "es-ES": "Produção cara, som internacional e grande potencial para álbum ou single mundial.",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Produção detectou risco de falha em luz, PA ou troca de instrumentos. Use Corrigir falha se necessário.",
+      "pt-BR": "Produção detectou risco de falha em luz, PA ou troca de instrumentos. Use Corrigir falha se necessário.",
+      "en-US": "Produção detectou risco de falha em luz, PA ou troca de instrumentos. Use Corrigir falha se necessário.",
+      "es-ES": "Produção detectou risco de falha em luz, PA ou troca de instrumentos. Use Corrigir falha se necessário.",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Produção do Show",
+      "pt-BR": "Produção do Show",
+      "en-US": "Produção do Show",
+      "es-ES": "Produção do Show",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Produção própria",
+      "pt-BR": "Produção própria",
+      "en-US": "Self production",
+      "es-ES": "Producción propia",
+      "status": "translated"
+    },
+    {
+      "key": "Profissional",
+      "pt-BR": "Profissional",
+      "en-US": "Profissional",
+      "es-ES": "Profissional",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Progressive",
+      "pt-BR": "Progressive",
+      "en-US": "Progressive",
+      "es-ES": "Progressive",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Progresso",
+      "pt-BR": "Progresso",
+      "en-US": "Progress",
+      "es-ES": "Progreso",
+      "status": "translated"
+    },
+    {
+      "key": "Projeto em produção. Ajuste takes, mix, master e sala para equilibrar custo, qualidade e autenticidade.",
+      "pt-BR": "Projeto em produção. Ajuste takes, mix, master e sala para equilibrar custo, qualidade e autenticidade.",
+      "en-US": "Projeto em produção. Ajuste takes, mix, master e sala para equilibrar custo, qualidade e autenticidade.",
+      "es-ES": "Projeto em produção. Ajuste takes, mix, master e sala para equilibrar custo, qualidade e autenticidade.",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Projetos",
+      "pt-BR": "Projetos",
+      "en-US": "Projects",
+      "es-ES": "Proyectos",
+      "status": "translated"
+    },
+    {
+      "key": "Prontidão",
+      "pt-BR": "Prontidão",
+      "en-US": "Readiness",
+      "es-ES": "Preparación",
+      "status": "translated"
+    },
+    {
+      "key": "Prontidão 0%",
+      "pt-BR": "Prontidão 0%",
+      "en-US": "Prontidão 0%",
+      "es-ES": "Prontidão 0%",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Prontidão Global",
+      "pt-BR": "Prontidão Global",
+      "en-US": "Global readiness",
+      "es-ES": "Preparación global",
+      "status": "translated"
+    },
+    {
+      "key": "Provisória",
+      "pt-BR": "Provisória",
+      "en-US": "Provisória",
+      "es-ES": "Provisória",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Pré-Refrão",
+      "pt-BR": "Pré-Refrão",
+      "en-US": "Pré-Refrão",
+      "es-ES": "Pré-Refrão",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Prêmios Progressivos",
+      "pt-BR": "Prêmios Progressivos",
+      "en-US": "Prêmios Progressivos",
+      "es-ES": "Prêmios Progressivos",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Próxima acción recomendada",
+      "pt-BR": "Próxima acción recomendada",
+      "en-US": "Próxima acción recomendada",
+      "es-ES": "Próxima acción recomendada",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Próxima ação recomendada",
+      "pt-BR": "Próxima ação recomendada",
+      "en-US": "Recommended next action",
+      "es-ES": "Próxima acción recomendada",
+      "status": "translated"
+    },
+    {
+      "key": "Próxima fase Estúdio",
+      "pt-BR": "Próxima fase Estúdio",
+      "en-US": "Next phase Studio",
+      "es-ES": "Próxima fase Estudio",
+      "status": "translated"
+    },
+    {
+      "key": "Próxima fase Lançamento",
+      "pt-BR": "Próxima fase Lançamento",
+      "en-US": "Next phase Release",
+      "es-ES": "Próxima fase Lanzamiento",
+      "status": "translated"
+    },
+    {
+      "key": "Próxima fase Shows",
+      "pt-BR": "Próxima fase Shows",
+      "en-US": "Next phase Shows",
+      "es-ES": "Próxima fase Conciertos",
+      "status": "translated"
+    },
+    {
+      "key": "Próxima fase: Lançamento",
+      "pt-BR": "Próxima fase: Lançamento",
+      "en-US": "Next phase: Release",
+      "es-ES": "Próxima fase: Lanzamiento",
+      "status": "translated"
+    },
+    {
+      "key": "Próximas pendências comerciais",
+      "pt-BR": "Próximas pendências comerciais",
+      "en-US": "Next commercial pending items",
+      "es-ES": "Próximas pendientes comerciales",
+      "status": "translated"
+    },
+    {
+      "key": "Próximo Evento",
+      "pt-BR": "Próximo Evento",
+      "en-US": "Next Event",
+      "es-ES": "Próximo evento",
+      "status": "translated"
+    },
+    {
+      "key": "Publicar",
+      "pt-BR": "Publicar",
+      "en-US": "Publish",
+      "es-ES": "Publicar",
+      "status": "translated"
+    },
+    {
+      "key": "Publicar ação",
+      "pt-BR": "Publicar ação",
+      "en-US": "Publish action",
+      "es-ES": "Publicar acción",
+      "status": "translated"
+    },
+    {
+      "key": "Publique a master com campanha de marketing para gerar fãs e hype.",
+      "pt-BR": "Publique a master com campanha de marketing para gerar fãs e hype.",
+      "en-US": "Publique a master com campanha de marketing para gerar fãs e hype.",
+      "es-ES": "Publique a master com campanha de marketing para gerar fãs e hype.",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Punk",
+      "pt-BR": "Punk",
+      "en-US": "Punk",
+      "es-ES": "Punk",
+      "status": "translated"
+    },
+    {
+      "key": "Público",
+      "pt-BR": "Público",
+      "en-US": "Audience",
+      "es-ES": "Público",
+      "status": "translated"
+    },
+    {
+      "key": "QA",
+      "pt-BR": "QA",
+      "en-US": "QA",
+      "es-ES": "QA",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "QA Comercial",
+      "pt-BR": "QA Comercial",
+      "en-US": "Commercial QA",
+      "es-ES": "QA Comercial",
+      "status": "translated"
+    },
+    {
+      "key": "QA Comercial / Anti-Quebra",
+      "pt-BR": "QA Comercial / Anti-Quebra",
+      "en-US": "Commercial QA / Anti-Break",
+      "es-ES": "QA Comercial / Anti-rotura",
+      "status": "translated"
+    },
+    {
+      "key": "QA Score",
+      "pt-BR": "QA Score",
+      "en-US": "QA Score",
+      "es-ES": "Puntuación QA",
+      "status": "translated"
+    },
+    {
+      "key": "Qualidade",
+      "pt-BR": "Qualidade",
+      "en-US": "Qualidade",
+      "es-ES": "Qualidade",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Qualidade Final",
+      "pt-BR": "Qualidade Final",
+      "en-US": "Final Quality",
+      "es-ES": "Calidad final",
+      "status": "translated"
+    },
+    {
+      "key": "Quarteto",
+      "pt-BR": "Quarteto",
+      "en-US": "Quartet",
+      "es-ES": "Cuarteto",
+      "status": "translated"
+    },
+    {
+      "key": "RC",
+      "pt-BR": "RC",
+      "en-US": "RC",
+      "es-ES": "RC",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "RC Score",
+      "pt-BR": "RC Score",
+      "en-US": "RC Score",
+      "es-ES": "Puntuación RC",
+      "status": "translated"
+    },
+    {
+      "key": "Radio Network",
+      "pt-BR": "Radio Network",
+      "en-US": "Radio Network",
+      "es-ES": "Radio Network",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Ranking",
+      "pt-BR": "Ranking",
+      "en-US": "Ranking",
+      "es-ES": "Ranking",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Realista",
+      "pt-BR": "Realista",
+      "en-US": "Realistic",
+      "es-ES": "Realista",
+      "status": "translated"
+    },
+    {
+      "key": "Rebelde",
+      "pt-BR": "Rebelde",
+      "en-US": "Rebel",
+      "es-ES": "Rebelde",
+      "status": "translated"
+    },
+    {
+      "key": "Receita bruta prevista",
+      "pt-BR": "Receita bruta prevista",
+      "en-US": "Projected gross revenue",
+      "es-ES": "Ingresos brutos previstos",
+      "status": "translated"
+    },
+    {
+      "key": "Receita mensal",
+      "pt-BR": "Receita mensal",
+      "en-US": "Monthly revenue",
+      "es-ES": "Ingresos mensuales",
+      "status": "translated"
+    },
+    {
+      "key": "Receita prevista",
+      "pt-BR": "Receita prevista",
+      "en-US": "Projected revenue",
+      "es-ES": "Ingresos previstos",
+      "status": "translated"
+    },
+    {
+      "key": "Recompensa possível",
+      "pt-BR": "Recompensa possível",
+      "en-US": "Recompensa possível",
+      "es-ES": "Recompensa possível",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Recompensas iniciais",
+      "pt-BR": "Recompensas iniciais",
+      "en-US": "Initial rewards",
+      "es-ES": "Recompensas iniciales",
+      "status": "translated"
+    },
+    {
+      "key": "Reduz falhas de logística, fadiga e risco em viagens.",
+      "pt-BR": "Reduz falhas de logística, fadiga e risco em viagens.",
+      "en-US": "Reduz falhas de logística, fadiga e risco em viagens.",
+      "es-ES": "Reduz falhas de logística, fadiga e risco em viagens.",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Refrão Arena Fire",
+      "pt-BR": "Refrão Arena Fire",
+      "en-US": "Refrão Arena Fire",
+      "es-ES": "Refrão Arena Fire",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Região-alvo",
+      "pt-BR": "Região-alvo",
+      "en-US": "Target region",
+      "es-ES": "Región objetivo",
+      "status": "translated"
+    },
+    {
+      "key": "Reino Unido",
+      "pt-BR": "Reino Unido",
+      "en-US": "United Kingdom",
+      "es-ES": "Reino Unido",
+      "status": "translated"
+    },
+    {
+      "key": "Release Candidate",
+      "pt-BR": "Release Candidate",
+      "en-US": "Release Candidate",
+      "es-ES": "Release Candidate",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Release Candidate AAA",
+      "pt-BR": "Release Candidate AAA",
+      "en-US": "AAA Release Candidate",
+      "es-ES": "Release Candidate AAA",
+      "status": "translated"
+    },
+    {
+      "key": "Reputación local",
+      "pt-BR": "Reputación local",
+      "en-US": "Reputación local",
+      "es-ES": "Reputación local",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Reputación:",
+      "pt-BR": "Reputación:",
+      "en-US": "Reputación:",
+      "es-ES": "Reputación:",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Reputação Local",
+      "pt-BR": "Reputação Local",
+      "en-US": "Local Reputation",
+      "es-ES": "Reputación local",
+      "status": "translated"
+    },
+    {
+      "key": "Reputação:",
+      "pt-BR": "Reputação:",
+      "en-US": "Reputation:",
+      "es-ES": "Reputación:",
+      "status": "translated"
+    },
+    {
+      "key": "Reputação: Lendária",
+      "pt-BR": "Reputação: Lendária",
+      "en-US": "Reputação: Lendária",
+      "es-ES": "Reputação: Lendária",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Resetar save local",
+      "pt-BR": "Resetar save local",
+      "en-US": "Reset local save",
+      "es-ES": "Reiniciar guardado local",
+      "status": "translated"
+    },
+    {
+      "key": "Resetar tutorial",
+      "pt-BR": "Resetar tutorial",
+      "en-US": "Reset tutorial",
+      "es-ES": "Reiniciar tutorial",
+      "status": "translated"
+    },
+    {
+      "key": "Resgatar recompensa",
+      "pt-BR": "Resgatar recompensa",
+      "en-US": "Claim reward",
+      "es-ES": "Canjear recompensa",
+      "status": "translated"
+    },
+    {
+      "key": "Resolver evento",
+      "pt-BR": "Resolver evento",
+      "en-US": "Resolve event",
+      "es-ES": "Resolver evento",
+      "status": "translated"
+    },
+    {
+      "key": "Resultado da Produção",
+      "pt-BR": "Resultado da Produção",
+      "en-US": "Resultado da Produção",
+      "es-ES": "Resultado da Produção",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Resultado previsto",
+      "pt-BR": "Resultado previsto",
+      "en-US": "Projected result",
+      "es-ES": "Resultado previsto",
+      "status": "translated"
+    },
+    {
+      "key": "Resultado técnico",
+      "pt-BR": "Resultado técnico",
+      "en-US": "Resultado técnico",
+      "es-ES": "Resultado técnico",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Resumo do Manifesto",
+      "pt-BR": "Resumo do Manifesto",
+      "en-US": "Resumo do Manifesto",
+      "es-ES": "Resumo do Manifesto",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Reviews / Social",
+      "pt-BR": "Reviews / Social",
+      "en-US": "Reviews / Social",
+      "es-ES": "Reviews / Social",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Revisão humana PT/EN/ES Pendente",
+      "pt-BR": "Revisão humana PT/EN/ES Pendente",
+      "en-US": "Human PT/EN/ES review Pending",
+      "es-ES": "Revisión humana PT/EN/ES pendiente",
+      "status": "translated"
+    },
+    {
+      "key": "Riff • Verso • Refrão • Solo • Refrão Duplo",
+      "pt-BR": "Riff • Verso • Refrão • Solo • Refrão Duplo",
+      "en-US": "Riff • Verso • Refrão • Solo • Refrão Duplo",
+      "es-ES": "Riff • Verso • Refrão • Solo • Refrão Duplo",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Rio de Janeiro",
+      "pt-BR": "Rio de Janeiro",
+      "en-US": "Rio de Janeiro",
+      "es-ES": "Rio de Janeiro",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Risco",
+      "pt-BR": "Risco",
+      "en-US": "Risco",
+      "es-ES": "Risco",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Risco de backlash",
+      "pt-BR": "Risco de backlash",
+      "en-US": "Risco de backlash",
+      "es-ES": "Risco de backlash",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Risco de conflito Baixo",
+      "pt-BR": "Risco de conflito Baixo",
+      "en-US": "Risco de conflito Baixo",
+      "es-ES": "Risco de conflito Baixo",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Risco de mercado 0",
+      "pt-BR": "Risco de mercado 0",
+      "en-US": "Market risk 0",
+      "es-ES": "Riesgo de mercado 0",
+      "status": "translated"
+    },
+    {
+      "key": "Risco logístico",
+      "pt-BR": "Risco logístico",
+      "en-US": "Logistics risk",
+      "es-ES": "Riesgo logístico",
+      "status": "translated"
+    },
+    {
+      "key": "Risco público",
+      "pt-BR": "Risco público",
+      "en-US": "Risco público",
+      "es-ES": "Risco público",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Risco técnico / Cena",
+      "pt-BR": "Risco técnico / Cena",
+      "en-US": "Technical risk / Scene",
+      "es-ES": "Riesgo técnico / Escena",
+      "status": "translated"
+    },
+    {
+      "key": "Rise. Perform. Become a Legend.",
+      "pt-BR": "Rise. Perform. Become a Legend.",
+      "en-US": "Rise. Perform. Become a Legend.",
+      "es-ES": "Rise. Perform. Become a Legend.",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "River Crow",
+      "pt-BR": "River Crow",
+      "en-US": "River Crow",
+      "es-ES": "River Crow",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Rock",
+      "pt-BR": "Rock",
+      "en-US": "Rock",
+      "es-ES": "Rock",
+      "status": "translated"
+    },
+    {
+      "key": "Rock Alternativo",
+      "pt-BR": "Rock Alternativo",
+      "en-US": "Alternative Rock",
+      "es-ES": "Rock alternativo",
+      "status": "translated"
+    },
+    {
+      "key": "Rock Alternativo • Brasil • São Paulo/SP",
+      "pt-BR": "Rock Alternativo • Brasil • São Paulo/SP",
+      "en-US": "Rock Alternativo • Brasil • São Paulo/SP",
+      "es-ES": "Rock Alternativo • Brasil • São Paulo/SP",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Rock Nation Festival: proposta recebida",
+      "pt-BR": "Rock Nation Festival: proposta recebida",
+      "en-US": "Rock Nation Festival: proposta recebida",
+      "es-ES": "Rock Nation Festival: proposta recebida",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "RockWave",
+      "pt-BR": "RockWave",
+      "en-US": "RockWave",
+      "es-ES": "RockWave",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Rodar QA agora",
+      "pt-BR": "Rodar QA agora",
+      "en-US": "Run QA now",
+      "es-ES": "Ejecutar QA ahora",
+      "status": "translated"
+    },
+    {
+      "key": "Rodar scan de assets",
+      "pt-BR": "Rodar scan de assets",
+      "en-US": "Rodar scan de assets",
+      "es-ES": "Rodar scan de assets",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Rotas Disponíveis",
+      "pt-BR": "Rotas Disponíveis",
+      "en-US": "Available routes",
+      "es-ES": "Rutas disponibles",
+      "status": "translated"
+    },
+    {
+      "key": "Rotas Modulares",
+      "pt-BR": "Rotas Modulares",
+      "en-US": "Modular routes",
+      "es-ES": "Rutas modulares",
+      "status": "translated"
+    },
+    {
+      "key": "Rotas seguras, recuperação de save, verificação de assets, fallback de tela e log local.",
+      "pt-BR": "Rotas seguras, recuperação de save, verificação de assets, fallback de tela e log local.",
+      "en-US": "Rotas seguras, recuperação de save, verificação de assets, fallback de tela e log local.",
+      "es-ES": "Rotas seguras, recuperação de save, verificação de assets, fallback de tela e log local.",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Rotas, logística e fãs globais",
+      "pt-BR": "Rotas, logística e fãs globais",
+      "en-US": "Rotas, logística e fãs globais",
+      "es-ES": "Rotas, logística e fãs globais",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Roteiro comercial da primeira hora",
+      "pt-BR": "Roteiro comercial da primeira hora",
+      "en-US": "Commercial first-hour script",
+      "es-ES": "Guion comercial de la primera hora",
+      "status": "translated"
+    },
+    {
+      "key": "Royalties Dinâmicos",
+      "pt-BR": "Royalties Dinâmicos",
+      "en-US": "Dynamic royalties",
+      "es-ES": "Royalties dinámicos",
+      "status": "translated"
+    },
+    {
+      "key": "Runway",
+      "pt-BR": "Runway",
+      "en-US": "Runway",
+      "es-ES": "Runway",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Rutas seguras, recuperación de guardado, verificación de assets, fallback de pantalla y registro local.",
+      "pt-BR": "Rutas seguras, recuperación de guardado, verificación de assets, fallback de pantalla y registro local.",
+      "en-US": "Rutas seguras, recuperación de guardado, verificación de assets, fallback de pantalla y registro local.",
+      "es-ES": "Rutas seguras, recuperación de guardado, verificación de assets, fallback de pantalla y registro local.",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Rutas, logística y fans globales",
+      "pt-BR": "Rutas, logística y fans globales",
+      "en-US": "Rutas, logística y fans globales",
+      "es-ES": "Rutas, logística y fans globales",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Rádio/Streaming",
+      "pt-BR": "Rádio/Streaming",
+      "en-US": "Radio/Streaming",
+      "es-ES": "Radio/Streaming",
+      "status": "translated"
+    },
+    {
+      "key": "Saldo previsto",
+      "pt-BR": "Saldo previsto",
+      "en-US": "Projected balance",
+      "es-ES": "Saldo previsto",
+      "status": "translated"
+    },
+    {
+      "key": "Salvar Agora",
+      "pt-BR": "Salvar Agora",
+      "en-US": "Save Now",
+      "es-ES": "Guardar ahora",
+      "status": "translated"
+    },
+    {
+      "key": "Salvar Banda",
+      "pt-BR": "Salvar Banda",
+      "en-US": "Salvar Banda",
+      "es-ES": "Salvar Banda",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Salvar Integrante",
+      "pt-BR": "Salvar Integrante",
+      "en-US": "Salvar Integrante",
+      "es-ES": "Salvar Integrante",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Salvar Perfil",
+      "pt-BR": "Salvar Perfil",
+      "en-US": "Save Profile",
+      "es-ES": "Guardar perfil",
+      "status": "translated"
+    },
+    {
+      "key": "Salvar e voltar",
+      "pt-BR": "Salvar e voltar",
+      "en-US": "Salvar e voltar",
+      "es-ES": "Salvar e voltar",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Save System",
+      "pt-BR": "Save System",
+      "en-US": "Save System",
+      "es-ES": "Save System",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Saúde Comercial",
+      "pt-BR": "Saúde Comercial",
+      "en-US": "Commercial health",
+      "es-ES": "Salud comercial",
+      "status": "translated"
+    },
+    {
+      "key": "Scouting",
+      "pt-BR": "Scouting",
+      "en-US": "Scouting",
+      "es-ES": "Scouting",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Selecciona sala, productor, dirección sonora y termina una master.",
+      "pt-BR": "Selecciona sala, productor, dirección sonora y termina una master.",
+      "en-US": "Selecciona sala, productor, dirección sonora y termina una master.",
+      "es-ES": "Selecciona sala, productor, dirección sonora y termina una master.",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Selecione sala, produtor, direção sonora e finalize uma master.",
+      "pt-BR": "Selecione sala, produtor, direção sonora e finalize uma master.",
+      "en-US": "Selecione sala, produtor, direção sonora e finalize uma master.",
+      "es-ES": "Selecione sala, produtor, direção sonora e finalize uma master.",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Selecione uma master finalizada e prepare o lançamento comercial.",
+      "pt-BR": "Selecione uma master finalizada e prepare o lançamento comercial.",
+      "en-US": "Selecione uma master finalizada e prepare o lançamento comercial.",
+      "es-ES": "Selecione uma master finalizada e prepare o lançamento comercial.",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Sem staff contratado. A banda economiza dinheiro, mas perde velocidade comercial.",
+      "pt-BR": "Sem staff contratado. A banda economiza dinheiro, mas perde velocidade comercial.",
+      "en-US": "No staff hired. The band saves money but loses commercial speed.",
+      "es-ES": "Sin staff contratado. La banda ahorra dinero, pero pierde velocidad comercial.",
+      "status": "translated"
+    },
+    {
+      "key": "Semana 1",
+      "pt-BR": "Semana 1",
+      "en-US": "Semana 1",
+      "es-ES": "Semana 1",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Semana de festival",
+      "pt-BR": "Semana de festival",
+      "en-US": "Festival week",
+      "es-ES": "Semana de festival",
+      "status": "translated"
+    },
+    {
+      "key": "Semana vazia",
+      "pt-BR": "Semana vazia",
+      "en-US": "Semana vazia",
+      "es-ES": "Semana vazia",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Setlist",
+      "pt-BR": "Setlist",
+      "en-US": "Setlist",
+      "es-ES": "Setlist",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Settings",
+      "pt-BR": "Settings",
+      "en-US": "Settings",
+      "es-ES": "Ajustes",
+      "status": "translated"
+    },
+    {
+      "key": "Sexta comum",
+      "pt-BR": "Sexta comum",
+      "en-US": "Sexta comum",
+      "es-ES": "Sexta comum",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Show ao Vivo",
+      "pt-BR": "Show ao Vivo",
+      "en-US": "Live Show",
+      "es-ES": "Concierto en vivo",
+      "status": "translated"
+    },
+    {
+      "key": "Show ao vivo, setlist, público, merch e avanço de semana.",
+      "pt-BR": "Show ao vivo, setlist, público, merch e avanço de semana.",
+      "en-US": "Show ao vivo, setlist, público, merch e avanço de semana.",
+      "es-ES": "Show ao vivo, setlist, público, merch e avanço de semana.",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Show em Tempo Real",
+      "pt-BR": "Show em Tempo Real",
+      "en-US": "Show em Tempo Real",
+      "es-ES": "Show em Tempo Real",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Shows",
+      "pt-BR": "Shows",
+      "en-US": "Shows",
+      "es-ES": "Conciertos",
+      "status": "translated"
+    },
+    {
+      "key": "Siga o ciclo principal para evoluir a banda.",
+      "pt-BR": "Siga o ciclo principal para evoluir a banda.",
+      "en-US": "Follow the main loop to evolve the band.",
+      "es-ES": "Sigue el ciclo principal para evolucionar la banda.",
+      "status": "translated"
+    },
+    {
+      "key": "Silencioso",
+      "pt-BR": "Silencioso",
+      "en-US": "Silent",
+      "es-ES": "Silencioso",
+      "status": "translated"
+    },
+    {
+      "key": "Simular mês",
+      "pt-BR": "Simular mês",
+      "en-US": "Simulate month",
+      "es-ES": "Simular mes",
+      "status": "translated"
+    },
+    {
+      "key": "Simular mês financeiro",
+      "pt-BR": "Simular mês financeiro",
+      "en-US": "Simulate financial month",
+      "es-ES": "Simular mes financiero",
+      "status": "translated"
+    },
+    {
+      "key": "Simular semana de mercado",
+      "pt-BR": "Simular semana de mercado",
+      "en-US": "Simulate market week",
+      "es-ES": "Simular semana de mercado",
+      "status": "translated"
+    },
+    {
+      "key": "Sinergia",
+      "pt-BR": "Sinergia",
+      "en-US": "Synergy",
+      "es-ES": "Sinergia",
+      "status": "translated"
+    },
+    {
+      "key": "Single",
+      "pt-BR": "Single",
+      "en-US": "Single",
+      "es-ES": "Single",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Singles, EPs, charts e hype",
+      "pt-BR": "Singles, EPs, charts e hype",
+      "en-US": "Singles, EPs, charts e hype",
+      "es-ES": "Singles, EPs, charts e hype",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Sistema real de guardado: hasta 5 ranuras, autoguardado, guardado manual, migración de versión y reinicio seguro.",
+      "pt-BR": "Sistema real de guardado: hasta 5 ranuras, autoguardado, guardado manual, migración de versión y reinicio seguro.",
+      "en-US": "Sistema real de guardado: hasta 5 ranuras, autoguardado, guardado manual, migración de versión y reinicio seguro.",
+      "es-ES": "Sistema real de guardado: hasta 5 ranuras, autoguardado, guardado manual, migración de versión y reinicio seguro.",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Sistema real de saves: até 5 slots, autosave, save manual, migração de versão e reset seguro.",
+      "pt-BR": "Sistema real de saves: até 5 slots, autosave, save manual, migração de versão e reset seguro.",
+      "en-US": "Sistema real de saves: até 5 slots, autosave, save manual, migração de versão e reset seguro.",
+      "es-ES": "Sistema real de saves: até 5 slots, autosave, save manual, migração de versão e reset seguro.",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Slots de save disponíveis",
+      "pt-BR": "Slots de save disponíveis",
+      "en-US": "Slots de save disponíveis",
+      "es-ES": "Slots de save disponíveis",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Social",
+      "pt-BR": "Social",
+      "en-US": "Social",
+      "es-ES": "Social",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Solo",
+      "pt-BR": "Solo",
+      "en-US": "Solo",
+      "es-ES": "Solo",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Solo incendiou o público e elevou a performance.",
+      "pt-BR": "Solo incendiou o público e elevou a performance.",
+      "en-US": "Solo incendiou o público e elevou a performance.",
+      "es-ES": "Solo incendiou o público e elevou a performance.",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Som de lançamento internacional. Esta master já pode sustentar campanha forte e turnê.",
+      "pt-BR": "Som de lançamento internacional. Esta master já pode sustentar campanha forte e turnê.",
+      "en-US": "Som de lançamento internacional. Esta master já pode sustentar campanha forte e turnê.",
+      "es-ES": "Som de lançamento internacional. Esta master já pode sustentar campanha forte e turnê.",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Sons curtos de toque, sucesso e navegação. O navegador só libera áudio após o primeiro toque do usuário.",
+      "pt-BR": "Sons curtos de toque, sucesso e navegação. O navegador só libera áudio após o primeiro toque do usuário.",
+      "en-US": "Sons curtos de toque, sucesso e navegação. O navegador só libera áudio após o primeiro toque do usuário.",
+      "es-ES": "Sons curtos de toque, sucesso e navegação. O navegador só libera áudio após o primeiro toque do usuário.",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Staff",
+      "pt-BR": "Staff",
+      "en-US": "Staff",
+      "es-ES": "Staff",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Status Interno",
+      "pt-BR": "Status Interno",
+      "en-US": "Status Interno",
+      "es-ES": "Status Interno",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Streams",
+      "pt-BR": "Streams",
+      "en-US": "Streams",
+      "es-ES": "Streams",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Sua identidade",
+      "pt-BR": "Sua identidade",
+      "en-US": "Your identity",
+      "es-ES": "Tu identidad",
+      "status": "translated"
+    },
+    {
+      "key": "Substituir assets provisórios por artes oficiais, revisar 100% dos textos narrativos em três idiomas, testar em aparelhos reais Android/iOS e preparar página de venda internacional.",
+      "pt-BR": "Substituir assets provisórios por artes oficiais, revisar 100% dos textos narrativos em três idiomas, testar em aparelhos reais Android/iOS e preparar página de venda internacional.",
+      "en-US": "Substituir assets provisórios por artes oficiais, revisar 100% dos textos narrativos em três idiomas, testar em aparelhos reais Android/iOS e preparar página de venda internacional.",
+      "es-ES": "Substituir assets provisórios por artes oficiais, revisar 100% dos textos narrativos em três idiomas, testar em aparelhos reais Android/iOS e preparar página de venda internacional.",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "São Paulo",
+      "pt-BR": "São Paulo",
+      "en-US": "São Paulo",
+      "es-ES": "São Paulo",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "São Paulo/SP",
+      "pt-BR": "São Paulo/SP",
+      "en-US": "São Paulo/SP",
+      "es-ES": "São Paulo/SP",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Takes de gravação",
+      "pt-BR": "Takes de gravação",
+      "en-US": "Recording takes",
+      "es-ES": "Tomas de grabación",
+      "status": "translated"
+    },
+    {
+      "key": "Teaser de música",
+      "pt-BR": "Teaser de música",
+      "en-US": "Song teaser",
+      "es-ES": "Teaser de canción",
+      "status": "translated"
+    },
+    {
+      "key": "Tecladista",
+      "pt-BR": "Tecladista",
+      "en-US": "Keyboardist",
+      "es-ES": "Tecladista",
+      "status": "translated"
+    },
+    {
+      "key": "Tema",
+      "pt-BR": "Tema",
+      "en-US": "Theme",
+      "es-ES": "Tema",
+      "status": "translated"
+    },
+    {
+      "key": "Tendência: rock cinematográfico",
+      "pt-BR": "Tendência: rock cinematográfico",
+      "en-US": "Tendência: rock cinematográfico",
+      "es-ES": "Tendência: rock cinematográfico",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Tendências do mercado",
+      "pt-BR": "Tendências do mercado",
+      "en-US": "Tendências do mercado",
+      "es-ES": "Tendências do mercado",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Tendências globais",
+      "pt-BR": "Tendências globais",
+      "en-US": "Global trends",
+      "es-ES": "Tendencias globales",
+      "status": "translated"
+    },
+    {
+      "key": "Tendências, rivais, charts e regiões",
+      "pt-BR": "Tendências, rivais, charts e regiões",
+      "en-US": "Tendências, rivais, charts e regiões",
+      "es-ES": "Tendências, rivais, charts e regiões",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Testar em Android real Pendente",
+      "pt-BR": "Testar em Android real Pendente",
+      "en-US": "Test on real Android Pending",
+      "es-ES": "Probar en Android real pendiente",
+      "status": "translated"
+    },
+    {
+      "key": "Testar em iPhone/iPad real Pendente",
+      "pt-BR": "Testar em iPhone/iPad real Pendente",
+      "en-US": "Test on real iPhone/iPad Pending",
+      "es-ES": "Probar en iPhone/iPad real pendiente",
+      "status": "translated"
+    },
+    {
+      "key": "Teste automático",
+      "pt-BR": "Teste automático",
+      "en-US": "Automatic test",
+      "es-ES": "Prueba automática",
+      "status": "translated"
+    },
+    {
+      "key": "Theater Hall",
+      "pt-BR": "Theater Hall",
+      "en-US": "Theater Hall",
+      "es-ES": "Teatro",
+      "status": "translated"
+    },
+    {
+      "key": "Tipo de ação",
+      "pt-BR": "Tipo de ação",
+      "en-US": "Action type",
+      "es-ES": "Tipo de acción",
+      "status": "translated"
+    },
+    {
+      "key": "Tipo de show",
+      "pt-BR": "Tipo de show",
+      "en-US": "Show type",
+      "es-ES": "Tipo de concierto",
+      "status": "translated"
+    },
+    {
+      "key": "Tokyo",
+      "pt-BR": "Tokyo",
+      "en-US": "Tokyo",
+      "es-ES": "Tokyo",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Tom da comunicação",
+      "pt-BR": "Tom da comunicação",
+      "en-US": "Communication tone",
+      "es-ES": "Tono de comunicación",
+      "status": "translated"
+    },
+    {
+      "key": "Tom da resposta",
+      "pt-BR": "Tom da resposta",
+      "en-US": "Response tone",
+      "es-ES": "Tono de respuesta",
+      "status": "translated"
+    },
+    {
+      "key": "Tour bus profissional",
+      "pt-BR": "Tour bus profissional",
+      "en-US": "Professional tour bus",
+      "es-ES": "Tour bus profesional",
+      "status": "translated"
+    },
+    {
+      "key": "Transporte",
+      "pt-BR": "Transporte",
+      "en-US": "Transport",
+      "es-ES": "Transporte",
+      "status": "translated"
+    },
+    {
+      "key": "Trio",
+      "pt-BR": "Trio",
+      "en-US": "Trio",
+      "es-ES": "Trío",
+      "status": "translated"
+    },
+    {
+      "key": "Trocar placeholders por artes oficiais Pendente",
+      "pt-BR": "Trocar placeholders por artes oficiais Pendente",
+      "en-US": "Replace placeholders with official art Pending",
+      "es-ES": "Cambiar placeholders por artes oficiales pendiente",
+      "status": "translated"
+    },
+    {
+      "key": "Turnês",
+      "pt-BR": "Turnês",
+      "en-US": "Tours",
+      "es-ES": "Giras",
+      "status": "translated"
+    },
+    {
+      "key": "Turnês Internacionais",
+      "pt-BR": "Turnês Internacionais",
+      "en-US": "International Tours",
+      "es-ES": "Giras internacionales",
+      "status": "translated"
+    },
+    {
+      "key": "Tutorial inicial ON",
+      "pt-BR": "Tutorial inicial ON",
+      "en-US": "Initial tutorial ON",
+      "es-ES": "Tutorial inicial ON",
+      "status": "translated"
+    },
+    {
+      "key": "Título",
+      "pt-BR": "Título",
+      "en-US": "Title",
+      "es-ES": "Título",
+      "status": "translated"
+    },
+    {
+      "key": "Um equipamento falha durante a passagem de som e a equipe precisa agir rápido.",
+      "pt-BR": "Um equipamento falha durante a passagem de som e a equipe precisa agir rápido.",
+      "en-US": "Um equipamento falha durante a passagem de som e a equipe precisa agir rápido.",
+      "es-ES": "Um equipamento falha durante a passagem de som e a equipe precisa agir rápido.",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Um jornalista pergunta se a banda está preparada para uma turnê maior depois do crescimento recente.",
+      "pt-BR": "Um jornalista pergunta se a banda está preparada para uma turnê maior depois do crescimento recente.",
+      "en-US": "Um jornalista pergunta se a banda está preparada para uma turnê maior depois do crescimento recente.",
+      "es-ES": "Um jornalista pergunta se a banda está preparada para uma turnê maior depois do crescimento recente.",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Um patrocinador quer influenciar figurino e setlist para aumentar exposição de marca.",
+      "pt-BR": "Um patrocinador quer influenciar figurino e setlist para aumentar exposição de marca.",
+      "en-US": "Um patrocinador quer influenciar figurino e setlist para aumentar exposição de marca.",
+      "es-ES": "Um patrocinador quer influenciar figurino e setlist para aumentar exposição de marca.",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Um portal acusa a banda de soar comercial demais após o último lançamento.",
+      "pt-BR": "Um portal acusa a banda de soar comercial demais após o último lançamento.",
+      "en-US": "Um portal acusa a banda de soar comercial demais após o último lançamento.",
+      "es-ES": "Um portal acusa a banda de soar comercial demais após o último lançamento.",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Underground Club",
+      "pt-BR": "Underground Club",
+      "en-US": "Underground Club",
+      "es-ES": "Club underground",
+      "status": "translated"
+    },
+    {
+      "key": "Underground fiel",
+      "pt-BR": "Underground fiel",
+      "en-US": "Loyal underground",
+      "es-ES": "Underground fiel",
+      "status": "translated"
+    },
+    {
+      "key": "Vale Games • Band Legacy Release Candidate v1.1.0",
+      "pt-BR": "Vale Games • Band Legacy Release Candidate v1.1.0",
+      "en-US": "Vale Games • Band Legacy Release Candidate v1.1.0",
+      "es-ES": "Vale Games • Band Legacy Release Candidate v1.1.0",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Van independente",
+      "pt-BR": "Van independente",
+      "en-US": "Independent van",
+      "es-ES": "Van independiente",
+      "status": "translated"
+    },
+    {
+      "key": "Ver checklist",
+      "pt-BR": "Ver checklist",
+      "en-US": "View checklist",
+      "es-ES": "Ver checklist",
+      "status": "translated"
+    },
+    {
+      "key": "Ver tutorial",
+      "pt-BR": "Ver tutorial",
+      "en-US": "View tutorial",
+      "es-ES": "Ver tutorial",
+      "status": "translated"
+    },
+    {
+      "key": "Versão visível",
+      "pt-BR": "Versão visível",
+      "en-US": "Versão visível",
+      "es-ES": "Versão visível",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Versão visível sincronizada",
+      "pt-BR": "Versão visível sincronizada",
+      "en-US": "Versão visível sincronizada",
+      "es-ES": "Versão visível sincronizada",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Vi o vídeo no feed e precisei procurar a banda.",
+      "pt-BR": "Vi o vídeo no feed e precisei procurar a banda.",
+      "en-US": "Vi o vídeo no feed e precisei procurar a banda.",
+      "es-ES": "Vi o vídeo no feed e precisei procurar a banda.",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Vinil colecionador",
+      "pt-BR": "Vinil colecionador",
+      "en-US": "Collector vinyl",
+      "es-ES": "Vinilo coleccionista",
+      "status": "translated"
+    },
+    {
+      "key": "Viral",
+      "pt-BR": "Viral",
+      "en-US": "Viral",
+      "es-ES": "Viral",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Viral / Social",
+      "pt-BR": "Viral / Social",
+      "en-US": "Viral / Social",
+      "es-ES": "Viral / Social",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Viralização",
+      "pt-BR": "Viralização",
+      "en-US": "Virality",
+      "es-ES": "Viralización",
+      "status": "translated"
+    },
+    {
+      "key": "Vire o celular",
+      "pt-BR": "Vire o celular",
+      "en-US": "Rotate your phone",
+      "es-ES": "Gira el móvil",
+      "status": "translated"
+    },
+    {
+      "key": "Vitória narrativa",
+      "pt-BR": "Vitória narrativa",
+      "en-US": "Vitória narrativa",
+      "es-ES": "Vitória narrativa",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Vocalista",
+      "pt-BR": "Vocalista",
+      "en-US": "Vocalist",
+      "es-ES": "Vocalista",
+      "status": "translated"
+    },
+    {
+      "key": "Voltar",
+      "pt-BR": "Voltar",
+      "en-US": "Back",
+      "es-ES": "Volver",
+      "status": "translated"
+    },
+    {
+      "key": "Voltar ao Estúdio",
+      "pt-BR": "Voltar ao Estúdio",
+      "en-US": "Back to Studio",
+      "es-ES": "Volver al estudio",
+      "status": "translated"
+    },
+    {
+      "key": "Voltar ao Lançamento",
+      "pt-BR": "Voltar ao Lançamento",
+      "en-US": "Back to Release",
+      "es-ES": "Volver al lanzamiento",
+      "status": "translated"
+    },
+    {
+      "key": "Voltar ao Lobby",
+      "pt-BR": "Voltar ao Lobby",
+      "en-US": "Back to Lobby",
+      "es-ES": "Volver al lobby",
+      "status": "translated"
+    },
+    {
+      "key": "Voltar ao RC",
+      "pt-BR": "Voltar ao RC",
+      "en-US": "Back to RC",
+      "es-ES": "Volver al RC",
+      "status": "translated"
+    },
+    {
+      "key": "Voltar ao Social",
+      "pt-BR": "Voltar ao Social",
+      "en-US": "Back to Social",
+      "es-ES": "Volver a Social",
+      "status": "translated"
+    },
+    {
+      "key": "Voltar aos Eventos",
+      "pt-BR": "Voltar aos Eventos",
+      "en-US": "Back to Events",
+      "es-ES": "Volver a Eventos",
+      "status": "translated"
+    },
+    {
+      "key": "Voltar aos Shows",
+      "pt-BR": "Voltar aos Shows",
+      "en-US": "Back to Shows",
+      "es-ES": "Volver a Conciertos",
+      "status": "translated"
+    },
+    {
+      "key": "Voltar à composição",
+      "pt-BR": "Voltar à composição",
+      "en-US": "Back to composition",
+      "es-ES": "Volver a composición",
+      "status": "translated"
+    },
+    {
+      "key": "Voltar às Finanças",
+      "pt-BR": "Voltar às Finanças",
+      "en-US": "Back to Finance",
+      "es-ES": "Volver a finanzas",
+      "status": "translated"
+    },
+    {
+      "key": "Voltar às Turnês",
+      "pt-BR": "Voltar às Turnês",
+      "en-US": "Back to Tours",
+      "es-ES": "Volver a giras",
+      "status": "translated"
+    },
+    {
+      "key": "Volte ao lobby, avance a semana e leia o log de evolução.",
+      "pt-BR": "Volte ao lobby, avance a semana e leia o log de evolução.",
+      "en-US": "Volte ao lobby, avance a semana e leia o log de evolução.",
+      "es-ES": "Volte ao lobby, avance a semana e leia o log de evolução.",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "ZIP completo com código, dados e docs; assets oficiais podem ser externos, desde que os caminhos deste manifesto sejam mantidos.",
+      "pt-BR": "ZIP completo com código, dados e docs; assets oficiais podem ser externos, desde que os caminhos deste manifesto sejam mantidos.",
+      "en-US": "ZIP completo com código, dados e docs; assets oficiais podem ser externos, desde que os caminhos deste manifesto sejam mantidos.",
+      "es-ES": "ZIP completo com código, dados e docs; assets oficiais podem ser externos, desde que os caminhos deste manifesto sejam mantidos.",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "aumenta caixa, mas pressiona identidade artística.",
+      "pt-BR": "aumenta caixa, mas pressiona identidade artística.",
+      "en-US": "aumenta caixa, mas pressiona identidade artística.",
+      "es-ES": "aumenta caixa, mas pressiona identidade artística.",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "campanha ainda precisa de força",
+      "pt-BR": "campanha ainda precisa de força",
+      "en-US": "campanha ainda precisa de força",
+      "es-ES": "campanha ainda precisa de força",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "caos artístico",
+      "pt-BR": "caos artístico",
+      "en-US": "caos artístico",
+      "es-ES": "caos artístico",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "cidade de mídia e festival",
+      "pt-BR": "cidade de mídia e festival",
+      "en-US": "cidade de mídia e festival",
+      "es-ES": "cidade de mídia e festival",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "cresce com crítica e viral orgânico",
+      "pt-BR": "cresce com crítica e viral orgânico",
+      "en-US": "cresce com crítica e viral orgânico",
+      "es-ES": "cresce com crítica e viral orgânico",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "crítica internacional está impressionada",
+      "pt-BR": "crítica internacional está impressionada",
+      "en-US": "crítica internacional está impressionada",
+      "es-ES": "crítica internacional está impressionada",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "fãs",
+      "pt-BR": "fãs",
+      "en-US": "fans",
+      "es-ES": "fans",
+      "status": "translated"
+    },
+    {
+      "key": "fãs estão movimentando a prévia",
+      "pt-BR": "fãs estão movimentando a prévia",
+      "en-US": "fãs estão movimentando a prévia",
+      "es-ES": "fãs estão movimentando a prévia",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "fãs fiéis e merch forte",
+      "pt-BR": "fãs fiéis e merch forte",
+      "en-US": "fãs fiéis e merch forte",
+      "es-ES": "fãs fiéis e merch forte",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "fé no palco",
+      "pt-BR": "fé no palco",
+      "en-US": "fé no palco",
+      "es-ES": "fé no palco",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "gera prestígio, mas risco comercial alto",
+      "pt-BR": "gera prestígio, mas risco comercial alto",
+      "en-US": "gera prestígio, mas risco comercial alto",
+      "es-ES": "gera prestígio, mas risco comercial alto",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "mercado internacional crítico",
+      "pt-BR": "mercado internacional crítico",
+      "en-US": "mercado internacional crítico",
+      "es-ES": "mercado internacional crítico",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "público latino intenso",
+      "pt-BR": "público latino intenso",
+      "en-US": "público latino intenso",
+      "es-ES": "público latino intenso",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "recomeço",
+      "pt-BR": "recomeço",
+      "en-US": "recomeço",
+      "es-ES": "recomeço",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "refrão",
+      "pt-BR": "refrão",
+      "en-US": "refrão",
+      "es-ES": "refrão",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "solidão na turnê",
+      "pt-BR": "solidão na turnê",
+      "en-US": "solidão na turnê",
+      "es-ES": "solidão na turnê",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "superação",
+      "pt-BR": "superação",
+      "en-US": "superação",
+      "es-ES": "superação",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "v0.3",
+      "pt-BR": "v0.3",
+      "en-US": "v0.3",
+      "es-ES": "v0.3",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "v1.3.1_20260522_1948",
+      "pt-BR": "v1.3.1_20260522_1948",
+      "en-US": "v1.3.1_20260522_1948",
+      "es-ES": "v1.3.1_20260522_1948",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Álbum",
+      "pt-BR": "Álbum",
+      "en-US": "Album",
+      "es-ES": "Álbum",
+      "status": "translated"
+    },
+    {
+      "key": "Ásia",
+      "pt-BR": "Ásia",
+      "en-US": "Ásia",
+      "es-ES": "Ásia",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Áudio de interface",
+      "pt-BR": "Áudio de interface",
+      "en-US": "Áudio de interface",
+      "es-ES": "Áudio de interface",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "Áudio de interface ON",
+      "pt-BR": "Áudio de interface ON",
+      "en-US": "Interface audio ON",
+      "es-ES": "Audio de interfaz ON",
+      "status": "translated"
+    },
+    {
+      "key": "Ônibus noturno econômico",
+      "pt-BR": "Ônibus noturno econômico",
+      "en-US": "Economy night bus",
+      "es-ES": "Bus nocturno económico",
+      "status": "translated"
+    },
+    {
+      "key": "úmido",
+      "pt-BR": "úmido",
+      "en-US": "úmido",
+      "es-ES": "úmido",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "↻",
+      "pt-BR": "↻",
+      "en-US": "↻",
+      "es-ES": "↻",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "★ 7.850 XP",
+      "pt-BR": "★ 7.850 XP",
+      "en-US": "★ 7.850 XP",
+      "es-ES": "★ 7.850 XP",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "🇦🇷 Argentina",
+      "pt-BR": "🇦🇷 Argentina",
+      "en-US": "🇦🇷 Argentina",
+      "es-ES": "🇦🇷 Argentina",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "🇧🇷 Brasil",
+      "pt-BR": "🇧🇷 Brasil",
+      "en-US": "🇧🇷 Brasil",
+      "es-ES": "🇧🇷 Brasil",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "🇩🇪 Alemanha",
+      "pt-BR": "🇩🇪 Alemanha",
+      "en-US": "🇩🇪 Alemanha",
+      "es-ES": "🇩🇪 Alemanha",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "🇬🇧 Reino Unido",
+      "pt-BR": "🇬🇧 Reino Unido",
+      "en-US": "🇬🇧 Reino Unido",
+      "es-ES": "🇬🇧 Reino Unido",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "🇯🇵 Japão",
+      "pt-BR": "🇯🇵 Japão",
+      "en-US": "🇯🇵 Japão",
+      "es-ES": "🇯🇵 Japão",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "🇺🇸 Estados Unidos",
+      "pt-BR": "🇺🇸 Estados Unidos",
+      "en-US": "🇺🇸 Estados Unidos",
+      "es-ES": "🇺🇸 Estados Unidos",
+      "status": "locked_or_brand"
+    },
+    {
+      "key": "👥 12.450 fãs",
+      "pt-BR": "👥 12.450 fãs",
+      "en-US": "👥 12.450 fãs",
+      "es-ES": "👥 12.450 fãs",
+      "status": "locked_or_brand"
+    }
+  ]
+}

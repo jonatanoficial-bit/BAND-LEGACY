@@ -1,0 +1,59 @@
+{
+  "project": "Band Legacy",
+  "version": "v1.1.0_20260522_1905",
+  "manifest": [
+    {
+      "group": "Backgrounds",
+      "key": "main_menu",
+      "path": "assets/backgrounds/main_menu/bg_main_menu_v001.png",
+      "finalName": "BG_MAINMENU_STAGE_ARENA_01.png",
+      "priority": "P0",
+      "replacementRule": "same path or update ASSET_PATHS_REQUIRED.md and script background map"
+    },
+    {
+      "group": "Backgrounds",
+      "key": "lobby",
+      "path": "assets/backgrounds/lobby/bg_lobby_v001.png",
+      "finalName": "BG_LOBBY_BACKSTAGE_01.png",
+      "priority": "P0"
+    },
+    {
+      "group": "Backgrounds",
+      "key": "studio",
+      "path": "assets/backgrounds/studio/bg_studio_v001.png",
+      "finalName": "BG_STUDIO_NIGHT_01.png",
+      "priority": "P0"
+    },
+    {
+      "group": "Backgrounds",
+      "key": "live_show",
+      "path": "assets/backgrounds/live_show/bg_live_show_v001.png",
+      "finalName": "BG_LIVESHOW_ARENA_01.png",
+      "priority": "P0"
+    },
+    {
+      "group": "UI",
+      "key": "button_gold",
+      "path": "assets/ui/buttons/UI_BTN_GOLD_01.png",
+      "finalName": "UI_BTN_GOLD_01.png",
+      "priority": "P0",
+      "fallback": "CSS button"
+    },
+    {
+      "group": "Characters",
+      "key": "vocalist_male",
+      "path": "assets/characters/avatars/CHR_VOCALIST_MALE_01.png",
+      "finalName": "CHR_VOCALIST_MALE_01.png",
+      "priority": "P0",
+      "fallback": "gradient avatar"
+    },
+    {
+      "group": "Icons",
+      "key": "money",
+      "path": "assets/icons/ICO_MONEY_01.png",
+      "finalName": "ICO_MONEY_01.png",
+      "priority": "P1",
+      "fallback": "text HUD"
+    }
+  ]
+}

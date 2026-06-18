@@ -1,0 +1,24 @@
+{
+  "version": "v0.6.0_20260519_2113",
+  "rooms": [
+    {
+      "id": "garage_room",
+      "name": "Garagem Tratada"
+    },
+    {
+      "id": "indie_room",
+      "name": "Estúdio Indie Pro"
+    },
+    {
+      "id": "arena_room",
+      "name": "Arena Gold Studio"
+    }
+  ],
+  "outputs": [
+    "finalQuality",
+    "radio",
+    "authenticity",
+    "productionRisk",
+    "cost"
+  ]
+}

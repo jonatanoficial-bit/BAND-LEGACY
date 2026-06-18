@@ -1,0 +1,10 @@
+{
+  "version": "v0.7.0_20260519_2136",
+  "phase": 7,
+  "system": "Music Release System",
+  "formats": ["Single", "EP", "Album", "Live Session"],
+  "platforms": ["Global Stream", "RockWave", "ClipTube", "Indie Radar", "Radio Network"],
+  "metrics": ["hype", "streams", "critics", "chart", "revenue"],
+  "anti_break": true,
+  "asset_path": "assets/backgrounds/release/bg_release_v001.png"
+}

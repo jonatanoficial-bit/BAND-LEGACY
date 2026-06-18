@@ -1,0 +1,12 @@
+{
+  "version": "v0.3.0_20260519_1745",
+  "phase": "Phase 3 - Band System",
+  "formations": ["Solo", "Duo", "Trio", "Quarteto", "Banda completa"],
+  "roles": ["Vocalista", "Guitarrista", "Baixista", "Baterista", "Tecladista", "DJ"],
+  "metrics": ["technique", "creativity", "stagePresence", "stamina", "ego", "loyalty"],
+  "assetSlots": {
+    "characters": "/assets/characters/char_[type]_[id].png",
+    "bandLogos": "/assets/logos/logo_band_[id].png",
+    "uiFrames": "/assets/ui/ui_frame_[name].png"
+  }
+}

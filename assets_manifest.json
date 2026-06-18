@@ -1,0 +1,338 @@
+[
+  {
+    "output": "assets/backgrounds/BG_STUDIO_RECORDING_ROOM_01.png",
+    "source_index": 16,
+    "source_file": "ChatGPT Image 25 de mai. de 2026, 16_26_01.png",
+    "note": "background principal escolhido; duplicatas similares removidas"
+  },
+  {
+    "output": "assets/backgrounds/BG_LIVE_SHOW_THEATER_01.png",
+    "source_index": 3,
+    "source_file": "ChatGPT Image 25 de mai. de 2026, 16_24_54.png",
+    "note": "background principal escolhido; duplicatas similares removidas"
+  },
+  {
+    "output": "assets/backgrounds/BG_LIVE_SHOW_FESTIVAL_DAY_01.png",
+    "source_index": 12,
+    "source_file": "ChatGPT Image 25 de mai. de 2026, 16_25_46.png",
+    "note": "background principal escolhido; duplicatas similares removidas"
+  },
+  {
+    "output": "assets/backgrounds/BG_LIVE_SHOW_STADIUM_01.png",
+    "source_index": 11,
+    "source_file": "ChatGPT Image 25 de mai. de 2026, 16_25_40.png",
+    "note": "background principal escolhido; duplicatas similares removidas"
+  },
+  {
+    "output": "assets/backgrounds/BG_TOUR_BUS_INTERIOR_01.png",
+    "source_index": 10,
+    "source_file": "ChatGPT Image 25 de mai. de 2026, 16_25_37.png",
+    "note": "background principal escolhido; duplicatas similares removidas"
+  },
+  {
+    "output": "assets/backgrounds/BG_HOTEL_ROOM_TOUR_01.png",
+    "source_index": 9,
+    "source_file": "ChatGPT Image 25 de mai. de 2026, 16_25_33.png",
+    "note": "background principal escolhido; duplicatas similares removidas"
+  },
+  {
+    "output": "assets/backgrounds/BG_GARAGE_REHEARSAL_01.png",
+    "source_index": 2,
+    "source_file": "ChatGPT Image 25 de mai. de 2026, 16_24_50.png",
+    "note": "background principal escolhido; duplicatas similares removidas"
+  },
+  {
+    "output": "assets/backgrounds/BG_PRESS_INTERVIEW_ROOM_01.png",
+    "source_index": 1,
+    "source_file": "ChatGPT Image 25 de mai. de 2026, 16_24_47.png",
+    "note": "background principal escolhido; duplicatas similares removidas"
+  },
+  {
+    "output": "assets/backgrounds/BG_WORLD_TOUR_MAP_ROOM_01.png",
+    "source_index": 0,
+    "source_file": "ChatGPT Image 25 de mai. de 2026, 16_24_40.png",
+    "note": "background principal escolhido; duplicatas similares removidas"
+  },
+  {
+    "output": "assets/characters/player/CHR_PLAYER_MALE_01.png",
+    "source_index": 113,
+    "source_file": "ChatGPT_Image_28_de_mai._de_2026__19_31_52-removebg-preview.png",
+    "note": "homem pele clara guitarrista"
+  },
+  {
+    "output": "assets/characters/player/CHR_PLAYER_MALE_02.png",
+    "source_index": 111,
+    "source_file": "ChatGPT_Image_28_de_mai._de_2026__19_31_45-removebg-preview.png",
+    "note": "homem negro vocalista"
+  },
+  {
+    "output": "assets/characters/player/CHR_PLAYER_MALE_03.png",
+    "source_index": 110,
+    "source_file": "ChatGPT_Image_28_de_mai._de_2026__19_31_38-removebg-preview.png",
+    "note": "homem latino/moreno vocalista"
+  },
+  {
+    "output": "assets/characters/player/CHR_PLAYER_MALE_04.png",
+    "source_index": 109,
+    "source_file": "ChatGPT_Image_28_de_mai._de_2026__19_31_35-removebg-preview.png",
+    "note": "homem asiático guitarrista"
+  },
+  {
+    "output": "assets/characters/player/CHR_PLAYER_FEMALE_01.png",
+    "source_index": 108,
+    "source_file": "ChatGPT_Image_28_de_mai._de_2026__19_31_26-removebg-preview.png",
+    "note": "mulher pele clara vocalista rock"
+  },
+  {
+    "output": "assets/characters/player/CHR_PLAYER_FEMALE_02.png",
+    "source_index": 89,
+    "source_file": "ChatGPT_Image_28_de_mai._de_2026__19_30_05-removebg-preview (1).png",
+    "note": "mulher negra soul/pop definitiva"
+  },
+  {
+    "output": "assets/characters/player/CHR_PLAYER_FEMALE_03.png",
+    "source_index": 96,
+    "source_file": "ChatGPT_Image_28_de_mai._de_2026__19_30_31-removebg-preview.png",
+    "note": "mulher latina/morena grunge/alternativa"
+  },
+  {
+    "output": "assets/characters/player/CHR_PLAYER_FEMALE_04.png",
+    "source_index": 100,
+    "source_file": "ChatGPT_Image_28_de_mai._de_2026__19_30_55-removebg-preview.png",
+    "note": "mulher asiática rock/metal"
+  },
+  {
+    "output": "assets/characters/player/CHR_PLAYER_ANDRO_01.png",
+    "source_index": 99,
+    "source_file": "ChatGPT_Image_28_de_mai._de_2026__19_30_51-removebg-preview.png",
+    "note": "andrógino pele clara"
+  },
+  {
+    "output": "assets/characters/player/CHR_PLAYER_ANDRO_02.png",
+    "source_index": 98,
+    "source_file": "ChatGPT_Image_28_de_mai._de_2026__19_30_47-removebg-preview.png",
+    "note": "andrógino negro"
+  },
+  {
+    "output": "assets/characters/player/CHR_PLAYER_ANDRO_03.png",
+    "source_index": 95,
+    "source_file": "ChatGPT_Image_28_de_mai._de_2026__19_30_28-removebg-preview.png",
+    "note": "andrógino latino/moreno"
+  },
+  {
+    "output": "assets/characters/player/CHR_PLAYER_ANDRO_04.png",
+    "source_index": 93,
+    "source_file": "ChatGPT_Image_28_de_mai._de_2026__19_30_18-removebg-preview.png",
+    "note": "andrógino asiático visual kei"
+  },
+  {
+    "output": "assets/characters/recruits/CHR_RECRUIT_VOCALIST_01.png",
+    "source_index": 92,
+    "source_file": "ChatGPT_Image_28_de_mai._de_2026__19_30_14-removebg-preview.png",
+    "note": "vocalista masculino soul/pop"
+  },
+  {
+    "output": "assets/characters/recruits/CHR_RECRUIT_VOCALIST_02.png",
+    "source_index": 91,
+    "source_file": "ChatGPT_Image_28_de_mai._de_2026__19_30_10-removebg-preview.png",
+    "note": "vocalista feminina soul/pop"
+  },
+  {
+    "output": "assets/characters/recruits/CHR_RECRUIT_GUITARIST_01.png",
+    "source_index": 88,
+    "source_file": "ChatGPT_Image_28_de_mai._de_2026__19_29_59-removebg-preview.png",
+    "note": "guitarrista masculino blues/rock clássico"
+  },
+  {
+    "output": "assets/characters/recruits/CHR_RECRUIT_GUITARIST_02.png",
+    "source_index": 87,
+    "source_file": "ChatGPT_Image_28_de_mai._de_2026__19_29_55-removebg-preview.png",
+    "note": "guitarrista feminina indie/pop rock"
+  },
+  {
+    "output": "assets/characters/recruits/CHR_RECRUIT_BASSIST_01.png",
+    "source_index": 85,
+    "source_file": "ChatGPT_Image_28_de_mai._de_2026__19_29_51-removebg-preview (1).png",
+    "note": "baixista masculino"
+  },
+  {
+    "output": "assets/characters/recruits/CHR_RECRUIT_BASSIST_02.png",
+    "source_index": 84,
+    "source_file": "ChatGPT_Image_28_de_mai._de_2026__19_29_47-removebg-preview.png",
+    "note": "baixista feminina"
+  },
+  {
+    "output": "assets/characters/recruits/CHR_RECRUIT_DRUMMER_01.png",
+    "source_index": 75,
+    "source_file": "ChatGPT_Image_28_de_mai._de_2026__19_29_06-removebg-preview.png",
+    "note": "baterista masculino gospel/pop session"
+  },
+  {
+    "output": "assets/characters/recruits/CHR_RECRUIT_DRUMMER_02.png",
+    "source_index": 74,
+    "source_file": "ChatGPT_Image_28_de_mai._de_2026__19_29_02-removebg-preview.png",
+    "note": "baterista feminina gospel/pop session"
+  },
+  {
+    "output": "assets/characters/recruits/extras/CHR_RECRUIT_DRUMMER_ROCK_01.png",
+    "source_index": 78,
+    "source_file": "ChatGPT_Image_28_de_mai._de_2026__19_29_21-removebg-preview.png",
+    "note": "extra: baterista masculino rock"
+  },
+  {
+    "output": "assets/characters/recruits/extras/CHR_RECRUIT_DRUMMER_ROCK_FEMALE_01.png",
+    "source_index": 76,
+    "source_file": "ChatGPT_Image_28_de_mai._de_2026__19_29_15__1_-removebg-preview.png",
+    "note": "extra: baterista feminina rock"
+  },
+  {
+    "output": "assets/characters/staff/CHR_STAFF_MANAGER_01.png",
+    "source_index": 72,
+    "source_file": "ChatGPT_Image_28_de_mai._de_2026__19_28_58-removebg-preview (1).png",
+    "note": "manager/empresário"
+  },
+  {
+    "output": "assets/characters/staff/CHR_STAFF_PRODUCER_01.png",
+    "source_index": 71,
+    "source_file": "ChatGPT_Image_28_de_mai._de_2026__19_28_54-removebg-preview.png",
+    "note": "produtor musical"
+  },
+  {
+    "output": "assets/characters/staff/CHR_STAFF_SOUND_ENGINEER_01.png",
+    "source_index": 70,
+    "source_file": "ChatGPT_Image_28_de_mai._de_2026__19_28_49-removebg-preview.png",
+    "note": "engenheiro/técnico de som"
+  },
+  {
+    "output": "assets/characters/staff/CHR_STAFF_ROADIE_01.png",
+    "source_index": 69,
+    "source_file": "ChatGPT_Image_28_de_mai._de_2026__19_28_41-removebg-preview.png",
+    "note": "roadie/técnico de palco"
+  },
+  {
+    "output": "assets/characters/staff/CHR_STAFF_SOCIAL_MEDIA_01.png",
+    "source_index": 67,
+    "source_file": "ChatGPT_Image_28_de_mai._de_2026__19_28_37-removebg-preview (1).png",
+    "note": "social media/marketing"
+  },
+  {
+    "output": "assets/characters/staff/CHR_STAFF_SECURITY_01.png",
+    "source_index": 66,
+    "source_file": "ChatGPT_Image_28_de_mai._de_2026__19_28_33-removebg-preview.png",
+    "note": "segurança/tour manager aproximado"
+  },
+  {
+    "output": "assets/logos/bands/LOGO_BAND_CROWN_01.png",
+    "source_index": 65,
+    "source_file": "ChatGPT_Image_28_de_mai._de_2026__19_28_28-removebg-preview.png",
+    "note": "logo coroa limpo"
+  },
+  {
+    "output": "assets/logos/bands/LOGO_BAND_LIGHTNING_01.png",
+    "source_index": 55,
+    "source_file": "ChatGPT_Image_28_de_mai._de_2026__19_27_54__1_-removebg-preview.png",
+    "note": "logo raio/energia"
+  },
+  {
+    "output": "assets/logos/bands/LOGO_BAND_SERPENT_01.png",
+    "source_index": 56,
+    "source_file": "ChatGPT_Image_28_de_mai._de_2026__19_27_54__2_-removebg-preview.png",
+    "note": "logo serpente/clave"
+  },
+  {
+    "output": "assets/logos/bands/LOGO_BAND_PHOENIX_01.png",
+    "source_index": 57,
+    "source_file": "ChatGPT_Image_28_de_mai._de_2026__19_27_55__3_-removebg-preview.png",
+    "note": "logo fênix"
+  },
+  {
+    "output": "assets/logos/bands/optional_rock_only/LOGO_BAND_SKULL_WINGS_01.png",
+    "source_index": 64,
+    "source_file": "ChatGPT_Image_28_de_mai._de_2026__19_28_24-removebg-preview.png",
+    "note": "opcional rock/metal somente; não recomendado para gospel"
+  },
+  {
+    "output": "assets/logos/world/LOGO_LABEL_01.png",
+    "source_index": 58,
+    "source_file": "ChatGPT_Image_28_de_mai._de_2026__19_27_55__4_-removebg-preview.png",
+    "note": "gravadora fictícia"
+  },
+  {
+    "output": "assets/logos/world/LOGO_FESTIVAL_01.png",
+    "source_index": 59,
+    "source_file": "ChatGPT_Image_28_de_mai._de_2026__19_27_55__5_-removebg-preview.png",
+    "note": "festival fictício"
+  },
+  {
+    "output": "assets/characters/faces/FACE_PLAYER_MALE_01.png",
+    "source_index": "crop",
+    "source_file": "assets/characters/player/CHR_PLAYER_MALE_01.png",
+    "note": "face recortada automaticamente do avatar original"
+  },
+  {
+    "output": "assets/characters/faces/FACE_PLAYER_MALE_02.png",
+    "source_index": "crop",
+    "source_file": "assets/characters/player/CHR_PLAYER_MALE_02.png",
+    "note": "face recortada automaticamente do avatar original"
+  },
+  {
+    "output": "assets/characters/faces/FACE_PLAYER_MALE_03.png",
+    "source_index": "crop",
+    "source_file": "assets/characters/player/CHR_PLAYER_MALE_03.png",
+    "note": "face recortada automaticamente do avatar original"
+  },
+  {
+    "output": "assets/characters/faces/FACE_PLAYER_MALE_04.png",
+    "source_index": "crop",
+    "source_file": "assets/characters/player/CHR_PLAYER_MALE_04.png",
+    "note": "face recortada automaticamente do avatar original"
+  },
+  {
+    "output": "assets/characters/faces/FACE_PLAYER_FEMALE_01.png",
+    "source_index": "crop",
+    "source_file": "assets/characters/player/CHR_PLAYER_FEMALE_01.png",
+    "note": "face recortada automaticamente do avatar original"
+  },
+  {
+    "output": "assets/characters/faces/FACE_PLAYER_FEMALE_02.png",
+    "source_index": "crop",
+    "source_file": "assets/characters/player/CHR_PLAYER_FEMALE_02.png",
+    "note": "face recortada automaticamente do avatar original"
+  },
+  {
+    "output": "assets/characters/faces/FACE_PLAYER_FEMALE_03.png",
+    "source_index": "crop",
+    "source_file": "assets/characters/player/CHR_PLAYER_FEMALE_03.png",
+    "note": "face recortada automaticamente do avatar original"
+  },
+  {
+    "output": "assets/characters/faces/FACE_PLAYER_FEMALE_04.png",
+    "source_index": "crop",
+    "source_file": "assets/characters/player/CHR_PLAYER_FEMALE_04.png",
+    "note": "face recortada automaticamente do avatar original"
+  },
+  {
+    "output": "assets/characters/faces/FACE_PLAYER_ANDRO_01.png",
+    "source_index": "crop",
+    "source_file": "assets/characters/player/CHR_PLAYER_ANDRO_01.png",
+    "note": "face recortada automaticamente do avatar original"
+  },
+  {
+    "output": "assets/characters/faces/FACE_PLAYER_ANDRO_02.png",
+    "source_index": "crop",
+    "source_file": "assets/characters/player/CHR_PLAYER_ANDRO_02.png",
+    "note": "face recortada automaticamente do avatar original"
+  },
+  {
+    "output": "assets/characters/faces/FACE_PLAYER_ANDRO_03.png",
+    "source_index": "crop",
+    "source_file": "assets/characters/player/CHR_PLAYER_ANDRO_03.png",
+    "note": "face recortada automaticamente do avatar original"
+  },
+  {
+    "output": "assets/characters/faces/FACE_PLAYER_ANDRO_04.png",
+    "source_index": "crop",
+    "source_file": "assets/characters/player/CHR_PLAYER_ANDRO_04.png",
+    "note": "face recortada automaticamente do avatar original"
+  }
+]

@@ -1,0 +1,36 @@
+{
+  "version": "v0.4.0_20260519_1835",
+  "phase": "Staff System",
+  "staff_market": [
+    {
+      "id": "manager_01",
+      "role": "Empresaria",
+      "purpose": "Negociacao e contratos"
+    },
+    {
+      "id": "producer_01",
+      "role": "Produtor Musical",
+      "purpose": "Qualidade de estudio"
+    },
+    {
+      "id": "road_01",
+      "role": "Tour Manager",
+      "purpose": "Logistica de shows"
+    },
+    {
+      "id": "press_01",
+      "role": "Marketing/PR",
+      "purpose": "Hype e redes sociais"
+    },
+    {
+      "id": "scout_01",
+      "role": "Caca-talentos",
+      "purpose": "NPCs raros"
+    },
+    {
+      "id": "coach_01",
+      "role": "Coach de Palco",
+      "purpose": "Moral e performance"
+    }
+  ]
+}

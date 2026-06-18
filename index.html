@@ -1,0 +1,825 @@
+<!doctype html>
+<html lang="pt-BR" data-lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+  <meta name="theme-color" content="#050403" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="screen-orientation" content="landscape" />
+  <title>Band Legacy v1.9.0 - Integração Visual Total dos Assets</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="rotateWarning" class="rotate-warning">
+    <div class="rotate-card">
+      <div class="rotate-icon">↻</div>
+      <h1>Vire o celular</h1>
+      <p>Band Legacy foi criado para jogar em tela cheia horizontal. Vire o aparelho, toque em ativar e mantenha o celular deitado.</p>
+      <button id="tryFullscreenBtn" class="primary">Ativar tela cheia horizontal</button>
+      <small id="mobileCapabilityText">Aguardando permissão do navegador...</small>
+    </div>
+  </div>
+
+
+  <div id="releaseLoader" class="release-loader" aria-hidden="true">
+    <div class="loader-emblem">BL</div>
+    <strong>Band Legacy</strong>
+    <span>Carregando Release Candidate AAA...</span>
+    <i></i>
+  </div>
+
+  <div id="tutorialOverlay" class="tutorial-overlay" aria-hidden="true">
+    <div class="tutorial-card">
+      <small>Primeiros passos</small>
+      <h1>Construa uma banda lendária</h1>
+      <p>O ciclo principal é simples: gerencie a equipe, componha músicas, grave no estúdio, lance singles, promova nas redes, faça shows e avance a semana para evoluir.</p>
+      <div class="tutorial-steps">
+        <div><b>1</b><span>Crie sua identidade e salve a carreira.</span></div>
+        <div><b>2</b><span>Componha, grave e lance sua primeira música.</span></div>
+        <div><b>3</b><span>Monte setlist, faça shows e reinvista o dinheiro.</span></div>
+      </div>
+      <div class="bottom-actions compact"><button data-screen="releaseCandidate">Ver checklist</button><button data-action="completeTutorial" class="primary">Começar carreira</button></div>
+    </div>
+  </div>
+
+  <main id="app" class="app-shell screen-main-menu">
+    <div class="cinema-bg" id="cinemaBg"></div>
+    <div class="grain"></div>
+
+    <header class="top-bar">
+      <div class="profile-mini">
+        <div class="avatar"></div>
+        <div>
+          <strong id="playerName">River Crow</strong>
+          <span>Fundador / Vocalista</span>
+        </div>
+      </div>
+      <div class="brand-mini">BAND <span>LEGACY</span></div>
+      <div class="language-control"><label for="languageSelect">Idioma</label><select id="languageSelect" aria-label="Idioma"><option value="pt-BR">PT-BR</option><option value="en-US">EN</option><option value="es-ES">ES</option></select></div>
+      <div class="build-badge" id="buildBadge">v1.5.0_world_ranking_awards_20260612_2145</div><div class="save-status" id="saveStatus">Autosave pronto</div>
+    </header>
+
+    <section class="screen active" id="mainMenu">
+      <div class="hero-logo">
+        <div class="logo-top">BAND</div>
+        <div class="logo-bottom">LEGACY</div>
+        <p>Rise. Perform. Become a Legend.</p>
+      </div>
+      <nav class="main-actions">
+        <button data-action="startNewGame" class="primary">New Game</button>
+        <button data-action="continueGame">Continue</button>
+        <button data-screen="loadGame">Load Game</button>
+        <button data-screen="settings">Settings</button>
+        <button data-screen="releaseCandidate">Release Candidate</button>
+        <button data-screen="commercialQA">QA Comercial</button>
+        <button data-screen="assetPipeline">Assets</button>
+        <button data-screen="onboarding">Onboarding</button>
+        <button data-screen="localizationQA">Localização</button>
+        <button data-screen="credits">Credits</button>
+      </nav>
+    </section>
+
+
+
+    <section class="screen" id="loadGame">
+      <div class="panel wide load-panel">
+        <div class="section-head">
+          <div>
+            <h1>Load Game</h1>
+            <p>Sistema real de saves: até 5 slots, autosave, save manual, migração de versão e reset seguro.</p>
+          </div>
+          <div class="band-score"><strong>v0.3</strong><span>Save System</span></div>
+        </div>
+        <div id="saveSlotList" class="save-slot-list"></div>
+        <div class="bottom-actions">
+          <button data-screen="mainMenu">Voltar</button>
+          <button data-action="manualSave" class="primary">Salvar Agora</button>
+          <button data-action="continueGame" class="primary">Continuar Último Save</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="screen" id="profileCareer">
+      <div class="panel wide profile-panel">
+        <h1>Perfil e Carreira</h1>
+        <p>Fase 4: identidade integrada ao ciclo principal de carreira, com autosave, slots, migração e reset seguro.</p>
+        <div class="profile-grid">
+          <div class="card avatar-select">
+            <h2>Avatar do Artista</h2>
+            <div class="avatar-big avatar-stage" id="avatarPreview"></div>
+            <div class="avatar-row selectable-avatars" id="avatarChoices">
+              <button data-avatar="male_rocker_01" class="selected">01</button>
+              <button data-avatar="female_rocker_01">02</button>
+              <button data-avatar="punk_01">03</button>
+              <button data-avatar="metal_01">04</button>
+              <button data-avatar="indie_01">05</button>
+            </div>
+          </div>
+          <div class="card career-card">
+            <h2>Identidade</h2>
+            <label>Nome artístico</label><input id="profileArtistInput" maxlength="20" value="River Crow" />
+            <label>País</label><select id="profileCountry"><option>🇧🇷 Brasil</option><option>🇺🇸 Estados Unidos</option><option>🇬🇧 Reino Unido</option><option>🇯🇵 Japão</option><option>🇩🇪 Alemanha</option><option>🇦🇷 Argentina</option></select>
+            <label>Cidade de origem</label><input id="profileCityInput" maxlength="30" value="São Paulo/SP" />
+            <label>Dificuldade</label><select id="difficulty"><option>Normal</option><option>Realista</option><option>Lenda</option></select>
+          </div>
+          <div class="card career-card">
+            <h2>Progresso</h2>
+            <div class="career-meter"><strong>Nível 1</strong><span><i style="width:18%"></i></span><em>180 / 1.000 XP</em></div>
+            <div class="career-meter"><strong>Reputação Local</strong><span><i style="width:12%"></i></span><em>12 / 100</em></div>
+            <div class="career-traits"><button class="selected">Carismático</button><button>Criativo</button><button>Disciplinado</button><button>Rebelde</button></div>
+          </div>
+        </div>
+        <div class="bottom-actions"><button data-screen="mainMenu">Voltar</button><button data-screen="newCareer" class="primary">Criar/Editar Banda</button><button data-action="saveProfile" class="primary">Salvar Perfil</button></div>
+      </div>
+    </section>
+
+    <section class="screen" id="newCareer">
+      <div class="panel wide">
+        <h1>New Game</h1>
+        <div class="career-grid">
+          <div class="card avatar-select">
+            <h2>Escolha seu avatar</h2>
+            <div class="avatar-big"></div>
+            <div class="avatar-row">
+              <span></span><span></span><span></span><span></span><span></span>
+            </div>
+          </div>
+          <div class="card form-card">
+            <h2>Sua identidade</h2>
+            <label>País</label>
+            <select id="country"><option>🇧🇷 Brasil</option><option>🇺🇸 Estados Unidos</option><option>🇬🇧 Reino Unido</option><option>🇯🇵 Japão</option></select>
+            <label>Nome artístico</label>
+            <input id="artistInput" maxlength="20" value="River Crow" />
+            <label>Modo inicial</label>
+            <div class="choice-row">
+              <button class="selected">Criar nova banda</button>
+              <button>Entrar em uma banda</button>
+            </div>
+          </div>
+          <div class="card form-card">
+            <h2>Identidade da banda</h2>
+            <label>Nome da banda</label>
+            <input id="bandInput" maxlength="30" value="River Crow" />
+            <label>Estilo musical</label>
+            <div class="genre-grid">
+              <button class="selected">Rock</button><button>Metal</button><button>Indie</button><button>Punk</button><button>Hard Rock</button><button>Alternative</button>
+            </div>
+          </div>
+        </div>
+        <div class="bottom-actions"><button data-screen="mainMenu">Voltar</button><button data-screen="lobby" class="primary">Continuar</button></div>
+      </div>
+    </section>
+
+    <section class="screen" id="lobby">
+      <aside class="side-nav">
+        <button class="selected" data-screen="lobby">Lobby</button><button data-screen="profileCareer">Perfil</button><button data-screen="band">Banda</button><button data-screen="composition">Compor</button><button data-screen="studio">Estúdio</button><button data-screen="release">Lançar</button><button data-screen="liveShow">Shows</button><button data-screen="socialMedia">Social</button><button data-screen="events">Eventos</button><button data-screen="market">Mercado IA</button><button data-screen="staff">Staff</button><button data-screen="economy">Finanças</button><button data-screen="worldTour">Turnês</button><button data-screen="longCampaign">Campanha</button><button data-screen="worldRanking">Ranking</button><button data-screen="bandDynamics">Dinâmica</button><button data-screen="contracts">Contratos</button><button data-screen="releaseCandidate">RC</button><button data-screen="commercialQA">QA</button><button data-screen="assetPipeline">Assets</button><button data-screen="onboarding">Onboarding</button><button data-screen="localizationQA">Localização</button>
+      </aside>
+      <section class="dashboard">
+        <div class="stats-row" id="coreStats"><div>$ 2.350.500</div><div>★ 7.850 XP</div><div>👥 12.450 fãs</div><div>Reputação: Lendária</div></div>
+        <div class="feature-banner core-loop-banner">
+          <div><h1>River Crow</h1><p>Rock Alternativo • Brasil • São Paulo/SP</p></div>
+          <div class="core-loop-panel">
+            <span id="coreWeek">Semana 1</span>
+            <strong id="coreCycle">GERENCIAR</strong>
+            <em>Prontidão <b id="coreReadiness">0%</b></em>
+          </div>
+        </div>
+        <div class="core-next-card">
+          <div><small>Próxima ação recomendada</small><h2 id="coreNextTitle">Contratar staff essencial</h2><p id="coreNextText">Siga o ciclo principal para evoluir a banda.</p></div>
+          <div class="core-actions"><button data-action="smartCoreAction" class="primary">Ir para ação</button><button data-action="advanceCareerWeek">Avançar semana</button></div>
+        </div>
+        <div class="tile-grid">
+          <button data-screen="composition" class="tile">Compor<span>Crie novas músicas</span></button>
+          <button data-screen="studio" class="tile">Gravar Estúdio<span>Produza suas músicas</span></button>
+          <button data-screen="release" class="tile">Lançar Música<span>Singles, EPs, charts e hype</span></button>
+          <button data-screen="liveShow" class="tile">Shows<span>Agende shows e turnês</span></button>
+          <button data-screen="socialMedia" class="tile">Social Media<span>Hype, fãs, viralização e reputação</span></button>
+          <button data-screen="economy" class="tile">Patrocínio<span>Gravadoras, sponsors e caixa</span></button><button data-screen="worldTour" class="tile">Turnês Mundiais<span>Rotas, logística e fãs globais</span></button><button data-screen="events" class="tile">Eventos Dinâmicos<span>Conflitos, imprensa, prêmios e decisões</span></button><button data-screen="market" class="tile">Mercado IA<span>Tendências, rivais, charts e regiões</span></button>
+          <button data-screen="staff" class="tile">Staff<span>Contrate equipe</span></button><button data-screen="longCampaign" class="tile">Campanha Longa<span>Simule 12, 26 ou 52 semanas</span></button><button data-screen="bandDynamics" class="tile">Dinâmica da Banda<span>Química, moral, ego e conflitos</span></button><button data-screen="contracts" class="tile">Contratos & Patrocínios<span>Negocie gravadoras, marcas e cláusulas</span></button>
+        </div>
+      </section>
+      <aside class="right-feed"><h2>Ciclo da Carreira</h2><div id="coreLog" class="core-log"></div><h2>Agenda</h2><p>25 MAI — Show RJ</p><p>02 JUN — Rock Nation Festival</p><h2>E-mails</h2><p>Rock Nation Festival: proposta recebida</p></aside>
+    </section>
+
+    <section class="screen" id="band">
+      <div class="panel wide band-panel">
+        <div class="section-head">
+          <div><h1>Banda</h1><p>Monte a identidade da sua banda, ajuste a formação e acompanhe sinergia, ego, moral e evolução dos integrantes.</p></div>
+          <div class="band-score"><strong id="bandOverall">68</strong><span>Overall</span></div>
+        </div>
+        <div class="band-layout">
+          <div class="card band-identity-card">
+            <h2>Identidade da Banda</h2>
+            <label>Nome da banda</label><input id="bandNameInput" maxlength="30" value="River Crow" />
+            <label>Formação</label><select id="bandFormation"><option>Solo</option><option>Duo</option><option>Trio</option><option selected>Quarteto</option><option>Banda completa</option></select>
+            <label>Estilo principal</label><select id="bandGenre"><option selected>Rock Alternativo</option><option>Hard Rock</option><option>Metal</option><option>Punk</option><option>Indie</option><option>Progressive</option><option>Experimental</option></select>
+            <div class="band-metrics">
+              <div><span>Sinergia</span><b id="metricSynergy">64</b><i><em style="width:64%"></em></i></div>
+              <div><span>Moral</span><b id="metricMorale">72</b><i><em style="width:72%"></em></i></div>
+              <div><span>Energia</span><b id="metricEnergy">69</b><i><em style="width:69%"></em></i></div>
+              <div><span>Criatividade</span><b id="metricCreativity">76</b><i><em style="width:76%"></em></i></div>
+            </div>
+          </div>
+          <div class="card member-editor-card">
+            <h2>Editar Integrante</h2>
+            <div class="member-avatar-stage" id="selectedMemberAvatar"></div>
+            <label>Nome</label><input id="memberNameInput" maxlength="24" />
+            <label>Função</label><select id="memberRoleInput"><option>Vocalista</option><option>Guitarrista</option><option>Baixista</option><option>Baterista</option><option>Tecladista</option><option>DJ</option></select>
+            <div class="bottom-actions compact"><button data-action="randomizeMember">Gerar NPC</button><button class="primary" data-action="saveMember">Salvar Integrante</button></div>
+          </div>
+          <div class="card band-system-card">
+            <h2>Status Interno</h2>
+            <p id="bandNarrative">A banda está no início da estrada. O público percebe potencial, mas a identidade ainda precisa ser consolidada.</p>
+            <div class="risk-grid"><span>Risco de conflito <b id="riskConflict">Baixo</b></span><span>Contrato interno <b>Ativo</b></span><span>Fase <b>Local</b></span><span>Anti-quebra <b>ON</b></span></div>
+          </div>
+        </div>
+        <div class="members-grid" id="membersGrid"></div>
+        <div class="bottom-actions"><button data-screen="lobby">Voltar ao Lobby</button><button data-action="saveBand" class="primary">Salvar Banda</button></div>
+      </div>
+    </section>
+
+
+
+    <section class="screen" id="staff">
+      <div class="panel wide staff-panel">
+        <div class="section-head">
+          <div><h1>Staff</h1><p>Fase 4: contrate profissionais, controle salários e transforme a banda em uma operação comercial internacional.</p></div>
+          <div class="band-score"><strong id="staffCount">0</strong><span>Contratados</span></div>
+        </div>
+        <div class="staff-layout">
+          <div class="card staff-summary-card">
+            <h2>Impacto do Staff</h2>
+            <p id="staffNarrative">Sem staff contratado. A banda economiza dinheiro, mas perde velocidade comercial.</p>
+            <div class="staff-payroll"><span>Folha mensal</span><strong id="staffPayroll">$ 0</strong></div>
+            <div class="band-metrics staff-metrics">
+              <div><span>Força geral</span><b id="metricStaffPower">0</b><i><em style="width:0%"></em></i></div>
+              <div><span>Negociação</span><b id="metricNegotiation">0</b><i><em style="width:0%"></em></i></div>
+              <div><span>Marketing</span><b id="metricMarketing">0</b><i><em style="width:0%"></em></i></div>
+              <div><span>Produção</span><b id="metricProduction">0</b><i><em style="width:0%"></em></i></div>
+              <div><span>Logística</span><b id="metricLogistics">0</b><i><em style="width:0%"></em></i></div>
+              <div><span>Scouting</span><b id="metricScouting">0</b><i><em style="width:0%"></em></i></div>
+            </div>
+            <div class="bottom-actions compact"><button data-screen="lobby">Lobby</button><button data-action="staffMonth" class="primary">Simular mês</button></div>
+          </div>
+          <div class="staff-grid" id="staffGrid"></div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="screen" id="composition">
+      <div class="panel wide composition-panel">
+        <div class="section-head">
+          <div><h1>Composição Musical</h1><p>Fase 5: crie músicas combinando letra, riff, refrão, ponte, solo e mixagem. O sistema calcula qualidade, potencial de hit, originalidade e impacto emocional.</p></div>
+          <div class="band-score"><strong id="compositionPartsCount">0</strong><span>Partes</span></div>
+        </div>
+        <div class="composition-layout">
+          <div class="card composition-editor-card">
+            <h2>Música em criação</h2>
+            <label>Título</label><input id="songTitleInput" maxlength="32" value="Last Stage Lights" />
+            <label>Gênero</label><select id="songGenreSelect"><option>Rock Alternativo</option><option>Hard Rock</option><option>Metal</option><option>Punk</option><option>Indie</option><option>Progressive</option><option>Experimental</option></select>
+            <label>Tema</label><input id="songThemeInput" maxlength="30" value="superação" />
+            <div class="song-dna-grid">
+              <label>BPM<input id="songBpmInput" type="range" min="70" max="190" step="1" value="128" /></label>
+              <label>Tom<select id="songKeySelect"><option>Em</option><option>Am</option><option>Dm</option><option>G</option><option>A</option><option>C</option><option>D</option><option>F#m</option><option>Bm</option></select></label>
+              <label>Intensidade<input id="songIntensityInput" type="range" min="0" max="100" step="5" value="68" /></label>
+            </div>
+            <label>Estrutura</label><select id="songStructureSelect"><option>Intro • Verso • Refrão • Solo • Final</option><option>Intro • Verso • Pré-Refrão • Refrão • Ponte • Refrão</option><option>Riff • Verso • Refrão • Solo • Refrão Duplo</option><option>Atmosfera • Crescendo • Explosão • Encore</option></select>
+            <label>Letra / Direção</label><textarea id="songLyricInput" maxlength="260">Letra sobre superar a noite, vencer o medo e tocar para uma arena lotada.</textarea>
+            <p id="compositionNarrative">Escolha partes para formar uma música com identidade forte.</p>
+            <div class="band-metrics composition-metrics">
+              <div><span>Qualidade</span><b id="metricSongQuality">0</b><i><em style="width:0%"></em></i></div>
+              <div><span>Hit</span><b id="metricHitPotential">0</b><i><em style="width:0%"></em></i></div>
+              <div><span>Originalidade</span><b id="metricOriginality">0</b><i><em style="width:0%"></em></i></div>
+              <div><span>Emoção</span><b id="metricEmotion">0</b><i><em style="width:0%"></em></i></div>
+            </div>
+            <div class="bottom-actions compact"><button data-action="generateSongIdea">Gerar ideia</button><button data-action="improveSong" class="primary">Polir composição</button><button data-action="finishSong" class="primary">Finalizar demo</button></div>
+          </div>
+          <div class="composition-parts-grid" id="compositionPartsGrid"></div>
+          <div class="card song-library-card">
+            <h2>Biblioteca</h2>
+            <p class="muted">Demos finalizadas entram aqui e depois serão usadas no estúdio, lançamentos e shows.</p>
+            <div id="songLibraryList" class="song-library-list"></div>
+            <div class="risk-grid"><span>Pipeline <b>Composição</b></span><span>Próxima fase <b>Estúdio</b></span><span>Anti-quebra <b>ON</b></span><span>Assets <b>Provisórios</b></span></div>
+          </div>
+        </div>
+        <div class="bottom-actions"><button data-screen="lobby">Voltar ao Lobby</button><button data-screen="studio" class="primary">Ir para Estúdio</button></div>
+      </div>
+    </section>
+    <section class="screen" id="studio">
+      <div class="panel wide studio-panel">
+        <div class="section-head">
+          <div><h1>Estúdio</h1><p>Fase 6: grave demos, escolha sala, ajuste takes, mixagem e masterização para transformar composições em masters comerciais.</p></div>
+          <div class="band-score"><strong id="studioProjectCount">0</strong><span>Projetos</span></div>
+        </div>
+        <div class="studio-layout">
+          <div class="card studio-control-card">
+            <h2>Produção Ativa</h2>
+            <p id="studioNarrative">Ajuste a produção antes de finalizar a master.</p>
+            <label>Orçamento extra</label><input id="studioBudgetInput" type="range" min="5000" max="250000" step="5000" value="45000" />
+            <label>Takes de gravação</label><input id="studioTakesInput" type="range" min="1" max="10" step="1" value="1" />
+            <label>Mixagem</label><input id="studioMixInput" type="range" min="0" max="100" step="5" value="45" />
+            <label>Masterização</label><input id="studioMasterInput" type="range" min="0" max="100" step="5" value="35" />
+            <label>Produtor</label><select id="studioProducerSelect"><option value="internal">Produção própria</option><option value="vintage">Produtor Vintage Rock</option><option value="radio">Produtor Radio Hit</option><option value="metal">Produtor Metal Arena</option></select>
+            <label>Direção sonora</label><select id="studioSonicDirection"><option value="balanced">Equilibrado</option><option value="raw">Cru e orgânico</option><option value="polished">Polido internacional</option><option value="cinematic">Cinemático ao vivo</option></select>
+            <div class="studio-cost"><span>Custo previsto</span><strong id="studioCost">$ 0</strong></div><div class="waveform-preview" id="waveformPreview"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+            <div class="bottom-actions compact"><button data-action="autoTuneStudio">Auto setup</button><button data-action="simulateStudioTake">Gravar take</button><button data-action="finishStudioMaster" class="primary">Finalizar master</button></div>
+          </div>
+          <div class="card studio-score-card">
+            <h2>Resultado da Produção</h2>
+            <div class="band-metrics studio-metrics">
+              <div><span>Qualidade Final</span><b id="metricStudioQuality">0</b><i><em style="width:0%"></em></i></div>
+              <div><span>Rádio/Streaming</span><b id="metricStudioRadio">0</b><i><em style="width:0%"></em></i></div>
+              <div><span>Autenticidade</span><b id="metricStudioAuthenticity">0</b><i><em style="width:0%"></em></i></div>
+              <div><span>Risco</span><b id="metricStudioRisk">0</b><i><em style="width:0%"></em></i></div>
+            </div>
+            <h2>Projetos</h2><div id="studioProjectList" class="studio-project-list"></div>
+          </div>
+          <div class="studio-room-grid" id="studioRoomGrid"></div>
+          <div class="card studio-masters-card">
+            <h2>Masters Finalizadas</h2>
+            <p class="muted">Estas faixas irão alimentar lançamentos, charts, shows e turnês nas próximas fases.</p>
+            <div id="releasedMastersList" class="song-library-list"></div>
+            <div class="risk-grid"><span>Pipeline <b>Estúdio</b></span><span>Próxima fase <b>Lançamento</b></span><span>Anti-quebra <b>ON</b></span><span>Mobile <b>Landscape</b></span></div>
+          </div>
+        </div>
+        <div class="bottom-actions"><button data-screen="composition">Voltar à composição</button><button data-screen="lobby">Lobby</button><button data-screen="release" class="primary">Próxima fase: Lançamento</button></div>
+      </div>
+    </section>
+
+    <section class="screen" id="release">
+      <div class="panel wide release-panel">
+        <div class="section-head">
+          <div><h1>Lançamento Musical</h1><p>Fase 7: transforme masters em singles, EPs e álbuns. Escolha campanha, plataforma, preço e janela para disputar charts globais.</p></div>
+          <div class="band-score"><strong id="releaseCount">0</strong><span>Lançamentos</span></div>
+        </div>
+        <div class="release-layout">
+          <div class="card release-control-card">
+            <h2>Campanha</h2>
+            <p id="releaseNarrative">Selecione uma master finalizada e prepare o lançamento comercial.</p>
+            <label>Formato</label><select id="releaseFormat"><option>Single</option><option>EP</option><option>Álbum</option><option>Live Session</option></select>
+            <label>Plataforma foco</label><select id="releasePlatform"><option>Global Stream</option><option>RockWave</option><option>ClipTube</option><option>Indie Radar</option><option>Radio Network</option></select>
+            <label>Marketing</label><input id="releaseMarketingInput" type="range" min="5000" max="300000" step="5000" value="55000" />
+            <label>Clipe / Conteúdo Visual</label><input id="releaseVideoInput" type="range" min="0" max="100" step="5" value="35" />
+            <label>PR / Imprensa</label><input id="releasePrInput" type="range" min="0" max="100" step="5" value="45" />
+            <label>Janela</label><select id="releaseWindow"><option value="normal">Sexta comum</option><option value="festival">Semana de festival</option><option value="holiday">Feriado internacional</option><option value="quiet">Semana vazia</option></select>
+            <label>Preço / Estratégia</label><select id="releasePricing"><option value="standard">Padrão</option><option value="premium">Premium de fã-base</option><option value="viral">Baixo custo viral</option></select>
+            <div class="studio-cost"><span>Custo da campanha</span><strong id="releaseCost">$ 0</strong></div>
+            <div class="bottom-actions compact"><button data-action="autoTuneRelease">Auto campanha</button><button data-action="publishRelease" class="primary">Publicar</button></div>
+          </div>
+          <div class="card release-score-card">
+            <h2>Previsão Comercial</h2>
+            <div class="band-metrics release-metrics">
+              <div><span>Hype</span><b id="metricReleaseHype">0</b><i><em style="width:0%"></em></i></div>
+              <div><span>Streams</span><b id="metricReleaseStreams">0</b><i><em style="width:0%"></em></i></div>
+              <div><span>Crítica</span><b id="metricReleaseCritics">0</b><i><em style="width:0%"></em></i></div>
+              <div><span>Chart</span><b id="metricReleaseChart">0</b><i><em style="width:0%"></em></i></div>
+            </div>
+            <h2>Masters Disponíveis</h2><div id="releaseMasterList" class="studio-project-list"></div>
+          </div>
+          <div class="release-chart-board">
+            <div class="card chart-card"><h2>Charts</h2><div id="releaseChartList" class="song-library-list"></div></div>
+            <div class="card review-card"><h2>Reviews / Social</h2><div id="releaseReviewFeed" class="song-library-list"></div></div>
+          </div>
+          <div class="card release-history-card">
+            <h2>Catálogo Público</h2>
+            <p class="muted">Lançamentos publicados alimentam reputação, fãs, agenda de shows e rankings internacionais nas próximas fases.</p>
+            <div id="releaseHistoryList" class="song-library-list"></div>
+            <div class="risk-grid"><span>Pipeline <b>Lançamento</b></span><span>Próxima fase <b>Shows</b></span><span>Anti-quebra <b>ON</b></span><span>Assets <b>Trocáveis</b></span></div>
+          </div>
+        </div>
+        <div class="bottom-actions"><button data-screen="studio">Voltar ao Estúdio</button><button data-screen="lobby">Lobby</button><button data-screen="liveShow" class="primary">Ir para Shows</button></div>
+      </div>
+    </section>
+    <section class="screen" id="liveShow">
+      <div class="panel wide live-panel">
+        <div class="section-head">
+          <div><h1>Show ao Vivo</h1><p>Fase 6: setlist, cidade, tipo de show, produção, falhas técnicas, crowd chant, encore, bilheteria, merch, fãs e reputação.</p></div>
+          <div class="band-score"><strong id="liveAttendance">0</strong><span>Público</span></div>
+        </div>
+        <div class="live-layout">
+          <div class="card live-control-card">
+            <h2>Produção do Show</h2>
+            <p id="liveNarrative">Monte a apresentação e prepare o palco.</p>
+            <label>Local</label><select id="liveVenue"><option>Underground Club</option><option>Theater Hall</option><option>Festival Stage</option><option>Arena Gold</option></select>
+            <label>Cidade</label><select id="liveCity"><option>São Paulo</option><option>Rio de Janeiro</option><option>Buenos Aires</option><option>Lisboa</option><option>New York</option><option>Tokyo</option></select>
+            <label>Tipo de show</label><select id="liveShowType"><option>Opening Act</option><option selected>Headliner</option><option>Festival Slot</option><option>Arena Special</option></select>
+            <label>Preço do ingresso</label><input id="liveTicketInput" type="range" min="5" max="300" step="1" value="32" />
+            <label>Produção / Luz / Palco</label><input id="liveProductionInput" type="range" min="0" max="100" step="5" value="45" />
+            <label>Merch por fã</label><input id="liveMerchInput" type="range" min="0" max="80" step="1" value="18" />
+            <div class="studio-cost"><span>Receita prevista</span><strong id="liveRevenue">$ 0</strong></div>
+            <div class="studio-cost"><span>Custo / Lucro</span><strong><i id="liveCost">$ 0</i> / <i id="liveProfit">$ 0</i></strong></div>
+            <div class="studio-cost"><span>Risco técnico / Cena</span><strong><i id="liveRisk">0%</i> / <i id="liveCityScene">local</i></strong></div>
+            <div class="bottom-actions compact"><button data-action="autoTuneShow">Auto show</button><button data-action="startLiveShow" class="primary">Iniciar show</button></div>
+          </div>
+          <div class="card live-score-card">
+            <h2>Show em Tempo Real</h2>
+            <div class="show-stage"><div class="stage-lights"></div><div class="crowd-wave"></div></div>
+            <div class="band-metrics live-metrics">
+              <div><span>Público</span><b id="metricLiveCrowd">0</b><i><em style="width:0%"></em></i></div>
+              <div><span>Performance</span><b id="metricLivePerformance">0</b><i><em style="width:0%"></em></i></div>
+              <div><span>Energia</span><b id="metricLiveEnergy">0</b><i><em style="width:0%"></em></i></div>
+              <div><span>Hype ao vivo</span><b id="metricLiveHeat">0</b><i><em style="width:0%"></em></i></div>
+            </div>
+            <div class="bottom-actions compact"><button data-action="liveBoostCrowd">Interagir</button><button data-action="liveCrowdChant">Crowd chant</button><button data-action="liveSolo">Solo</button></div>
+            <div class="bottom-actions compact"><button data-action="liveFixTech">Corrigir falha</button><button data-action="liveEncore">Encore</button><button data-action="liveFinale" class="primary">Encerrar</button></div>
+          </div>
+          <div class="card live-setlist-card"><h2>Setlist</h2><p class="muted">Escolha até 8 músicas. Lançamentos e masters têm mais força de público.</p><div id="liveSetlistList" class="studio-project-list"></div></div>
+          <div class="live-feed-board">
+            <div class="card"><h2>Feed / Social</h2><div id="liveFeed" class="song-library-list"></div></div>
+            <div class="card"><h2>Histórico</h2><div id="liveHistory" class="song-library-list"></div></div>
+          </div>
+        </div>
+        <div class="bottom-actions"><button data-screen="release">Voltar ao Lançamento</button><button data-screen="lobby">Lobby</button><button data-screen="lobby" class="primary">Salvar e voltar</button></div>
+      </div>
+    </section>
+
+    <section class="screen" id="socialMedia">
+      <div class="panel wide social-panel">
+        <div class="section-head">
+          <div><h1>IA de Público e Social Media</h1><p>Fase 9: o mercado reage a lançamentos, shows, posts, entrevistas, virais e críticas. Este sistema alimenta fãs, hype, reputação e futuras propostas internacionais.</p></div>
+          <div class="band-score"><strong id="socialReach">0</strong><span>Alcance</span></div>
+        </div>
+        <div class="social-layout">
+          <div class="card social-control-card">
+            <h2>Campanha Social</h2>
+            <p id="socialNarrative">Escolha uma ação para movimentar a base de fãs.</p>
+            <label>Tipo de ação</label><select id="socialAction"><option>Post de bastidor</option><option>Teaser de música</option><option>Entrevista polêmica</option><option>Clipe curto vertical</option><option>Live com fãs</option><option>Anúncio de show</option></select>
+            <label>Tom da comunicação</label><select id="socialTone"><option>Autêntico</option><option>Rebelde</option><option>Emocional</option><option>Premium</option><option>Viral</option></select>
+            <label>Investimento em impulsionamento</label><input id="socialBudgetInput" type="range" min="0" max="150000" step="2500" value="18000" />
+            <div class="studio-cost"><span>Custo previsto</span><strong id="socialCost">$ 0</strong></div>
+            <div class="bottom-actions compact"><button data-action="autoTuneSocial">Auto campanha</button><button data-action="runSocialAction" class="primary">Publicar ação</button></div>
+          </div>
+          <div class="card social-score-card">
+            <h2>Previsão da IA</h2>
+            <div class="band-metrics social-metrics">
+              <div><span>Hype</span><b id="metricSocialHype">0</b><i><em style="width:0%"></em></i></div>
+              <div><span>Viralização</span><b id="metricSocialViral">0</b><i><em style="width:0%"></em></i></div>
+              <div><span>Lealdade dos fãs</span><b id="metricSocialLoyalty">0</b><i><em style="width:0%"></em></i></div>
+              <div><span>Risco de backlash</span><b id="metricSocialRisk">0</b><i><em style="width:0%"></em></i></div>
+            </div>
+            <div class="risk-grid"><span>Algoritmo <b>Ativo</b></span><span>Moderação <b>Anti-quebra</b></span><span>Mercado <b>Dinâmico</b></span><span>Assets <b>Trocáveis</b></span></div>
+          </div>
+          <div class="social-feed-board">
+            <div class="card"><h2>Comentários dos fãs</h2><div id="socialFanFeed" class="song-library-list"></div></div>
+            <div class="card"><h2>Tendências do mercado</h2><div id="socialTrendFeed" class="song-library-list"></div></div>
+          </div>
+          <div class="card social-history-card"><h2>Histórico Social</h2><p class="muted">Cada ação influencia reputação, público dos shows, resultados de lançamentos e convites futuros.</p><div id="socialHistoryList" class="song-library-list"></div></div>
+        </div>
+        <div class="bottom-actions"><button data-screen="liveShow">Voltar aos Shows</button><button data-screen="lobby">Lobby</button><button data-action="runSocialAction" class="primary">Gerar repercussão</button></div>
+      </div>
+    </section>
+
+    <section class="screen" id="economy">
+      <div class="panel wide economy-panel">
+        <div class="section-head">
+          <div><h1>Economia / Contratos</h1><p>Fase 10: gravadoras, patrocinadores, royalties, merch, despesas mensais e saúde financeira da banda.</p></div>
+          <div class="band-score"><strong id="economyCash">$ 0</strong><span>Caixa</span></div>
+        </div>
+        <div class="economy-layout">
+          <div class="card economy-summary-card">
+            <h2>Controle Financeiro</h2>
+            <p id="economyNarrative">Carregando análise financeira...</p>
+            <div class="studio-cost"><span>Receita mensal</span><strong id="economyIncome">$ 0</strong></div>
+            <div class="studio-cost"><span>Despesas mensais</span><strong id="economyExpenses">$ 0</strong></div>
+            <div class="studio-cost"><span>Saldo previsto</span><strong id="economyNet">$ 0</strong></div>
+            <label>Foco de merch</label><select id="merchFocus"><option>Camisetas de turne</option><option>Vinil colecionador</option><option>Jaquetas premium</option><option>Pacote VIP backstage</option></select>
+            <div class="bottom-actions compact"><button data-screen="lobby">Lobby</button><button data-action="simulateEconomyMonth" class="primary">Simular mês financeiro</button></div>
+          </div>
+          <div class="card economy-score-card">
+            <h2>Saúde Comercial</h2>
+            <div class="band-metrics economy-metrics">
+              <div><span>Estabilidade</span><b id="metricFinanceStability">0</b><i><em style="width:0%"></em></i></div>
+              <div><span>Fit patrocinador</span><b id="metricSponsorFit">0</b><i><em style="width:0%"></em></i></div>
+              <div><span>Runway</span><b id="metricRunway">0m</b><i><em style="width:0%"></em></i></div>
+            </div>
+            <div class="risk-grid"><span>Contratos <b>Ativos</b></span><span>Royalties <b>Dinâmicos</b></span><span>Anti-quebra <b>ON</b></span><span>Assets <b>Trocáveis</b></span></div>
+          </div>
+          <div class="card"><h2>Gravadoras / Distribuição</h2><div id="labelList" class="deal-list"></div></div>
+          <div class="card"><h2>Patrocinadores</h2><div id="sponsorList" class="deal-list"></div></div>
+          <div class="card economy-history-card"><h2>Histórico Financeiro</h2><div id="economyHistory" class="song-library-list"></div></div>
+        </div>
+        <div class="bottom-actions"><button data-screen="socialMedia">Voltar ao Social</button><button data-screen="lobby">Lobby</button><button data-screen="lobby" class="primary">Salvar e voltar</button></div>
+      </div>
+    </section>
+
+
+    <section class="screen" id="worldTour">
+      <div class="panel wide tour-panel">
+        <div class="section-head">
+          <div><h1>Turnês Internacionais</h1><p>Fase 11: mapa de rotas, logística global, transporte, equipe de estrada, fadiga, risco e expansão mundial da banda.</p></div>
+          <div class="band-score"><strong id="tourCash">$ 0</strong><span>Caixa</span></div>
+        </div>
+        <div class="economy-layout tour-layout">
+          <div class="card economy-summary-card">
+            <h2>Plano de Turnê</h2><p id="tourNarrative">Carregando plano internacional...</p>
+            <div class="studio-cost"><span>Receita bruta prevista</span><strong id="tourGross">$ 0</strong></div>
+            <div class="studio-cost"><span>Custo logístico</span><strong id="tourCost">$ 0</strong></div>
+            <div class="studio-cost"><span>Resultado previsto</span><strong id="tourNet">$ 0</strong></div>
+            <label>Transporte</label><select id="tourTransport"><option value="night_bus">Ônibus noturno econômico</option><option value="van">Van independente</option><option value="tour_bus" selected>Tour bus profissional</option><option value="jet">Jato / voos premium</option></select>
+            <label>Equipe de estrada</label><select id="tourCrew"><option value="lean">Equipe enxuta</option><option value="balanced" selected>Equipe equilibrada</option><option value="premium">Equipe premium</option></select>
+            <div class="bottom-actions compact"><button data-action="restTourCrew">Descansar equipe</button><button data-action="launchWorldTour" class="primary">Executar turnê</button></div>
+          </div>
+          <div class="card economy-score-card"><h2>Prontidão Global</h2><div class="band-metrics economy-metrics">
+            <div><span>Prontidão</span><b id="metricTourReadiness">0</b><i><em style="width:0%"></em></i></div>
+            <div><span>Hype internacional</span><b id="metricTourHype">0</b><i><em style="width:0%"></em></i></div>
+            <div><span>Risco logístico</span><b id="metricTourRisk">0</b><i><em style="width:0%"></em></i></div>
+          </div><div class="risk-grid"><span>Rotas <b>Modulares</b></span><span>Fadiga <b>Dinâmica</b></span><span>Mercado <b>Global</b></span><span>Anti-quebra <b>ON</b></span></div></div>
+          <div class="card"><h2>Rotas Disponíveis</h2><div id="tourRouteList" class="deal-list"></div></div>
+          <div class="card economy-history-card"><h2>Diário da Turnê</h2><div id="tourHistory" class="song-library-list"></div></div>
+        </div>
+        <div class="bottom-actions"><button data-screen="economy">Voltar às Finanças</button><button data-screen="lobby">Lobby</button><button data-screen="liveShow" class="primary">Preparar Show</button></div>
+      </div>
+    </section>
+
+
+    <section class="screen" id="events">
+      <div class="panel wide events-panel">
+        <div class="section-head">
+          <div><h1>Eventos Dinâmicos</h1><p>Fase 12: conflitos internos, entrevistas, escândalos, premiações, escolhas narrativas e consequências reais na carreira.</p></div>
+          <div class="band-score"><strong id="eventHeat">0</strong><span>Heat</span></div>
+        </div>
+        <div class="economy-layout events-layout">
+          <div class="card economy-summary-card">
+            <h2>Próximo Evento</h2>
+            <p id="eventNarrative">Carregando evento narrativo...</p>
+            <div class="studio-cost"><span>Impacto previsto</span><strong id="eventImpact">0</strong></div>
+            <div class="studio-cost"><span>Risco público</span><strong id="eventRisk">0</strong></div>
+            <div class="studio-cost"><span>Recompensa possível</span><strong id="eventReward">$ 0</strong></div>
+            <label>Tom da resposta</label><select id="eventTone"><option value="professional">Profissional</option><option value="emotional">Emocional</option><option value="rebellious">Rebelde</option><option value="silent">Silencioso</option></select>
+            <div class="bottom-actions compact"><button data-action="generateEvent">Novo evento</button><button data-action="resolveEvent" class="primary">Resolver evento</button></div>
+          </div>
+          <div class="card economy-score-card">
+            <h2>Estado da Banda</h2>
+            <div class="band-metrics economy-metrics">
+              <div><span>Moral</span><b id="metricEventMorale">0</b><i><em style="width:0%"></em></i></div>
+              <div><span>Ego médio</span><b id="metricEventEgo">0</b><i><em style="width:0%"></em></i></div>
+              <div><span>Controle de crise</span><b id="metricEventCrisis">0</b><i><em style="width:0%"></em></i></div>
+            </div>
+            <div class="risk-grid"><span>Conflitos <b>Dinâmicos</b></span><span>Imprensa <b>Reativa</b></span><span>Prêmios <b>Progressivos</b></span><span>Anti-quebra <b>ON</b></span></div>
+          </div>
+          <div class="card"><h2>Escolhas Disponíveis</h2><div id="eventChoices" class="deal-list"></div></div>
+          <div class="card economy-history-card"><h2>Histórico Narrativo</h2><div id="eventHistory" class="song-library-list"></div></div>
+        </div>
+        <div class="bottom-actions"><button data-screen="worldTour">Voltar às Turnês</button><button data-screen="lobby">Lobby</button><button data-screen="socialMedia" class="primary">Gerenciar Social</button></div>
+      </div>
+    </section>
+
+
+    <section class="screen" id="market">
+      <div class="panel wide market-panel">
+        <div class="section-head"><div><h1>IA de Mercado Musical</h1><p id="marketSeason">2026 Global Rock Cycle</p></div><div class="band-score"><strong id="marketOpportunity">0</strong><span>Oportunidade</span></div></div>
+        <div class="economy-layout market-layout">
+          <div class="card"><h2>Tendências globais</h2><div class="metric-bar"><span>Chance de chart <b id="marketChartChance">0</b></span><i><em id="marketChartBar" style="width:60%"></em></i></div><div class="metric-bar"><span>Risco de mercado <b id="marketRisk">0</b></span><i><em style="width:50%"></em></i></div><div class="metric-bar"><span>Pressão dos rivais <b id="marketPressure">0</b></span><i><em style="width:50%"></em></i></div><label>Região-alvo</label><select id="marketRegion"><option>Global</option><option>Brasil</option><option>Estados Unidos</option><option>Reino Unido</option><option>Japão</option><option>América Latina</option></select><label>Estratégia</label><select id="marketStrategy"><option value="balanced">Equilibrada</option><option value="viral">Viral / Social</option><option value="prestige">Prestígio crítico</option><option value="commercial">Comercial agressiva</option><option value="underground">Underground fiel</option></select></div>
+          <div class="card"><h2>Gêneros em alta</h2><div id="marketGenreTrends" class="metric-list"></div></div>
+          <div class="card"><h2>Bandas rivais</h2><div id="marketRivals" class="song-list"></div></div>
+          <div class="card"><h2>Histórico</h2><div id="marketHistory" class="song-list"></div></div>
+        </div>
+        <div class="bottom-actions"><button data-screen="events">Voltar aos Eventos</button><button data-screen="lobby">Lobby</button><button data-action="simulateMarketWeek" class="primary">Simular semana de mercado</button></div>
+      </div>
+    </section>
+
+
+
+    <section class="screen" id="longCampaign">
+      <div class="panel wide campaign-panel">
+        <div class="section-head">
+          <div><h1>Campanha Longa & Balanceamento</h1><p>Simule temporadas de 12, 26 ou 52 semanas com projeção de caixa, fãs, XP, risco, burnout e marcos de carreira.</p></div>
+          <div class="band-score"><strong id="campaignSeason">1</strong><span>Temporada</span></div>
+        </div>
+        <div class="campaign-grid">
+          <div class="card campaign-controls">
+            <h2>Plano da temporada</h2>
+            <label>Horizonte<select id="campaignHorizon"><option value="12">12 semanas</option><option value="26">26 semanas</option><option value="52">52 semanas</option></select></label>
+            <label>Estratégia<select id="campaignStrategy"><option value="conservative">Conservadora</option><option value="balanced">Equilibrada</option><option value="aggressive">Agressiva</option><option value="artistic">Artística / catálogo</option></select></label>
+            <p id="campaignNarrative">Calcule uma projeção antes de simular.</p>
+            <div class="bottom-actions compact"><button data-action="recoverCampaignTeam">Pausa estratégica</button><button data-action="simulateLongCampaign" class="primary">Simular temporada</button></div>
+          </div>
+          <div class="card">
+            <h2>Projeção</h2>
+            <div class="metric-list"><span>Caixa projetado <b id="campaignCashProjection">$ 0</b></span><span>Novos fãs <b id="campaignFansProjection">0</b></span><span>XP projetado <b id="campaignXpProjection">0</b></span><span>Risco <b id="campaignRisk">0%</b></span><span>Burnout final <b id="campaignBurnout">0%</b></span><span>Estabilidade <b id="campaignStability">0%</b></span></div>
+          </div>
+          <div class="card">
+            <h2>Carreira</h2>
+            <div class="metric-list"><span>Semanas simuladas <b id="campaignWeeksDone">0</b></span><span>Marco atual <b id="campaignMilestone">Cena local</b></span></div>
+            <h2>Histórico</h2><div id="campaignHistory" class="campaign-history"></div>
+          </div>
+        </div>
+        <div class="bottom-actions"><button data-screen="worldTour">Turnês</button><button data-screen="lobby">Lobby</button><button data-screen="commercialQA" class="primary">Auditar build</button></div>
+      </div>
+    </section>
+
+
+    <section class="screen" id="worldRanking">
+      <div class="panel wide ranking-panel">
+        <div class="section-head">
+          <div><h1>Ranking Mundial & Premiações</h1><p>Compare sua banda com concorrentes persistentes, acompanhe temporadas e dispute prêmios anuais.</p></div>
+          <div class="band-score"><strong id="rankingPosition">#--</strong><span>Posição mundial</span></div>
+        </div>
+        <div class="ranking-grid">
+          <div class="card ranking-table-card">
+            <h2>Top mundial</h2>
+            <div class="ranking-summary"><span>Pontuação <b id="rankingScore">0</b></span><span>Variação <b id="rankingMovement">—</b></span><span>Temporada <b id="rankingSeason">1</b></span></div>
+            <div id="worldRankingList" class="world-ranking-list"></div>
+          </div>
+          <div class="card">
+            <h2>Rivais persistentes</h2>
+            <p id="rivalNarrative">O mercado ainda está analisando sua ascensão.</p>
+            <div id="rivalList" class="rival-list"></div>
+          </div>
+          <div class="card">
+            <h2>Premiações anuais</h2>
+            <div class="metric-list"><span>Indicações <b id="awardNominations">0</b></span><span>Troféus <b id="awardWins">0</b></span><span>Prestígio <b id="awardPrestige">0</b></span></div>
+            <div id="awardList" class="award-list"></div>
+            <div class="bottom-actions compact"><button data-action="processAnnualAwards" class="primary">Realizar premiação anual</button></div>
+          </div>
+        </div>
+        <div class="card season-history-card"><h2>Histórico de temporadas</h2><div id="rankingHistory" class="ranking-history"></div></div>
+        <div class="bottom-actions"><button data-screen="longCampaign">Campanha</button><button data-screen="market">Mercado IA</button><button data-screen="lobby" class="primary">Lobby</button></div>
+      </div>
+    </section>
+
+    <section class="screen" id="bandDynamics">
+      <div class="panel wide dynamics-panel">
+        <div class="section-head">
+          <div><h1>Dinâmica da Banda</h1><p>Gerencie química, moral, ego, confiança e conflitos entre os integrantes. Decisões internas afetam estúdio, shows e estabilidade.</p></div>
+          <div class="band-score"><strong id="dynamicsHarmony">0%</strong><span>Harmonia geral</span></div>
+        </div>
+        <div class="dynamics-grid">
+          <div class="card">
+            <h2>Clima interno</h2>
+            <div class="metric-list"><span>Moral média <b id="dynamicsMorale">0%</b></span><span>Química musical <b id="dynamicsChemistry">0%</b></span><span>Confiança <b id="dynamicsTrust">0%</b></span><span>Pressão de ego <b id="dynamicsEgo">0%</b></span><span>Risco de ruptura <b id="dynamicsRisk">0%</b></span></div>
+            <p id="dynamicsNarrative">A banda ainda está definindo sua identidade coletiva.</p>
+            <div class="bottom-actions compact"><button data-action="bandMeeting">Reunião de alinhamento</button><button data-action="teamBonding" class="primary">Atividade de integração</button></div>
+          </div>
+          <div class="card">
+            <h2>Integrantes</h2>
+            <div id="dynamicsMembers" class="dynamics-members"></div>
+          </div>
+          <div class="card">
+            <h2>Conflito ativo</h2>
+            <div id="activeConflict" class="conflict-box"><p class="muted">Nenhum conflito grave no momento.</p></div>
+            <div class="bottom-actions compact"><button data-action="generateBandConflict">Gerar situação</button><button data-action="resolveBandConflict" class="primary">Resolver conflito</button></div>
+            <h2>Histórico</h2><div id="dynamicsHistory" class="dynamics-history"></div>
+          </div>
+        </div>
+        <div class="bottom-actions"><button data-screen="band">Banda</button><button data-screen="staff">Staff</button><button data-screen="lobby" class="primary">Lobby</button></div>
+      </div>
+    </section>
+
+
+    <section class="screen" id="contracts">
+      <div class="panel wide contracts-panel">
+        <div class="section-head">
+          <div><h1>Contratos, Gravadoras & Patrocínios</h1><p>Negocie adiantamento, royalties, controle criativo, duração, metas e cláusulas. Compare propostas antes de assinar.</p></div>
+          <div class="band-score"><strong id="contractPower">0%</strong><span>Poder de negociação</span></div>
+        </div>
+        <div class="contracts-summary">
+          <div class="card"><small>Contrato ativo</small><strong id="activeContractName">Independente</strong><span id="activeContractTerms">Sem vínculo</span></div>
+          <div class="card"><small>Patrocínio ativo</small><strong id="activeSponsorName">Nenhum</strong><span id="activeSponsorTerms">Sem receita mensal</span></div>
+          <div class="card"><small>Receita contratada</small><strong id="contractMonthlyIncome">$ 0</strong><span>estimativa mensal</span></div>
+          <div class="card"><small>Liberdade artística</small><strong id="creativeFreedom">100%</strong><span>controle criativo</span></div>
+        </div>
+        <div class="contracts-grid">
+          <div class="card"><h2>Propostas de gravadoras</h2><div id="contractOfferList" class="deal-list"></div></div>
+          <div class="card"><h2>Propostas de patrocinadores</h2><div id="contractSponsorList" class="deal-list"></div></div>
+          <div class="card negotiation-card">
+            <h2>Mesa de negociação</h2>
+            <p id="contractNarrative">Selecione uma proposta para analisar riscos e oportunidades.</p>
+            <label>Prioridade da negociação<select id="contractPriority"><option value="balanced">Equilíbrio</option><option value="royalty">Royalties maiores</option><option value="advance">Adiantamento maior</option><option value="freedom">Liberdade artística</option><option value="marketing">Marketing internacional</option></select></label>
+            <div class="metric-list"><span>Chance de acordo <b id="contractChance">0%</b></span><span>Risco jurídico <b id="contractRisk">0%</b></span><span>Valor projetado <b id="contractValue">$ 0</b></span><span>Duração <b id="contractDuration">—</b></span></div>
+            <div class="bottom-actions compact"><button data-action="negotiateSelectedContract">Negociar termos</button><button data-action="signSelectedContract" class="primary">Assinar selecionado</button><button data-action="terminateActiveContract">Encerrar vínculo</button></div>
+          </div>
+        </div>
+        <div class="card"><h2>Histórico de negociações</h2><div id="contractHistory" class="contract-history"></div></div>
+        <div class="bottom-actions"><button data-screen="economy">Finanças</button><button data-screen="worldTour">Turnês</button><button data-screen="lobby" class="primary">Lobby</button></div>
+      </div>
+    </section>
+
+    <section class="screen" id="releaseCandidate">
+      <div class="panel wide rc-panel">
+        <div class="section-head"><div><h1>Release Candidate AAA</h1><p>Fase 8: polimento final, tutorial, áudio de UI, loading, balanceamento, checklist de venda e documentação para build internacional.</p></div><div class="band-score"><strong id="releaseScore">0%</strong><span>RC Score</span></div></div>
+        <div class="rc-grid">
+          <div class="card"><h2>Checklist da build</h2><div id="releaseChecklist" class="check-list"></div></div>
+          <div class="card"><h2>Polimento aplicado</h2><div class="metric-list"><span>Loading cinematográfico <b>ON</b></span><span>Tutorial inicial <b>ON</b></span><span>Microinterações de botão <b>ON</b></span><span>Áudio de interface <b>ON</b></span><span>Balanceamento semanal <b>RC</b></span><span>Backup de save <b>JSON</b></span></div></div>
+          <div class="card"><h2>Próximas pendências comerciais</h2><p>Substituir assets provisórios por artes oficiais, revisar 100% dos textos narrativos em três idiomas, testar em aparelhos reais Android/iOS e preparar página de venda internacional.</p></div>
+        </div>
+        <div class="bottom-actions"><button data-action="showTutorial">Ver tutorial</button><button data-action="exportSaveBackup">Exportar save</button><button data-screen="lobby" class="primary">Ir para o jogo</button><button data-screen="mainMenu">Menu</button></div>
+      </div>
+    </section>
+
+
+    <section class="screen" id="commercialQA">
+      <div class="panel wide qa-panel">
+        <div class="section-head">
+          <div>
+            <h1>QA Comercial / Anti-Quebra</h1>
+            <p>Fase 9: validação técnica para venda internacional, teste de navegação, saves, idioma, assets e responsividade antes da troca final dos assets oficiais.</p>
+          </div>
+          <div class="band-score"><strong id="qaScore">0%</strong><span>QA Score</span></div>
+        </div>
+        <div class="qa-grid">
+          <div class="card">
+            <h2>Teste automático</h2>
+            <div id="qaChecklist" class="check-list qa-checklist"></div>
+            <div class="bottom-actions compact"><button data-action="runCommercialQA" class="primary">Rodar QA agora</button><button data-action="clearDiagnostics">Limpar log</button></div>
+          </div>
+          <div class="card">
+            <h2>Resultado técnico</h2>
+            <div class="metric-list" id="qaSummary">
+              <span>Aguardando execução <b>--</b></span>
+            </div>
+          </div>
+          <div class="card">
+            <h2>Checklist para venda</h2>
+            <div class="metric-list">
+              <span>Trocar placeholders por artes oficiais <b>Pendente</b></span>
+              <span>Testar em Android real <b>Pendente</b></span>
+              <span>Testar em iPhone/iPad real <b>Pendente</b></span>
+              <span>Revisão humana PT/EN/ES <b>Pendente</b></span>
+              <span>Build web jogável em PC <b>OK</b></span>
+            </div>
+          </div>
+        </div>
+        <div class="bottom-actions"><button data-screen="releaseCandidate">Voltar ao RC</button><button data-screen="settings">Settings</button><button data-screen="lobby" class="primary">Jogar</button><button data-screen="mainMenu">Menu</button></div>
+      </div>
+    </section>
+
+
+    <section class="screen" id="assetPipeline">
+      <div class="panel wide asset-pipeline-panel">
+        <div class="section-head">
+          <div>
+            <h1>Asset Pipeline Comercial</h1>
+            <p>Fase 10: mapa de caminhos oficiais, troca segura de placeholders, validação visual e exportação do manifesto para criação dos assets definitivos.</p>
+          </div>
+          <div class="band-score"><strong id="assetPipelineScore">0%</strong><span>Asset Score</span></div>
+        </div>
+        <div class="asset-pipeline-grid">
+          <div class="card">
+            <h2>Resumo do Manifesto</h2>
+            <div class="metric-list" id="assetPipelineSummary"><span>Aguardando scan <b>--</b></span></div>
+            <div class="bottom-actions compact"><button data-action="runAssetPipelineScan" class="primary">Rodar scan de assets</button><button data-action="exportAssetManifest">Exportar manifesto</button></div>
+          </div>
+          <div class="card">
+            <h2>Grupos Oficiais</h2>
+            <div class="metric-list" id="assetGroupSummary"><span>Backgrounds <b>--</b></span></div>
+            <p class="mini-note">Os assets oficiais devem substituir os provisórios mantendo o mesmo caminho ou usando o nome final indicado no documento.</p>
+          </div>
+          <div class="card asset-list-card">
+            <h2>Caminhos e nomes finais</h2>
+            <div id="assetPipelineList" class="check-list asset-pipeline-list"></div>
+          </div>
+        </div>
+        <div class="bottom-actions"><button data-screen="commercialQA">QA Comercial</button><button data-screen="releaseCandidate">Release Candidate</button><button data-screen="lobby" class="primary">Jogar</button><button data-screen="mainMenu">Menu</button></div>
+      </div>
+    </section>
+
+
+    <section class="screen" id="onboarding">
+      <div class="panel wide onboarding-panel">
+        <div class="section-head">
+          <div>
+            <h1>Onboarding Internacional</h1>
+            <p>Fase 11: primeira hora guiada, objetivos iniciais, recompensas e experiência clara para jogadores novos em PT-BR, EN e ES.</p>
+          </div>
+          <div class="band-score"><strong id="onboardingScore">0%</strong><span>Clareza</span></div>
+        </div>
+        <div class="onboarding-layout">
+          <div class="card onboarding-brief-card">
+            <small id="onboardingLangBadge">PT-BR / EN / ES</small>
+            <h2 id="onboardingHeadline">Primeira hora de jogo</h2>
+            <p id="onboardingNarrative">O jogador recebe uma sequência de missões simples para entender carreira, composição, estúdio, lançamento, social e show.</p>
+            <div class="onboarding-progress"><span id="onboardingProgressBar"></span></div>
+            <div class="bottom-actions compact">
+              <button data-action="claimOnboardingReward" class="primary">Resgatar recompensa</button>
+              <button data-action="resetOnboarding">Resetar tutorial</button>
+            </div>
+          </div>
+          <div class="card onboarding-mission-card">
+            <h2>Missões guiadas</h2>
+            <div id="onboardingMissionList" class="onboarding-mission-list"></div>
+          </div>
+          <div class="card onboarding-reward-card">
+            <h2>Recompensas iniciais</h2>
+            <div id="onboardingRewardList" class="song-library-list"></div>
+            <div class="bottom-actions compact"><button data-action="exportOnboardingPlan">Exportar plano UX</button><button data-screen="lobby" class="primary">Jogar agora</button></div>
+          </div>
+        </div>
+        <div class="card onboarding-first-hour">
+          <h2>Roteiro comercial da primeira hora</h2>
+          <div class="timeline-list" id="onboardingTimeline"></div>
+        </div>
+        <div class="bottom-actions"><button data-screen="assetPipeline">Assets</button><button data-screen="commercialQA">QA Comercial</button><button data-screen="settings">Settings</button><button data-screen="mainMenu" class="primary">Menu</button></div>
+      </div>
+    </section>
+
+    <section class="screen" id="settings"><div class="panel wide"><h1>Settings</h1><p>Fullscreen horizontal, orientação mobile, escala do HUD, áudio, idioma e performance foram organizados para a versão internacional.</p><div class="settings-grid"><div class="system-box"><strong>Idioma / Language / Idioma</strong><span>Escolha português do Brasil, inglês ou espanhol. A escolha fica salva no navegador.</span><select id="settingsLanguageSelect" aria-label="Idioma"><option value="pt-BR">Português do Brasil</option><option value="en-US">English</option><option value="es-ES">Español</option></select></div><div class="system-box"><strong>Áudio de interface</strong><span>Sons curtos de toque, sucesso e navegação. O navegador só libera áudio após o primeiro toque do usuário.</span><select id="audioToggle"><option value="on">Ligado</option><option value="off">Desligado</option></select></div><div class="system-box"><strong>Dispositivo Anti-Quebra</strong><span>Rotas seguras, recuperação de save, verificação de assets, fallback de tela e log local.</span><pre id="diagnosticsLog">Inicializando diagnóstico...</pre></div></div><button data-action="fullscreen">Forçar tela cheia</button><button id="installHintBtn" data-action="fullscreen">Modo mobile horizontal</button><button data-action="showTutorial">Abrir tutorial</button><button data-action="exportSaveBackup">Exportar backup do save</button><button data-action="resetSave">Resetar save local</button><button data-screen="mainMenu">Voltar</button></div></section>
+    <section class="screen" id="credits"><div class="panel"><h1>Credits</h1><p>Vale Games • Band Legacy Release Candidate v1.1.0</p><button data-screen="mainMenu">Voltar</button></div></section>
+  </main>
+  <script src="script.js"></script>
+  <script src="mobile-controller.js"></script>
+</body>
+</html>
