@@ -72,6 +72,7 @@
         <button data-action="continueGame">Continue</button>
         <button data-screen="loadGame">Load Game</button>
         <button data-screen="settings">Settings</button>
+        <button data-screen="commercialPolish">Produto Comercial</button>
         <button data-screen="releaseCandidate">Release Candidate</button>
         <button data-screen="commercialQA">QA Comercial</button>
         <button data-screen="assetPipeline">Assets</button>
@@ -101,7 +102,50 @@
       </div>
     </section>
 
-    <section class="screen" id="profileCareer">
+    
+    <section class="screen" id="careerGoals">
+      <div class="panel wide goals-panel">
+        <div class="section-head">
+          <div>
+            <h1>Metas de Carreira</h1>
+            <p>Fase 21: objetivos claros, recompensas, ritmo de curto prazo e loop principal mais divertido.</p>
+          </div>
+          <div class="band-score"><strong id="goalMomentum">0</strong><span>Momentum</span></div>
+        </div>
+        <div class="goals-grid">
+          <div class="card goals-summary-card">
+            <h2>Próximo passo</h2>
+            <div id="goalNextCard" class="goal-next-card">Carregando meta recomendada...</div>
+            <div class="bottom-actions compact">
+              <button data-action="refreshCareerGoals">Atualizar metas</button>
+              <button data-action="claimAllCareerGoals" class="primary">Resgatar concluídas</button>
+            </div>
+          </div>
+          <div class="card">
+            <h2>Metas ativas</h2>
+            <div id="careerGoalList" class="career-goal-list"></div>
+          </div>
+          <div class="card">
+            <h2>Loop da Semana</h2>
+            <div id="weeklyLoopList" class="weekly-loop-list"></div>
+          </div>
+        </div>
+        <div class="card goals-history-card">
+          <h2>Histórico de recompensas</h2>
+          <div id="goalHistory" class="goal-history"></div>
+        </div>
+        <div class="bottom-actions">
+          <button data-screen="lobby">Lobby</button>
+          <button data-screen="composition">Compor</button>
+          <button data-screen="studio">Estúdio</button>
+          <button data-screen="release">Lançar</button>
+          <button data-screen="liveShow" class="primary">Shows</button>
+        </div>
+      </div>
+    </section>
+
+
+<section class="screen" id="profileCareer">
       <div class="panel wide profile-panel">
         <h1>Perfil e Carreira</h1>
         <p>Fase 4: identidade integrada ao ciclo principal de carreira, com autosave, slots, migração e reset seguro.</p>
@@ -174,7 +218,7 @@
 
     <section class="screen" id="lobby">
       <aside class="side-nav">
-        <button class="selected" data-screen="lobby">Lobby</button><button data-screen="profileCareer">Perfil</button><button data-screen="band">Banda</button><button data-screen="composition">Compor</button><button data-screen="studio">Estúdio</button><button data-screen="release">Lançar</button><button data-screen="liveShow">Shows</button><button data-screen="socialMedia">Social</button><button data-screen="events">Eventos</button><button data-screen="market">Mercado IA</button><button data-screen="staff">Staff</button><button data-screen="economy">Finanças</button><button data-screen="worldTour">Turnês</button><button data-screen="longCampaign">Campanha</button><button data-screen="worldRanking">Ranking</button><button data-screen="bandDynamics">Dinâmica</button><button data-screen="contracts">Contratos</button><button data-screen="releaseCandidate">RC</button><button data-screen="commercialQA">QA</button><button data-screen="assetPipeline">Assets</button><button data-screen="onboarding">Onboarding</button><button data-screen="localizationQA">Localização</button>
+        <button class="selected" data-screen="lobby">Lobby</button><button data-screen="careerGoals">Metas</button><button data-screen="profileCareer">Perfil</button><button data-screen="band">Banda</button><button data-screen="composition">Compor</button><button data-screen="studio">Estúdio</button><button data-screen="release">Lançar</button><button data-screen="liveShow">Shows</button><button data-screen="socialMedia">Social</button><button data-screen="events">Eventos</button><button data-screen="narrative">Narrativa</button><button data-screen="market">Mercado IA</button><button data-screen="staff">Staff</button><button data-screen="economy">Finanças</button><button data-screen="worldTour">Turnês</button><button data-screen="longCampaign">Campanha</button><button data-screen="worldRanking">Ranking</button><button data-screen="bandDynamics">Dinâmica</button><button data-screen="contracts">Contratos</button><button data-screen="commercialPolish">Produto</button><button data-screen="releaseCandidate">RC</button><button data-screen="commercialQA">QA</button><button data-screen="assetPipeline">Assets</button><button data-screen="onboarding">Onboarding</button><button data-screen="localizationQA">Localização</button>
       </aside>
       <section class="dashboard">
         <div class="stats-row" id="coreStats"><div>$ 2.350.500</div><div>★ 7.850 XP</div><div>👥 12.450 fãs</div><div>Reputação: Lendária</div></div>
@@ -568,7 +612,59 @@
     </section>
 
 
-    <section class="screen" id="market">
+    
+    <section class="screen" id="narrative">
+      <div class="panel wide narrative-panel">
+        <div class="section-head">
+          <div><h1>Narrativa da Carreira</h1><p>Fase 20: notícias, mensagens da equipe, manchetes, reputação pública e decisões com consequência narrativa.</p></div>
+          <div class="band-score"><strong id="narrativePulse">0</strong><span>Pulso público</span></div>
+        </div>
+        <div class="narrative-grid">
+          <div class="card narrative-main-card">
+            <h2>Manchete Atual</h2>
+            <div id="headlineCard" class="headline-card">Carregando manchete...</div>
+            <div class="narrative-actions">
+              <button data-action="generateNarrativeBeat">Gerar manchete</button>
+              <button data-action="publishNarrativeResponse" class="primary">Responder publicamente</button>
+            </div>
+            <label>Estratégia de resposta</label>
+            <select id="narrativeTone">
+              <option value="humble">Humilde / humana</option>
+              <option value="professional">Profissional</option>
+              <option value="bold">Ousada</option>
+              <option value="spiritual">Inspiradora</option>
+              <option value="silent">Silêncio estratégico</option>
+            </select>
+          </div>
+          <div class="card narrative-inbox-card">
+            <h2>Mensagens da Equipe</h2>
+            <div id="narrativeInbox" class="narrative-list"></div>
+          </div>
+          <div class="card narrative-world-card">
+            <h2>Mundo da Música</h2>
+            <div class="band-metrics economy-metrics">
+              <div><span>Imprensa</span><b id="narrativePress">0</b><i><em style="width:0%"></em></i></div>
+              <div><span>Fandom</span><b id="narrativeFandom">0</b><i><em style="width:0%"></em></i></div>
+              <div><span>Identidade</span><b id="narrativeIdentity">0</b><i><em style="width:0%"></em></i></div>
+              <div><span>Drama</span><b id="narrativeDrama">0</b><i><em style="width:0%"></em></i></div>
+            </div>
+            <div id="narrativeWorldFeed" class="narrative-list small"></div>
+          </div>
+        </div>
+        <div class="card narrative-history-card">
+          <h2>Linha do Tempo Narrativa</h2>
+          <div id="narrativeTimeline" class="narrative-timeline"></div>
+        </div>
+        <div class="bottom-actions">
+          <button data-screen="events">Eventos Dinâmicos</button>
+          <button data-screen="socialMedia">Social</button>
+          <button data-screen="lobby" class="primary">Lobby</button>
+        </div>
+      </div>
+    </section>
+
+
+<section class="screen" id="market">
       <div class="panel wide market-panel">
         <div class="section-head"><div><h1>IA de Mercado Musical</h1><p id="marketSeason">2026 Global Rock Cycle</p></div><div class="band-score"><strong id="marketOpportunity">0</strong><span>Oportunidade</span></div></div>
         <div class="economy-layout market-layout">
@@ -698,7 +794,65 @@
       </div>
     </section>
 
-    <section class="screen" id="releaseCandidate">
+    
+    <section class="screen" id="commercialPolish">
+      <div class="panel wide commercial-polish-panel">
+        <div class="section-head">
+          <div>
+            <h1>Produto Comercial</h1>
+            <p>Fase 22: apresentação internacional, identidade de produto, textos comerciais e prontidão para publicação.</p>
+          </div>
+          <div class="band-score"><strong id="commercialReadiness">0</strong><span>Readiness</span></div>
+        </div>
+        <div class="commercial-grid">
+          <div class="card commercial-hero-card">
+            <h2>Pitch internacional</h2>
+            <div id="storePitchCard" class="store-pitch-card">Carregando pitch...</div>
+            <label>Idioma de apresentação</label>
+            <select id="commercialLanguage">
+              <option value="pt-BR">Português BR</option>
+              <option value="en-US">English</option>
+              <option value="es-ES">Español</option>
+            </select>
+            <div class="bottom-actions compact">
+              <button data-action="cycleCommercialLanguage">Trocar idioma</button>
+              <button data-action="exportCommercialSummary" class="primary">Gerar resumo</button>
+            </div>
+          </div>
+          <div class="card">
+            <h2>Checklist premium</h2>
+            <div id="commercialChecklist" class="commercial-checklist"></div>
+          </div>
+          <div class="card">
+            <h2>Identidade do produto</h2>
+            <div id="brandPillars" class="brand-pillars"></div>
+          </div>
+        </div>
+        <div class="commercial-grid second">
+          <div class="card">
+            <h2>Textos de loja</h2>
+            <div id="storeCopyList" class="store-copy-list"></div>
+          </div>
+          <div class="card">
+            <h2>Mercados</h2>
+            <div id="marketReadiness" class="market-readiness"></div>
+          </div>
+          <div class="card">
+            <h2>Resumo exportável</h2>
+            <pre id="commercialSummary" class="commercial-summary">Clique em gerar resumo.</pre>
+          </div>
+        </div>
+        <div class="bottom-actions">
+          <button data-screen="localizationQA">Localização</button>
+          <button data-screen="commercialQA">QA</button>
+          <button data-screen="releaseCandidate">Release Candidate</button>
+          <button data-screen="lobby" class="primary">Lobby</button>
+        </div>
+      </div>
+    </section>
+
+
+<section class="screen" id="releaseCandidate">
       <div class="panel wide rc-panel">
         <div class="section-head"><div><h1>Release Candidate AAA</h1><p>Fase 8: polimento final, tutorial, áudio de UI, loading, balanceamento, checklist de venda e documentação para build internacional.</p></div><div class="band-score"><strong id="releaseScore">0%</strong><span>RC Score</span></div></div>
         <div class="rc-grid">

@@ -1,7 +1,9 @@
 {
-  "version": "v1.9.0_total_visual_asset_integration_20260617_1635",
-  "phase": "18",
-  "name": "Total Visual Asset Integration",
-  "buildDate": "2026-06-17T16:35:00Z",
-  "assetsIncluded": false
+  "version": "v2.3.0_international_commercial_polish_20260618_1845",
+  "phase": "22",
+  "name": "International Commercial Polish",
+  "buildDate": "2026-06-18T18:45:00Z",
+  "assetsIncluded": false,
+  "includesGitBashPrompt": true,
+  "gitBashPromptFile": "UPLOAD_GIT_BASH_PROMPT_BAND_LEGACY.txt"
 }

@@ -1,3 +1,24 @@
+# v2.3.0 — Fase 22: Polimento Internacional / Produto Comercial
+- Nova tela Produto Comercial.
+- Pitch internacional em PT-BR, EN-US e ES-ES.
+- Textos de loja, checklist premium, pilares de identidade e mercados-alvo.
+- Resumo comercial exportável dentro do jogo.
+- Documento Git Bash preservado para novas conversas.
+
+# v2.2.0 — Fase 21: Refino de Gameplay, Metas e Loop Divertido
+- Nova tela Metas de Carreira.
+- Metas persistentes com progresso automático e recompensas resgatáveis.
+- Momentum de carreira e próximo passo recomendado.
+- Loop semanal com atalhos para composição, estúdio, lançamento, show e narrativa.
+- Incluído documento de upload Git Bash para novas conversas.
+
+# v2.1.0 — Fase 20: Narrativa Procedural e Eventos Imersivos
+- Nova tela Narrativa da Carreira.
+- Manchetes, mensagens da equipe, feed do mundo musical e linha do tempo narrativa.
+- Estratégias de resposta pública com consequências em fãs, XP, caixa, identidade, imprensa e drama.
+- Capítulos automáticos a cada 3 semanas de carreira.
+- Migração anti-quebra para saves antigos.
+
 # v1.9.0 — Fase 18: Integração Visual Total dos Assets
 - Mapeamento visual completo por tela com fallback automático de caminhos.
 - Fundos, cards, palco, avatares, recrutáveis, staff e logos receberam reforço de conexão visual.

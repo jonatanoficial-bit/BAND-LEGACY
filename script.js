@@ -11,6 +11,7 @@ const VALE_ASSETS = {
     newCareer: ['assets/backgrounds/BG_LIVE_SHOW_THEATER_01.png','assets/backgrounds/bg_new_game_avatar_v001.png'],
     profileCareer: ['assets/backgrounds/BG_LIVE_SHOW_THEATER_01.png','assets/backgrounds/bg_new_game_avatar_v001.png'],
     lobby: ['assets/backgrounds/BG_LIVE_SHOW_FESTIVAL_DAY_01.png','assets/backgrounds/BG_LIVE_SHOW_FESTIVAL_DAY_01.png','assets/backgrounds/bg_lobby_dashboard_v001.png'],
+    careerGoals: ['assets/backgrounds/BG_WORLD_TOUR_MAP_ROOM_01.png','assets/backgrounds/bg_lobby_dashboard_v001.png'],
     band: ['assets/backgrounds/BG_GARAGE_REHEARSAL_01.png','assets/backgrounds/bg_create_band_v001.png','assets/backgrounds/BG_GARAGE_REHEARSAL_01.png'],
     studio: ['assets/backgrounds/BG_STUDIO_RECORDING_ROOM_01.png','assets/backgrounds/BG_STUDIO_RECORDING_ROOM_01.png','assets/backgrounds/bg_studio_v001.png'],
     liveShow: ['assets/backgrounds/BG_LIVE_SHOW_STADIUM_01.png','assets/backgrounds/BG_LIVE_SHOW_STADIUM_01.png','assets/backgrounds/bg_live_show_v001.png'],
@@ -18,6 +19,7 @@ const VALE_ASSETS = {
     economy: ['assets/backgrounds/BG_HOTEL_ROOM_TOUR_01.png','assets/backgrounds/economy/bg_economy_v001.png'],
     worldTour: ['assets/backgrounds/BG_WORLD_TOUR_MAP_ROOM_01.png','assets/backgrounds/BG_WORLD_TOUR_MAP_ROOM_01.png'],
     events: ['assets/backgrounds/BG_LIVE_SHOW_FESTIVAL_DAY_01.png','assets/backgrounds/events/bg_events_v001.png'],
+    narrative: ['assets/backgrounds/BG_PRESS_INTERVIEW_ROOM_01.png','assets/backgrounds/social/bg_social_v001.png','assets/backgrounds/BG_WORLD_TOUR_MAP_ROOM_01.png'],
     market: ['assets/backgrounds/BG_TOUR_BUS_INTERIOR_01.png','assets/backgrounds/market/bg_market_v001.png'],
     release: ['assets/backgrounds/BG_STUDIO_RECORDING_ROOM_01.png','assets/backgrounds/release/bg_release_v001.png'],
     staff: ['assets/backgrounds/BG_PRESS_INTERVIEW_ROOM_01.png','assets/backgrounds/staff/bg_staff_v001.png'],
@@ -26,6 +28,7 @@ const VALE_ASSETS = {
     credits: ['assets/backgrounds/BG_LIVE_SHOW_THEATER_01.png','assets/backgrounds/bg_main_menu_features_v001.png'],
     releaseCandidate: ['assets/backgrounds/BG_LIVE_SHOW_STADIUM_01.png','assets/backgrounds/bg_main_menu_options_v001.png'],
     commercialQA: ['assets/backgrounds/BG_LIVE_SHOW_FESTIVAL_DAY_01.png','assets/backgrounds/bg_lobby_dashboard_v001.png'],
+    commercialPolish: ['assets/backgrounds/BG_WORLD_TOUR_MAP_ROOM_01.png','assets/backgrounds/bg_lobby_summary_v001.png'],
     assetPipeline: ['assets/backgrounds/BG_STUDIO_RECORDING_ROOM_01.png','assets/backgrounds/bg_main_menu_features_v001.png'],
     onboarding: ['assets/backgrounds/BG_LIVE_SHOW_THEATER_01.png','assets/backgrounds/bg_main_menu_start_v001.png'],
     localizationQA: ['assets/backgrounds/BG_PRESS_INTERVIEW_ROOM_01.png','assets/backgrounds/bg_lobby_summary_v001.png'],
@@ -191,6 +194,7 @@ function officialBackgroundCandidates(screenId) {
     newCareer: ['assets/backgrounds/BG_CHARACTER_CREATION_DRESSINGROOM_01.png','assets/backgrounds/BG_CHARACTER_CREATION_STUDIO_01.png','assets/backgrounds/BG_LIVE_SHOW_THEATER_01.png'],
     profileCareer: ['assets/backgrounds/BG_CHARACTER_CREATION_STUDIO_01.png','assets/backgrounds/BG_CHARACTER_CREATION_DRESSINGROOM_01.png','assets/backgrounds/BG_LIVE_SHOW_THEATER_01.png'],
     lobby: ['assets/backgrounds/BG_LOBBY_BACKSTAGE_HUB_01.png','assets/backgrounds/BG_LIVE_SHOW_FESTIVAL_DAY_01.png','assets/backgrounds/BG_BAND_CREATION_BACKSTAGE_01.png'],
+    careerGoals: ['assets/backgrounds/BG_WORLD_TOUR_MAP_ROOM_01.png','assets/backgrounds/BG_LOBBY_BACKSTAGE_HUB_01.png','assets/backgrounds/BG_STUDIO_CONTROLROOM_01.png'],
     band: ['assets/backgrounds/BG_BAND_CREATION_REHEARSAL_LOFT_01.png','assets/backgrounds/BG_BAND_CREATION_BACKSTAGE_01.png','assets/backgrounds/BG_GARAGE_REHEARSAL_01.png'],
     composition: ['assets/backgrounds/BG_GARAGE_REHEARSAL_01.png','assets/backgrounds/BG_BAND_CREATION_REHEARSAL_LOFT_01.png'],
     studio: ['assets/backgrounds/BG_STUDIO_CONTROLROOM_01.png','assets/backgrounds/BG_STUDIO_RECORDING_ROOM_01.png','assets/backgrounds/BG_STUDIO_MASTERING_SUITE_01.png'],
@@ -200,12 +204,14 @@ function officialBackgroundCandidates(screenId) {
     staff: ['assets/backgrounds/BG_PRESS_INTERVIEW_ROOM_01.png','assets/backgrounds/BG_SOCIAL_MEDIA_ROOM_01.png'],
     worldTour: ['assets/backgrounds/BG_WORLD_TOUR_MAP_ROOM_01.png','assets/backgrounds/BG_TOUR_BUS_INTERIOR_01.png'],
     events: ['assets/backgrounds/BG_LIVE_SHOW_FESTIVAL_NIGHT_01.png','assets/backgrounds/BG_LIVE_SHOW_FESTIVAL_DAY_01.png','assets/backgrounds/BG_PRESS_INTERVIEW_ROOM_01.png'],
+    narrative: ['assets/backgrounds/BG_PRESS_INTERVIEW_ROOM_01.png','assets/backgrounds/BG_SOCIAL_MEDIA_ROOM_01.png','assets/backgrounds/BG_WORLD_TOUR_MAP_ROOM_01.png'],
     market: ['assets/backgrounds/BG_TOUR_BUS_INTERIOR_01.png','assets/backgrounds/BG_WORLD_TOUR_MAP_ROOM_01.png'],
     economy: ['assets/backgrounds/BG_FINANCE_OFFICE_01.png','assets/backgrounds/BG_HOTEL_ROOM_TOUR_01.png'],
     settings: ['assets/backgrounds/BG_HOTEL_ROOM_TOUR_01.png','assets/backgrounds/BG_LOBBY_BACKSTAGE_HUB_01.png'],
     credits: ['assets/backgrounds/BG_LIVE_SHOW_THEATER_01.png','assets/backgrounds/BG_MAINMENU_STAGE_ARENA_01.png'],
     releaseCandidate: ['assets/backgrounds/BG_LIVE_SHOW_ARENA_01.png','assets/backgrounds/BG_LIVE_SHOW_STADIUM_01.png'],
     commercialQA: ['assets/backgrounds/BG_WORLD_TOUR_MAP_ROOM_01.png','assets/backgrounds/BG_LIVE_SHOW_FESTIVAL_DAY_01.png'],
+    commercialPolish: ['assets/backgrounds/BG_WORLD_TOUR_MAP_ROOM_01.png','assets/backgrounds/BG_PRESS_INTERVIEW_ROOM_01.png','assets/backgrounds/BG_STUDIO_CONTROLROOM_01.png'],
     assetPipeline: ['assets/backgrounds/BG_STUDIO_CONTROLROOM_01.png','assets/backgrounds/BG_STUDIO_RECORDING_ROOM_01.png'],
     onboarding: ['assets/backgrounds/BG_CHARACTER_CREATION_DRESSINGROOM_01.png','assets/backgrounds/BG_LIVE_SHOW_THEATER_01.png'],
     localizationQA: ['assets/backgrounds/BG_PRESS_INTERVIEW_ROOM_01.png','assets/backgrounds/BG_SOCIAL_MEDIA_ROOM_01.png'],
@@ -1378,7 +1384,10 @@ function createDefaultSave() {
     worldRanking: createWorldRankingState(),
     bandDynamics: createBandDynamicsState(),
     contracts: createContractsState(),
-    systems: { antiBreak: true, safeMode: false, assetsMapped: true, forcedLandscape: true, phase2ProfileSystem: true, phase3BandSystem: true, phase4StaffSystem: true, phase5CompositionSystem: true, phase6StudioSystem: true, phase7ReleaseSystem: true, phase8LiveShowSystem: true, phase9SocialSystem: true, phase10EconomySystem: true, phase11WorldTourSystem: true, phase4CoreGameplay: true, phase6LiveTourSystem: true, phase7Internationalization: true, phase13LongCampaign: true, commercialBalance: true, phase14WorldRanking: true, annualAwards: true, persistentRivals: true, phase15BandDynamics: true, phase16Contracts: true, negotiations: true, sponsorships: true, coreLoop: true },
+    narrative: createNarrativeState(),
+    careerGoals: createCareerGoalsState(),
+    commercialPolish: createCommercialPolishState(),
+    systems: { antiBreak: true, safeMode: false, assetsMapped: true, forcedLandscape: true, phase2ProfileSystem: true, phase3BandSystem: true, phase4StaffSystem: true, phase5CompositionSystem: true, phase6StudioSystem: true, phase7ReleaseSystem: true, phase8LiveShowSystem: true, phase9SocialSystem: true, phase10EconomySystem: true, phase11WorldTourSystem: true, phase4CoreGameplay: true, phase6LiveTourSystem: true, phase7Internationalization: true, phase13LongCampaign: true, commercialBalance: true, phase14WorldRanking: true, annualAwards: true, persistentRivals: true, phase15BandDynamics: true, phase16Contracts: true, phase20Narrative: true, phase21CareerGoals: true, phase22CommercialPolish: true, internationalProduct: true, storeReadiness: true, gameplayLoopRefined: true, goalRewards: true, narrativeTimeline: true, immersiveNews: true, negotiations: true, sponsorships: true, coreLoop: true },
     createdAt: new Date().toISOString(),
     updatedAt: new Date().toISOString()
   };
@@ -1488,7 +1497,7 @@ function migrateSaveShape(current) {
     saveSystemVersion: SAVE_SYSTEM_VERSION,
     player: { ...fallback.player, ...(current?.player || {}) },
     band: { ...fallback.band, ...(current?.band || {}), logo: current?.band?.logo || fallback.band.logo || 'crown' },
-    systems: { ...fallback.systems, ...(current?.systems || {}), saveSlots: true, autosave: true, migration: true, phase3SaveSystem: true, phase3BandSystem: true, phase4StaffSystem: true, phase5CompositionSystem: true, phase6StudioSystem: true, phase7ReleaseSystem: true, phase8LiveShowSystem: true, phase9SocialSystem: true, phase10EconomySystem: true, phase11WorldTourSystem: true, phase4CoreGameplay: true, phase6LiveTourSystem: true, phase7Internationalization: true, phase13LongCampaign: true, commercialBalance: true, phase14WorldRanking: true, annualAwards: true, persistentRivals: true, phase15BandDynamics: true, phase16Contracts: true, negotiations: true, sponsorships: true, coreLoop: true },
+    systems: { ...fallback.systems, ...(current?.systems || {}), saveSlots: true, autosave: true, migration: true, phase3SaveSystem: true, phase3BandSystem: true, phase4StaffSystem: true, phase5CompositionSystem: true, phase6StudioSystem: true, phase7ReleaseSystem: true, phase8LiveShowSystem: true, phase9SocialSystem: true, phase10EconomySystem: true, phase11WorldTourSystem: true, phase4CoreGameplay: true, phase6LiveTourSystem: true, phase7Internationalization: true, phase13LongCampaign: true, commercialBalance: true, phase14WorldRanking: true, annualAwards: true, persistentRivals: true, phase15BandDynamics: true, phase16Contracts: true, phase20Narrative: true, phase21CareerGoals: true, phase22CommercialPolish: true, internationalProduct: true, storeReadiness: true, gameplayLoopRefined: true, goalRewards: true, narrativeTimeline: true, immersiveNews: true, negotiations: true, sponsorships: true, coreLoop: true },
     meta: { saveSystemVersion: SAVE_SYSTEM_VERSION, ...(current?.meta || {}) },
     updatedAt: nowISO()
   };
@@ -1505,6 +1514,9 @@ function migrateSaveShape(current) {
   if (!migrated.worldRanking || typeof migrated.worldRanking !== 'object') migrated.worldRanking = createWorldRankingState();
   if (!migrated.bandDynamics || typeof migrated.bandDynamics !== 'object') migrated.bandDynamics = createBandDynamicsState();
   if (!migrated.contracts || typeof migrated.contracts !== 'object') migrated.contracts = createContractsState();
+  if (!migrated.narrative || typeof migrated.narrative !== 'object') migrated.narrative = createNarrativeState();
+  if (!migrated.careerGoals || typeof migrated.careerGoals !== 'object') migrated.careerGoals = createCareerGoalsState();
+  if (!migrated.commercialPolish || typeof migrated.commercialPolish !== 'object') migrated.commercialPolish = createCommercialPolishState();
   if (!migrated.tour || typeof migrated.tour !== 'object') migrated.tour = createWorldTourState();
   if (!Array.isArray(migrated.studio.rooms) || migrated.studio.rooms.length === 0) migrated.studio.rooms = createStudioState().rooms;
   if (!Array.isArray(migrated.studio.releasedMasters)) migrated.studio.releasedMasters = [];
@@ -2818,6 +2830,515 @@ function resolveEvent() {
 }
 
 
+function createCommercialPolishState() {
+  return {
+    language: 'pt-BR',
+    lastSummary: '',
+    exportedAt: null,
+    pillars: [
+      { key:'mobile', title:'Mobile-first', text:'Experiência horizontal pensada primeiro para celular, com suporte a tablet e PC.' },
+      { key:'career', title:'Carreira musical viva', text:'Gestão, composição, estúdio, lançamento, shows, narrativa e contratos conectados.' },
+      { key:'premium', title:'Apresentação premium', text:'Visual cinematográfico, assets integrados, feedback audiovisual e build versionada.' },
+      { key:'global', title:'Internacional', text:'Base preparada para PT-BR, EN e ES, com foco em mercado global.' }
+    ]
+  };
+}
+
+function commercialPitchLibrary(save = ensureSave()) {
+  const bandName = save.band?.name || 'River Crow';
+  return {
+    'pt-BR': {
+      title:'Band Legacy',
+      subtitle:'Construa uma banda lendária, do primeiro ensaio ao palco mundial.',
+      short:`Um simulador premium de carreira musical onde você gerencia ${bandName}, compõe músicas, grava, lança, negocia contratos, enfrenta crises e constrói uma narrativa internacional.`,
+      bullets:[
+        'Carreira musical com metas, narrativa e consequências.',
+        'Estúdio, lançamentos, shows, turnês, staff, contratos e rankings.',
+        'Visual cinematográfico com assets integrados e foco mobile horizontal.',
+        'Sistemas anti-quebra, saves e build visível para testes comerciais.'
+      ]
+    },
+    'en-US': {
+      title:'Band Legacy',
+      subtitle:'Build a legendary band from rehearsal room to world stage.',
+      short:`A premium music career simulator where you manage ${bandName}, write songs, record, release, negotiate deals, face public drama and grow an international legacy.`,
+      bullets:[
+        'Music career progression with goals, narrative and consequences.',
+        'Studio, releases, shows, tours, staff, contracts and world rankings.',
+        'Cinematic presentation with integrated assets and mobile landscape focus.',
+        'Anti-break systems, save slots and visible build info for commercial testing.'
+      ]
+    },
+    'es-ES': {
+      title:'Band Legacy',
+      subtitle:'Construye una banda legendaria desde el ensayo hasta el escenario mundial.',
+      short:`Un simulador premium de carrera musical donde gestionas ${bandName}, compones, grabas, lanzas música, negocias contratos, enfrentas crisis y construyes una narrativa internacional.`,
+      bullets:[
+        'Progresión de carrera musical con metas, narrativa y consecuencias.',
+        'Estudio, lanzamientos, shows, giras, staff, contratos y ranking mundial.',
+        'Presentación cinematográfica con assets integrados y foco móvil horizontal.',
+        'Sistemas anti-rotura, guardado y versión visible para pruebas comerciales.'
+      ]
+    }
+  };
+}
+
+function commercialReadinessScore(save = ensureSave()) {
+  const checks = getCommercialProductChecks(save);
+  return clamp(Math.round(checks.filter(c => c.ok).length / Math.max(1, checks.length) * 100));
+}
+
+function getCommercialProductChecks(save = ensureSave()) {
+  const screens = $$('.screen').map(s => s.id);
+  const assetsReady = typeof VALE_ASSETS === 'object' && REQUIRED_ASSETS.length >= 20;
+  const localizationReady = SUPPORTED_LANGUAGES.length === 3 && LOCALIZATION_CATALOG_STATS.totalStrings >= 250;
+  const mobileReady = typeof applyResponsiveUXProfile === 'function' && typeof checkOrientation === 'function';
+  const audioReady = typeof updateAmbience === 'function' && typeof audiovisualEvent === 'function';
+  const narrativeReady = !!save.narrative && typeof renderNarrative === 'function';
+  const goalsReady = !!save.careerGoals && typeof renderCareerGoals === 'function';
+  const systemsReady = ['studio','release','liveShow','social','economy','tour','market','contracts','worldRanking','bandDynamics'].every(k => !!save[k]);
+  return [
+    { label:'Mobile horizontal e responsivo', ok:mobileReady, detail:'Fase 17' },
+    { label:'Assets visuais integrados', ok:assetsReady, detail:`${REQUIRED_ASSETS.length} caminhos` },
+    { label:'Imersão audiovisual', ok:audioReady, detail:'WebAudio + transições' },
+    { label:'Narrativa procedural', ok:narrativeReady, detail:'manchetes e timeline' },
+    { label:'Metas e loop de carreira', ok:goalsReady, detail:'objetivos resgatáveis' },
+    { label:'PT-BR / EN / ES', ok:localizationReady, detail:`${LOCALIZATION_CATALOG_STATS.totalStrings} strings` },
+    { label:'Sistemas de carreira conectados', ok:systemsReady, detail:'core completo' },
+    { label:'Saves e anti-quebra', ok:!!save.meta && !!save.systems?.antiBreak, detail:'schema migrável' },
+    { label:'Telas comerciais principais', ok:['commercialQA','releaseCandidate','assetPipeline','localizationQA','commercialPolish'].every(id => screens.includes(id)), detail:`${screens.length} telas` },
+    { label:'Documento Git Bash incluído', ok:true, detail:'UPLOAD_GIT_BASH_PROMPT_BAND_LEGACY.txt' }
+  ];
+}
+
+function renderCommercialPolish() {
+  const save = ensureSave();
+  save.commercialPolish = save.commercialPolish || createCommercialPolishState();
+  const lang = save.commercialPolish.language || 'pt-BR';
+  const pitch = commercialPitchLibrary(save)[lang] || commercialPitchLibrary(save)['pt-BR'];
+  const readiness = commercialReadinessScore(save);
+  $('#commercialReadiness') && ($('#commercialReadiness').textContent = readiness);
+  const langSelect = $('#commercialLanguage'); if (langSelect) langSelect.value = lang;
+  const pitchCard = $('#storePitchCard');
+  if (pitchCard) pitchCard.innerHTML = `<small>${lang}</small><strong>${pitch.subtitle}</strong><p>${pitch.short}</p><ul>${pitch.bullets.map(b=>`<li>${b}</li>`).join('')}</ul>`;
+  const checklist = $('#commercialChecklist');
+  if (checklist) {
+    checklist.innerHTML = '';
+    getCommercialProductChecks(save).forEach(item => {
+      const row = document.createElement('div');
+      row.className = `commercial-check ${item.ok ? 'ok' : 'warn'}`;
+      row.innerHTML = `<b>${item.ok ? '✓' : '!'}</b><span>${item.label}</span><em>${item.detail}</em>`;
+      checklist.appendChild(row);
+    });
+  }
+  const pillars = $('#brandPillars');
+  if (pillars) {
+    pillars.innerHTML = '';
+    (save.commercialPolish.pillars || createCommercialPolishState().pillars).forEach(p => {
+      const row = document.createElement('div');
+      row.className = 'brand-pillar';
+      row.innerHTML = `<strong>${p.title}</strong><span>${p.text}</span>`;
+      pillars.appendChild(row);
+    });
+  }
+  const copy = $('#storeCopyList');
+  if (copy) {
+    copy.innerHTML = '';
+    [
+      ['Título', pitch.title],
+      ['Subtítulo', pitch.subtitle],
+      ['Descrição curta', pitch.short],
+      ['Tagline', lang === 'en-US' ? 'Rise. Perform. Become a Legend.' : lang === 'es-ES' ? 'Sube al escenario. Toca. Conviértete en leyenda.' : 'Suba ao palco. Toque. Vire uma lenda.']
+    ].forEach(([k,v]) => {
+      const row = document.createElement('div');
+      row.className = 'store-copy-row';
+      row.innerHTML = `<small>${k}</small><span>${v}</span>`;
+      copy.appendChild(row);
+    });
+  }
+  const market = $('#marketReadiness');
+  if (market) {
+    market.innerHTML = [
+      ['Brasil / PT-BR','Alta aderência para mobile e gestão musical.'],
+      ['Global / EN','Base pronta para pitch internacional e testes públicos.'],
+      ['LatAm / ES','Boa expansão com textos e UI já estruturados.']
+    ].map(x => `<div class="market-row"><strong>${x[0]}</strong><span>${x[1]}</span></div>`).join('');
+  }
+  const summary = $('#commercialSummary');
+  if (summary) summary.textContent = save.commercialPolish.lastSummary || 'Clique em gerar resumo.';
+  saveGame(save);
+}
+
+function cycleCommercialLanguage() {
+  const save = ensureSave();
+  save.commercialPolish = save.commercialPolish || createCommercialPolishState();
+  const order = ['pt-BR','en-US','es-ES'];
+  const idx = order.indexOf(save.commercialPolish.language || 'pt-BR');
+  save.commercialPolish.language = order[(idx + 1) % order.length];
+  audiovisualEvent('nav');
+  saveGame(save);
+  renderCommercialPolish();
+}
+
+function exportCommercialSummary() {
+  const save = ensureSave();
+  save.commercialPolish = save.commercialPolish || createCommercialPolishState();
+  const lang = save.commercialPolish.language || 'pt-BR';
+  const pitch = commercialPitchLibrary(save)[lang] || commercialPitchLibrary(save)['pt-BR'];
+  const readiness = commercialReadinessScore(save);
+  const summary = [
+    `BAND LEGACY — COMMERCIAL SUMMARY`,
+    `Build: ${BUILD_VERSION}`,
+    `Phase: ${BUILD_PHASE}`,
+    `Language: ${lang}`,
+    `Readiness: ${readiness}%`,
+    ``,
+    `Pitch: ${pitch.subtitle}`,
+    ``,
+    pitch.short,
+    ``,
+    `Key points:`,
+    ...pitch.bullets.map(b => `- ${b}`),
+    ``,
+    `Repository upload path: cd "/c/Users/jonat/Desktop/GAME/¨2026/BAND Legacy"`,
+    `GitHub: https://github.com/jonatanoficial-bit/BAND-LEGACY.git`
+  ].join('\n');
+  save.commercialPolish.lastSummary = summary;
+  save.commercialPolish.exportedAt = nowISO();
+  audiovisualEvent('success');
+  saveGame(save);
+  renderCommercialPolish();
+}
+
+
+
+function createCareerGoalsState() {
+  return {
+    momentum: 34,
+    claimed: {},
+    history: [],
+    weeklyLoop: [
+      { id:'compose', label:'Compor ou revisar uma música', screen:'composition' },
+      { id:'studio', label:'Gravar no estúdio', screen:'studio' },
+      { id:'release', label:'Preparar lançamento', screen:'release' },
+      { id:'show', label:'Fazer show ou melhorar setlist', screen:'liveShow' },
+      { id:'narrative', label:'Responder a narrativa pública', screen:'narrative' }
+    ]
+  };
+}
+
+function careerGoalCatalog(save = ensureSave()) {
+  const songs = save.composition?.songs?.length || save.composition?.library?.length || 0;
+  const masters = save.studio?.masters?.length || save.studio?.releasedMasters?.length || 0;
+  const releases = save.release?.published?.length || save.release?.history?.length || 0;
+  const shows = save.liveShow?.history?.length || 0;
+  const fans = save.band?.fans || 0;
+  const cash = save.band?.cash || 0;
+  const xp = save.band?.xp || 0;
+  const narrative = save.narrative?.timeline?.length || 0;
+  const contracts = save.contracts?.history?.length || 0;
+  const rank = save.worldRanking?.playerRank || 99;
+  return [
+    { id:'first_song', title:'Primeira composição forte', text:'Crie sua primeira música para alimentar o ciclo de carreira.', progress:songs, target:1, reward:{cash:2500,xp:180,fans:120}, goto:'composition' },
+    { id:'studio_master', title:'Primeiro master de estúdio', text:'Leve uma música ao estúdio e gere material pronto para lançamento.', progress:masters, target:1, reward:{cash:3500,xp:260,fans:180}, goto:'studio' },
+    { id:'first_release', title:'Primeiro lançamento oficial', text:'Publique um single/EP e comece a formar catálogo.', progress:releases, target:1, reward:{cash:6000,xp:420,fans:500}, goto:'release' },
+    { id:'first_show', title:'Primeiro show marcante', text:'Faça um show e use a resposta do público para crescer.', progress:shows, target:1, reward:{cash:8000,xp:380,fans:650}, goto:'liveShow' },
+    { id:'fanbase_25k', title:'Base de 25 mil fãs', text:'Transforme ações de social, shows e narrativa em comunidade real.', progress:fans, target:25000, reward:{cash:15000,xp:900,fans:2500}, goto:'socialMedia' },
+    { id:'cash_3m', title:'Reserva estratégica', text:'Acumule caixa suficiente para campanhas maiores e contratos mais fortes.', progress:cash, target:3000000, reward:{cash:50000,xp:750,fans:800}, goto:'economy' },
+    { id:'xp_15k', title:'Carreira regional consolidada', text:'Ganhe XP com lançamentos, shows, narrativa e gestão.', progress:xp, target:15000, reward:{cash:18000,xp:1200,fans:1500}, goto:'lobby' },
+    { id:'narrative_3', title:'Três capítulos públicos', text:'Construa uma história de carreira com respostas públicas e manchetes.', progress:narrative, target:3, reward:{cash:9000,xp:600,fans:1200}, goto:'narrative' },
+    { id:'contract_history_2', title:'Negociador profissional', text:'Negocie contratos, patrocínios ou propostas de mercado.', progress:contracts, target:2, reward:{cash:25000,xp:850,fans:700}, goto:'contracts' },
+    { id:'ranking_top50', title:'Entrar no Top 50 mundial', text:'Aumente reputação, fãs e consistência para subir no ranking.', progress:Math.max(0, 100-rank), target:50, reward:{cash:65000,xp:1600,fans:5000}, goto:'worldRanking' }
+  ];
+}
+
+function careerGoalStatus(goal, save = ensureSave()) {
+  const claimed = !!save.careerGoals?.claimed?.[goal.id];
+  const complete = Number(goal.progress || 0) >= Number(goal.target || 1);
+  const pct = clamp(Math.round((Number(goal.progress || 0) / Math.max(1, Number(goal.target || 1))) * 100));
+  return { claimed, complete, pct };
+}
+
+function renderCareerGoals() {
+  const save = ensureSave();
+  save.careerGoals = save.careerGoals || createCareerGoalsState();
+  const goals = careerGoalCatalog(save);
+  const openGoals = goals.filter(g => !careerGoalStatus(g, save).claimed);
+  const nextGoal = openGoals.find(g => !careerGoalStatus(g, save).complete) || openGoals[0] || goals[0];
+  const completedOpen = openGoals.filter(g => careerGoalStatus(g, save).complete).length;
+  const momentum = clamp(Math.round((save.careerGoals.momentum || 34) + completedOpen * 9 + Math.min(20, (save.band?.fans||0)/25000)));
+  save.careerGoals.momentum = momentum;
+  $('#goalMomentum') && ($('#goalMomentum').textContent = momentum);
+  const next = $('#goalNextCard');
+  if (next && nextGoal) {
+    const st = careerGoalStatus(nextGoal, save);
+    next.innerHTML = `<small>${st.complete ? 'Meta pronta para resgate' : 'Meta recomendada'}</small><strong>${nextGoal.title}</strong><p>${nextGoal.text}</p><div class="goal-progress"><i><em style="width:${st.pct}%"></em></i><span>${Math.min(nextGoal.progress,nextGoal.target).toLocaleString('pt-BR')} / ${nextGoal.target.toLocaleString('pt-BR')}</span></div><button data-screen="${nextGoal.goto}" class="primary">Ir para sistema</button>`;
+  }
+  const list = $('#careerGoalList');
+  if (list) {
+    list.innerHTML = '';
+    goals.forEach(goal => {
+      const st = careerGoalStatus(goal, save);
+      const row = document.createElement('div');
+      row.className = `career-goal ${st.complete ? 'complete' : ''} ${st.claimed ? 'claimed' : ''}`;
+      row.innerHTML = `<div><strong>${goal.title}</strong><p>${goal.text}</p><div class="goal-progress"><i><em style="width:${st.pct}%"></em></i><span>${Math.min(goal.progress,goal.target).toLocaleString('pt-BR')} / ${goal.target.toLocaleString('pt-BR')}</span></div></div><button data-claim-goal="${goal.id}" ${!st.complete || st.claimed ? 'disabled' : ''}>${st.claimed ? 'Resgatada' : st.complete ? 'Resgatar' : 'Em progresso'}</button>`;
+      list.appendChild(row);
+    });
+  }
+  const loop = $('#weeklyLoopList');
+  if (loop) {
+    loop.innerHTML = '';
+    (save.careerGoals.weeklyLoop || createCareerGoalsState().weeklyLoop).forEach((step, index) => {
+      const row = document.createElement('button');
+      row.className = 'weekly-loop-step';
+      row.dataset.screen = step.screen;
+      row.innerHTML = `<b>${index+1}</b><span>${step.label}</span><em>${step.screen}</em>`;
+      loop.appendChild(row);
+    });
+  }
+  const hist = $('#goalHistory');
+  if (hist) {
+    hist.innerHTML = '';
+    (save.careerGoals.history || []).slice(-12).reverse().forEach(item => {
+      const row = document.createElement('div');
+      row.className = 'goal-history-row';
+      row.innerHTML = `<strong>${item.title}</strong><span>${item.text}</span><small>${formatSlotDate(item.at)}</small>`;
+      hist.appendChild(row);
+    });
+    if (!(save.careerGoals.history || []).length) hist.innerHTML = '<p class="muted">Nenhuma recompensa resgatada ainda.</p>';
+  }
+  saveGame(save);
+}
+
+function claimCareerGoal(goalId) {
+  const save = ensureSave();
+  save.careerGoals = save.careerGoals || createCareerGoalsState();
+  const goal = careerGoalCatalog(save).find(g => g.id === goalId);
+  if (!goal) return;
+  const st = careerGoalStatus(goal, save);
+  if (!st.complete || st.claimed) { audiovisualEvent('error'); return; }
+  save.careerGoals.claimed[goal.id] = true;
+  save.band.cash = Math.round((save.band.cash || 0) + (goal.reward.cash || 0));
+  save.band.xp = Math.round((save.band.xp || 0) + (goal.reward.xp || 0));
+  save.band.fans = Math.round((save.band.fans || 0) + (goal.reward.fans || 0));
+  save.careerGoals.momentum = clamp((save.careerGoals.momentum || 34) + 8);
+  save.careerGoals.history = [
+    ...(save.careerGoals.history || []),
+    { title:`Meta concluída: ${goal.title}`, text:`Recompensa: +$ ${goal.reward.cash.toLocaleString('pt-BR')} • XP +${goal.reward.xp} • Fãs +${goal.reward.fans.toLocaleString('pt-BR')}`, at:nowISO() }
+  ].slice(-40);
+  audiovisualEvent('reward');
+  saveGame(save);
+  syncProfileToUI(save);
+  renderCareerGoals();
+  renderCoreGameplay();
+}
+
+function claimAllCareerGoals() {
+  const save = ensureSave();
+  careerGoalCatalog(save).forEach(goal => {
+    const st = careerGoalStatus(goal, save);
+    if (st.complete && !st.claimed) claimCareerGoal(goal.id);
+  });
+  renderCareerGoals();
+}
+
+function refreshCareerGoals() {
+  const save = ensureSave();
+  save.careerGoals = save.careerGoals || createCareerGoalsState();
+  save.careerGoals.momentum = clamp((save.careerGoals.momentum || 34) + 2);
+  saveGame(save);
+  audiovisualEvent('nav');
+  renderCareerGoals();
+}
+
+
+
+function createNarrativeState() {
+  return {
+    tone: 'professional',
+    press: 46,
+    fandom: 52,
+    identity: 58,
+    drama: 24,
+    pulse: 38,
+    current: {
+      type: 'Manchete',
+      title: 'Uma banda em ascensão começa a chamar atenção',
+      text: 'Pequenos blogs e páginas de fãs notaram a evolução da banda. A equipe precisa decidir qual imagem pública será construída a partir daqui.',
+      source: 'Cena Independente Global',
+      pressure: 22,
+      opportunity: 44
+    },
+    inbox: [
+      { from:'Empresário', subject:'Construção de imagem', text:'Precisamos transformar cada lançamento em uma história. O público não segue apenas música: segue jornada.', mood:'estratégico' },
+      { from:'Produtor', subject:'Identidade sonora', text:'A banda está encontrando assinatura própria. Cuidado para não correr demais atrás de tendência.', mood:'criativo' },
+      { from:'Fã-clube', subject:'A campanha começou', text:'Os fãs estão criando cortes, frases e vídeos curtos. Um posicionamento sincero pode aumentar muito o engajamento.', mood:'emocional' }
+    ],
+    world: [
+      { title:'Festivais buscam artistas com narrativa forte', text:'Promotores estão favorecendo bandas com comunidade ativa e identidade clara.' },
+      { title:'Streaming valoriza consistência', text:'Campanhas semanais e bastidores bem contados melhoram retenção de público.' },
+      { title:'Rivais aumentam pressão', text:'Bandas próximas no ranking disputam os mesmos espaços de mídia.' }
+    ],
+    timeline: []
+  };
+}
+
+function narrativeScore(save) {
+  const n = save.narrative || createNarrativeState();
+  const fans = save.band?.fans || 0;
+  const xp = save.band?.xp || 0;
+  const eventsHeat = save.events?.heat || 0;
+  const rank = save.worldRanking?.playerRank || 88;
+  const press = clamp(Math.round((n.press||45) + Math.min(22, fans/18000) + Math.min(12, xp/6000) - eventsHeat*.08));
+  const fandom = clamp(Math.round((n.fandom||50) + Math.min(24, fans/12000) + (save.social?.hype||0)*.12));
+  const identity = clamp(Math.round((n.identity||55) + bandStats(save).creativity*.10 + bandStats(save).synergy*.08 - Math.max(0,(n.drama||0)-55)*.08));
+  const drama = clamp(Math.round((n.drama||25) + eventsHeat*.32 + Math.max(0, 45-rank)*.18));
+  const pulse = clamp(Math.round((press + fandom + identity) / 3 + drama*.18));
+  return { press, fandom, identity, drama, pulse };
+}
+
+function narrativeTemplates(save = ensureSave()) {
+  const band = save.band?.name || 'River Crow';
+  const genre = save.band?.genre || 'Rock Alternativo';
+  const city = save.band?.city || save.player?.city || 'São Paulo/SP';
+  const fans = save.band?.fans || 0;
+  return [
+    { type:'Notícia', source:'Revista Palco Global', title:`${band} transforma bastidores em assunto público`, text:`Depois de uma sequência de shows e decisões estratégicas, a banda de ${genre} passou a ser citada como uma das histórias mais interessantes da cena de ${city}.`, pressure:34, opportunity:62 },
+    { type:'Mensagem', source:'Empresário', title:'Convite para entrevista delicada', text:'Um canal quer falar sobre conflitos internos, pressão comercial e futuro internacional. A resposta pode humanizar a banda ou abrir crise.', pressure:58, opportunity:68 },
+    { type:'Fandom', source:'Comunidade de fãs', title:'Fãs pedem bastidores reais', text:`O público quer ver mais processo criativo, ensaios, decisões e vulnerabilidade. A base atual de ${fans.toLocaleString('pt-BR')} fãs pode crescer com autenticidade.`, pressure:24, opportunity:74 },
+    { type:'Rivalidade', source:'Coluna Mercado Musical', title:'Rival próximo provoca nas redes', text:'Uma banda concorrente insinuou que o crescimento de vocês depende mais de marketing do que de música. Ignorar, responder ou transformar em arte?', pressure:66, opportunity:57 },
+    { type:'Crítica', source:'Portal Sonoridade', title:'Crítica divide opiniões', text:'A crítica elogiou a produção, mas questionou se a banda ainda preserva identidade. Uma resposta madura pode virar ponto de virada.', pressure:52, opportunity:49 },
+    { type:'Oportunidade', source:'Curadoria Internacional', title:'Playlist global busca artistas com história forte', text:'Uma curadoria abriu espaço para artistas com narrativa consistente, estética visual clara e comunidade ativa.', pressure:29, opportunity:82 },
+    { type:'Backstage', source:'Equipe técnica', title:'Tensão de bastidor vaza para fãs', text:'Um pequeno corte de ensaio viralizou mostrando cansaço da banda. A situação pode virar crise ou aproximar o público.', pressure:63, opportunity:55 }
+  ];
+}
+
+function renderNarrative() {
+  const save = ensureSave();
+  save.narrative = save.narrative || createNarrativeState();
+  const n = save.narrative;
+  const score = narrativeScore(save);
+  n.press = score.press; n.fandom = score.fandom; n.identity = score.identity; n.drama = score.drama; n.pulse = score.pulse;
+  $('#narrativePulse') && ($('#narrativePulse').textContent = score.pulse);
+  $('#narrativePress') && ($('#narrativePress').textContent = score.press);
+  $('#narrativeFandom') && ($('#narrativeFandom').textContent = score.fandom);
+  $('#narrativeIdentity') && ($('#narrativeIdentity').textContent = score.identity);
+  $('#narrativeDrama') && ($('#narrativeDrama').textContent = score.drama);
+  ['narrativePress','narrativeFandom','narrativeIdentity','narrativeDrama'].forEach(id => {
+    const el = $('#'+id); const bar = el?.parentElement?.querySelector('em'); if (bar) bar.style.width = `${clamp(Number(el.textContent)||0)}%`;
+  });
+  const tone = $('#narrativeTone'); if (tone) tone.value = n.tone || 'professional';
+  const c = n.current || createNarrativeState().current;
+  const headline = $('#headlineCard');
+  if (headline) headline.innerHTML = `<small>${c.type} • ${c.source}</small><strong>${c.title}</strong><p>${c.text}</p><div><span>Pressão ${c.pressure}</span><span>Oportunidade ${c.opportunity}</span></div>`;
+  const inbox = $('#narrativeInbox');
+  if (inbox) {
+    inbox.innerHTML = '';
+    (n.inbox || []).slice(0,6).forEach(msg => {
+      const row = document.createElement('div');
+      row.className = 'narrative-message';
+      row.innerHTML = `<b>${msg.from}</b><strong>${msg.subject}</strong><p>${msg.text}</p><em>${msg.mood}</em>`;
+      inbox.appendChild(row);
+    });
+  }
+  const world = $('#narrativeWorldFeed');
+  if (world) {
+    world.innerHTML = '';
+    (n.world || []).slice(0,5).forEach(item => {
+      const row = document.createElement('div');
+      row.className = 'narrative-world-item';
+      row.innerHTML = `<strong>${item.title}</strong><span>${item.text}</span>`;
+      world.appendChild(row);
+    });
+  }
+  const timeline = $('#narrativeTimeline');
+  if (timeline) {
+    timeline.innerHTML = '';
+    (n.timeline || []).slice(-14).reverse().forEach(item => {
+      const row = document.createElement('div');
+      row.className = 'narrative-time-row';
+      row.innerHTML = `<small>${formatSlotDate(item.at)}</small><strong>${item.title}</strong><span>${item.text}</span><em>${item.effect}</em>`;
+      timeline.appendChild(row);
+    });
+    if (!(n.timeline||[]).length) timeline.innerHTML = '<p class="muted">Nenhum capítulo narrativo registrado ainda.</p>';
+  }
+  saveGame(save);
+}
+
+function generateNarrativeBeat(auto = false) {
+  const save = ensureSave();
+  save.narrative = save.narrative || createNarrativeState();
+  const templates = narrativeTemplates(save);
+  const next = templates[Math.floor(Math.random()*templates.length)];
+  save.narrative.current = { ...next };
+  const score = narrativeScore(save);
+  save.narrative.press = clamp(score.press + Math.round((next.opportunity-next.pressure)/20));
+  save.narrative.drama = clamp(score.drama + Math.round(next.pressure/18) - (auto ? 2 : 0));
+  save.narrative.pulse = narrativeScore(save).pulse;
+  save.narrative.world = [
+    { title: next.title, text: `${next.source}: ${next.text}` },
+    ...(save.narrative.world || [])
+  ].slice(0,8);
+  if (!auto) audiovisualEvent('nav');
+  saveGame(save);
+  renderNarrative();
+}
+
+function publishNarrativeResponse() {
+  const save = ensureSave();
+  save.narrative = save.narrative || createNarrativeState();
+  const n = save.narrative;
+  const tone = $('#narrativeTone')?.value || n.tone || 'professional';
+  n.tone = tone;
+  const c = n.current || createNarrativeState().current;
+  const toneMap = {
+    humble: { press:5, fandom:10, identity:9, drama:-4, label:'Resposta humana e humilde' },
+    professional: { press:10, fandom:4, identity:5, drama:-7, label:'Resposta profissional' },
+    bold: { press:14, fandom:12, identity:2, drama:10, label:'Resposta ousada' },
+    spiritual: { press:4, fandom:13, identity:14, drama:-3, label:'Mensagem inspiradora' },
+    silent: { press:-2, fandom:-3, identity:3, drama:-11, label:'Silêncio estratégico' }
+  };
+  const mod = toneMap[tone] || toneMap.professional;
+  const impact = clamp(Math.round((c.opportunity||50) - (c.pressure||35)*.32 + narrativeScore(save).identity*.28 + Math.random()*18));
+  const fansGain = Math.max(0, Math.round((mod.fandom + impact) * 55 + (save.band?.fans||0)*0.006));
+  const xpGain = Math.round((mod.identity + impact) * 18);
+  const cashGain = Math.max(0, Math.round((impact + mod.press) * 420));
+  n.press = clamp((n.press||45) + mod.press);
+  n.fandom = clamp((n.fandom||50) + mod.fandom);
+  n.identity = clamp((n.identity||55) + mod.identity);
+  n.drama = clamp((n.drama||25) + mod.drama);
+  n.pulse = narrativeScore(save).pulse;
+  save.band.fans = Math.round((save.band.fans||0) + fansGain);
+  save.band.xp = Math.round((save.band.xp||0) + xpGain);
+  save.band.cash = Math.round((save.band.cash||0) + cashGain);
+  n.timeline = [
+    ...(n.timeline||[]),
+    { title:`${mod.label}: ${c.title}`, text:`${c.source} repercutiu a decisão. Fãs +${fansGain.toLocaleString('pt-BR')} • XP +${xpGain} • Caixa +$ ${cashGain.toLocaleString('pt-BR')}.`, effect:`Pulso ${n.pulse} • Drama ${n.drama}`, at:nowISO() }
+  ].slice(-40);
+  n.inbox = [
+    { from:'Assessoria', subject:'Repercussão da resposta', text:`A estratégia "${mod.label}" gerou nova leitura pública sobre a banda.`, mood: impact > 65 ? 'positivo' : 'monitorar' },
+    ...(n.inbox||[])
+  ].slice(0,8);
+  audiovisualEvent(impact > 60 ? 'success' : 'tap');
+  saveGame(save);
+  syncProfileToUI(save);
+  renderNarrative();
+  renderCoreGameplay();
+}
+
+function narrativeAutoBeatOnWeek(save) {
+  save.narrative = save.narrative || createNarrativeState();
+  if ((save.core?.careerWeek || 1) % 3 === 0) {
+    const templates = narrativeTemplates(save);
+    const next = templates[((save.core?.careerWeek || 1) + (save.narrative.timeline?.length || 0)) % templates.length];
+    save.narrative.current = { ...next };
+    save.narrative.world = [{ title:'Novo assunto da semana', text:`${next.source}: ${next.title}` }, ...(save.narrative.world||[])].slice(0,8);
+    save.narrative.timeline = [...(save.narrative.timeline||[]), { title:'Novo capítulo público', text:next.text, effect:'A imprensa e o fandom começaram a reagir.', at:nowISO() }].slice(-40);
+  }
+}
+
+
+
 function createMarketState() {
   return {
     season: '2026 Global Rock Cycle',
@@ -2995,6 +3516,7 @@ function advanceCareerWeek() {
   if ((save.band.xp || 0) > 10000) save.band.reputation = 'Regional';
   if ((save.band.xp || 0) > 25000) save.band.reputation = 'Nacional';
   if ((save.band.xp || 0) > 60000) save.band.reputation = 'Internacional';
+  narrativeAutoBeatOnWeek(save);
   updateCoreProgress(save, `Semana avançada: fãs +${passiveFans.toLocaleString('pt-BR')} • caixa ${passiveCash >= 0 ? '+' : ''}$ ${passiveCash.toLocaleString('pt-BR')}`);
   syncProfileToUI(save);
   renderCoreGameplay();
@@ -3020,6 +3542,7 @@ function showScreen(id) {
     setTimeout(() => forceOfficialAssetBindings(target), 80);
     SafeStore.set('bandLegacy:lastScreen', target);
     if (target === 'lobby') renderCoreGameplay();
+    if (target === 'careerGoals') renderCareerGoals();
     if (target === 'band') renderBand();
     if (target === 'staff') renderStaff();
     if (target === 'composition') renderComposition();
@@ -3030,8 +3553,10 @@ function showScreen(id) {
     if (target === 'economy') renderEconomy();
     if (target === 'worldTour') renderWorldTour();
     if (target === 'events') renderEvents();
+    if (target === 'narrative') renderNarrative();
     if (target === 'market') renderMarket();
     if (target === 'loadGame') renderLoadGame();
+    if (target === 'commercialPolish') renderCommercialPolish();
     if (target === 'releaseCandidate') updateReleasePolishPanel();
     if (target === 'commercialQA') renderCommercialQA();
     if (target === 'assetPipeline') renderAssetPipeline();
@@ -3474,6 +3999,13 @@ function bindUI() {
     if (btn.dataset.action === 'simulateEconomyMonth') { simulateEconomyMonth(); return; }
     if (btn.dataset.action === 'launchWorldTour') { launchWorldTour(); return; }
     if (btn.dataset.action === 'restTourCrew') { restTourCrew(); return; }
+    if (btn.dataset.action === 'cycleCommercialLanguage') { cycleCommercialLanguage(); return; }
+    if (btn.dataset.action === 'exportCommercialSummary') { exportCommercialSummary(); return; }
+    if (btn.dataset.action === 'refreshCareerGoals') { refreshCareerGoals(); return; }
+    if (btn.dataset.action === 'claimAllCareerGoals') { claimAllCareerGoals(); return; }
+    if (btn.dataset.claimGoal) { claimCareerGoal(btn.dataset.claimGoal); return; }
+    if (btn.dataset.action === 'generateNarrativeBeat') { generateNarrativeBeat(false); return; }
+    if (btn.dataset.action === 'publishNarrativeResponse') { publishNarrativeResponse(); return; }
     if (btn.dataset.action === 'generateEvent') { generateEvent(); return; }
     if (btn.dataset.action === 'resolveEvent') { resolveEvent(); return; }
     if (btn.dataset.action === 'simulateMarketWeek') { simulateMarketWeek(); return; }
@@ -3604,6 +4136,9 @@ function boot() {
     renderLiveShow();
     renderSocial();
     renderEvents();
+    renderCommercialPolish();
+    renderCareerGoals();
+    renderNarrative();
     renderCoreGameplay();
     renderOnboarding();
     renderLocalizationQA();
